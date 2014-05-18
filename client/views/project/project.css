@@ -1,0 +1,16 @@
+.sidebar {
+    background-color:#31373d;
+    position: absolute;
+    min-height:100%;
+}
+
+#project{
+    min-height:100%;
+}
+
+.project-main {
+    background-color:#fff;
+    min-height:100%;
+    position:absolute;
+    margin-left:16.7%
+}
