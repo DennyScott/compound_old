@@ -2,7 +2,7 @@
   "packages": {
     "iron-router": {},
     "accounts-entry": {},
-    "bootstrap-3": {},
-    "roles": {}
+    "roles": {},
+    "semantic-ui": {}
   }
 }
