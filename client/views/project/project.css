@@ -1,11 +1,24 @@
-.sidebar {
-    background-color:#31373d;
-    position: absolute;
+#project{
     min-height:100%;
 }
 
-#project{
-    min-height:100%;
+.ui.styled.sidebar.menu {
+
+background-color: #333;
+
+}
+
+.launch.attached.button.pushed {
+    margin-left:275px;
+}
+
+.launch.attached.button.fixed {
+    position:fixed;
+    left:0px;
+
+    -webkit-transition: margin 0.3s ease, -webkit-transform 0.3s ease;
+    -moz-transition: margin 0.3s ease, -moz-transform 0.3s ease;
+    transition: margin 0.3s ease, transform 0.3s ease;
 }
 
 .project-main {
