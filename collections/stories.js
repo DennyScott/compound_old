@@ -30,7 +30,7 @@ Meteor.methods({
 		var proj = _.extend(_.pick(storyAttributes, 'title'), {
 			authorID: user._id,
 			authorName: userName,
-			overview: "Please Create An Overview"
+			overview: "Please Create An Overview",
 			submitted: new Date().getTime(),
 			lastUpdated: new Date().getTime()
 			
@@ -48,13 +48,23 @@ Meteor.methods({
 	 * @param  String id The id of the story to be updated
 	 * @return void    Returns nothing
 	 */
-	updateStory: function(story, folders){
+	updateStory: function(story){
 		var user = Meteor.user();
 		var id = story._id;
 		var userName = Meteor.user().profile.firstName + " " + Meteor.user().profile.lastName;
 
 		story.lastUpdated = new Date().getTime;
 
+		Stories.update(id, story);
+	},
+
+	updateStoryOverview: function(story, overview){
+		var user = Meteor.user();
+		var id = story._id;
+		var userName = Meteor.user().profile.firstName + " " + Meteor.user().profile.lastName;
+
+		story.lastUpdated = new Date().getTime;
+		story.overview = overview;
 		Stories.update(id, story);
 	},
 
