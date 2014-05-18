@@ -1,3 +1,6 @@
+body{
+    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif/*rtl:prepend:"Droid Arabic Kufi","Droid Sans", */;
+}
 
 .ui.styled.sidebar.menu {
 

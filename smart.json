@@ -3,6 +3,7 @@
     "iron-router": {},
     "accounts-entry": {},
     "roles": {},
-    "semantic-ui": {}
+    "semantic-ui": {},
+    "jquery-ui": {}
   }
 }
