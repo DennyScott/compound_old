@@ -10,3 +10,5 @@ iron-router
 accounts-entry
 bootstrap-3
 roles
+accounts-ui
+accounts-password
