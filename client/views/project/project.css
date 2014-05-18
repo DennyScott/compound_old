@@ -9,6 +9,8 @@
 }
 
 .project-main {
-    background-color:#777;
+    background-color:#fff;
     min-height:100%;
+    position:absolute;
+    margin-left:16.7%
 }
