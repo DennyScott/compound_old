@@ -23,3 +23,23 @@ z-index:1000;
     -moz-transition: margin 0.3s ease, -moz-transform 0.3s ease;
     transition: margin 0.3s ease, transform 0.3s ease;
 }
+
+.profile-picture {
+	margin: auto;
+}
+
+.menu-head {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#menu .item .item {
+	font-size: 0.875rem;
+}
+
+#profile-head{
+	padding-top: 7px;
+}
+#menu {
+	opacity: .96;
+}

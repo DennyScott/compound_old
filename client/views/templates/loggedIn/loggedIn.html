@@ -1,5 +1,57 @@
 <template name='loggedIn'>
-    <div class="ui styled inverted menu sidebar">
+    <div class="ui large vertical inverted labeled icon menu sidebar" id="menu">
+        <a class="item" href = "profile">
+            <img class="circular ui small image profile-picture" src="/img/travis.jpg">
+            <div class = "menu-head" id="profile-head">Profile</div>
+        </a>
+
+        <div class="item">
+            <a href="project" class="menu-head">Stories</a>
+            <div class="menu">
+                <a class="item" href="#">Create a Story</a>
+            </div>
+        </div>
+
+        <div class="item">
+            <a href="#" class="menu-head">Tasks</a>
+            <div class="menu">
+                <a class="item" href="#">My Tasks</a>
+            </div>
+
+            <div class="menu">
+                <a class="item" href="#">Issue Tracker</a>
+            </div>
+        </div>
+
+        <div class="item">
+            <a href="#" class="menu-head">Analytics</a>
+            <div class="menu">
+                <a class="item" href="#">Burnout Chart</a>
+            </div>
+
+            <div class="menu">
+                <a class="item" href="#">Velocity Chart</a>
+            </div>
+
+            <div class="menu">
+                <a class="item" href="#">My Velocity</a>
+            </div>
+
+            <div class="menu">
+                <a class="item" href="#">Issue Analytics</a>
+            </div>
+        </div>
+
+        <div class="item">
+            <a href="#" class="menu-head">Members</a>
+            <div class="menu">
+                <a class="item" href="#">Add a Member</a>
+            </div>
+
+            <div class="menu">
+                <a class="item" href="#">Edit Members</a>
+            </div>
+        </div>
 
     </div>
     <div class="ui black huge launch right attached button fixed" id="menu" style="width: 70px;">
