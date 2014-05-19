@@ -61,7 +61,7 @@
   .scrumColumn {
     width: 275px;
     float: left;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
   .scrumColumn > .portlet.task{
 
@@ -145,6 +145,7 @@
     margin: 0 1em 1em 0;
     height: 100px;
     width: 250px;
+    margin-left:10px;
   }
   .portlet.task > img.user-task {
     position: absolute;

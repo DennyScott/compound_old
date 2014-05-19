@@ -1,3 +1,4 @@
+var canMove = false;
 Template.project.rendered = function(){
 
     $( ".scrumColumn" ).sortable({
@@ -24,3 +25,30 @@ Template.project.rendered = function(){
 
 
 };
+
+var down = false;
+var x, y, top, left;
+
+Template.project.events({
+        'mousedown .scrumboard' : function(e){
+            if($(event.target)[0].id === 'scrumboard'){
+                 e.preventDefault();
+                 down=true;
+                 x=e.pageX;
+                 left=$('#scrumboard').scrollLeft();
+
+            }
+        },
+
+        'mousemove .scrumboard': function(e) {
+            if(down){
+                var newX=e.pageX;
+
+                $("#scrumboard").scrollLeft(left-newX+x);
+            }
+        },
+
+        'mouseup .scrumboard' : function(event){
+            down = false;
+        }
+});
