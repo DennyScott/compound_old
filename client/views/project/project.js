@@ -33,8 +33,6 @@ Template.project.rendered = function(){
 $(function() {
     $( ".scrumColumn" ).sortable({
       connectWith: ".scrumColumn",
-      handle: ".portlet-header",
-       cancel: ".portlet-toggle",
       placeholder: "portlet-placeholder ui-corner-all"
   });
 

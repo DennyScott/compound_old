@@ -49,18 +49,18 @@
 
 
   .scrumColumn {
-    width: 300px;
+    width: 200px;
     float: left;
     padding-bottom: 100px;
+    border: 1px solid black;
+    margin-right: 1em;
   }
 
-  .scrumColumn > .portlet.item {
-    margin: 0 1em 1em 0;
-    padding: 0.3em; 
-    width:250px;
+  .scrumColumn > .portlet {
     height:100px;
     min-height:100px;
     max-height:100px;
+    border: 1px solid black;
   }
   .portlet-header {
     padding: 0.2em 0.3em;
