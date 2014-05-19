@@ -5,6 +5,23 @@
     margin-left:10px;
   }
 
+  .ribbonRoom{
+      float:left;
+      width:200px;
+  }
+
+  .ui > .storySelection{
+      position:absolute;
+  }
+
+  .storySelection> .ui.ribbon.label {
+      left: -1rem;
+      display:block;
+      margin-top:10px;
+      opacity:1;
+      z-index:100;
+  }
+
   .scrumboard{
       overflow-x:scroll;
   }
@@ -109,6 +126,10 @@
     padding: 0.2em 0.3em;
     margin-bottom: 0.5em;
     position: relative;
+  }
+
+  .scrumInner:first-child{
+      margin-left:75px;
   }
   .portlet-toggle {
     position: absolute;
