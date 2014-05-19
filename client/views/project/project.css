@@ -3,6 +3,42 @@
     float: left;
   }
 
+  .scrumboard{
+      overflow-x:scroll;
+  }
+
+  .scrumInner{
+      width:10000px;
+      margin-left:10px;
+  }
+
+  .left.floated > .ui.header.storyHeader {
+      margin-top:1em;
+  }
+
+  .ui.segment {
+      padding:0em;
+  }
+
+  .segment > .ui.header.storyHeader{
+      margin-top:1em;
+      padding-bottom: .5em;
+  }
+
+  .editStory{
+      margin-left:20px;
+      cursor:pointer;
+      font-size:.75em;
+  }
+
+  .header.grid > .right.floated.navigation {
+      text-align:right;
+  }
+
+  .header.grid > .right.floated.navigation > .button{
+      margin-top:2em;
+  }
+
   .scrumColumn {
     width: 300px;
     float: left;
