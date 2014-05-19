@@ -50,12 +50,22 @@
       font-size:.75em;
   }
 
+  .ui.button > .icon{
+      padding-right:0px;
+  }
+
   .header.grid > .right.floated.navigation {
       text-align:right;
   }
 
-  .header.grid > .right.floated.navigation > .button{
-      margin-top:2em;
+  .header.grid > .right.floated.navigation  {
+      margin-top:3em;
+  }
+
+  .navigation > .button, .navigation > .buttons {
+      float:right;
+      margin-top:25px;
+      margin-left:5px;
   }
 
   .scrumColumn {
