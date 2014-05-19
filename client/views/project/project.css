@@ -1,10 +1,10 @@
   .colHead {
-    width: 250px;
+    width: 300px;
     float: left;
   }
 
   .scrumColumn {
-    width: 250px;
+    width: 300px;
     float: left;
     padding-bottom: 100px;
   }
@@ -61,7 +61,7 @@
 .scrumColumn > .portlet.item, .scrumColumn > .portlet.task {
   margin: 0 1em 1em 0;
   padding: 0.3em;
-  width:225px;
+  width:250px;
   height:100px;
   min-height:100px;
   max-height:100px;
@@ -84,5 +84,5 @@
     background-color:rgba(200,200,200,.2);
     margin: 0 1em 1em 0;
     height: 100px;
-    width: 225px;
+    width: 250px;
   }
