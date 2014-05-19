@@ -49,19 +49,67 @@
 
 
   .scrumColumn {
-    width: 200px;
+    width: 300px;
     float: left;
     padding-bottom: 100px;
-    border: 1px solid black;
-    margin-right: 1em;
   }
+  .scrumColumn > .portlet.task{
 
-  .scrumColumn > .portlet {
-    height:100px;
-    min-height:100px;
-    max-height:100px;
-    border: 1px solid black;
-  }
+  display: block;
+  position: relative;
+  top: 0px;
+  margin: 0em 0.5em 2.5em;
+  padding: 0em;
+  background-color: #FFFFFF;
+  line-height: 1.2;
+  font-size: 1em;
+  -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+  border-bottom: 0.2em solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.33em;
+  -webkit-transition: -webkit-box-shadow 0.2s ease;
+  -moz-transition: box-shadow 0.2s ease;
+  transition: box-shadow 0.2s ease;
+  padding: 0.5em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.task:nth-of-type(6n+1):hover {
+    border-bottom-color: #6ECFF5 !important;
+}
+
+.task:nth-of-type(6n+2):hover {
+    border-bottom-color: #5C6166 !important;
+}
+
+.task:nth-of-type(6n+3):hover {
+    border-bottom-color: #A1CF64 !important;
+}
+
+.task:nth-of-type(6n+4):hover {
+    border-bottom-color: #D95C5C !important;
+}
+
+.task:nth-of-type(6n+5):hover {
+    border-bottom-color: #00B5AD !important;
+}
+
+.task:nth-of-type(6n+6):hover {
+    border-bottom-color: #564F8A !important;
+}
+
+.scrumColumn > .portlet.item, .scrumColumn > .portlet.task {
+  margin: 0 1em 1em 0;
+  padding: 0.3em;
+  width:250px;
+  height:100px;
+  min-height:100px;
+  max-height:100px;
+}
   .portlet-header {
     padding: 0.2em 0.3em;
     margin-bottom: 0.5em;
