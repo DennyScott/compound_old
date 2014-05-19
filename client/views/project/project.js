@@ -1,38 +1,8 @@
 Template.project.rendered = function(){
-    // $( ".scrumColumn" ).sortable({
-    //     connectWith: ".scrumColumn",
-    //     handle: ".portlet-content",
-    //     cancel: ".portlet-toggle",
-    //     start: function (event, ui) {
-    //         ui.item.addClass('tilt');
-    //         tilt_direction(ui.item);
-    //     },
-    //     stop: function (event, ui) {
-    //         ui.item.removeClass("tilt");
-    //         $("html").unbind('mousemove', ui.item.data("move_handler"));
-    //         ui.item.removeData("move_handler");
-    //     }
-    // }).disableSelection();
 
-// function tilt_direction(item) {
-//     var left_pos = item.position().left,
-//         move_handler = function (e) {
-//             if (e.pageX >= left_pos) {
-//                 item.addClass("right");
-//                 item.removeClass("left");
-//             } else {
-//                 item.addClass("left");
-//                 item.removeClass("right");
-//             }
-//             left_pos = e.pageX;
-//         };
-//     $("html").bind("mousemove", move_handler);
-//     item.data("move_handler", move_handler);
-// }
-//
     $( ".scrumColumn" ).sortable({
       connectWith: ".scrumColumn",
-      placeholder: "portlet-placeholder ui-corner-all"
+      placeholder: "portlet-placeholder ui-corner-all",
   });
 
     $( ".portlet" )
@@ -45,6 +15,12 @@ Template.project.rendered = function(){
       icon.toggleClass( "ui-icon-minusthick ui-icon-plusthick" );
       icon.closest( ".portlet" ).find( ".portlet-content" ).toggle();
   });
+
+
+    //this will have the users tasks fade in when the page is rendered
+    $('.image.user-task')
+      .transition('fade up')
+    ;
 
 
 };
