@@ -1,176 +1,179 @@
 <template name="project">
-    <h2 class="ui header">
-        Story: User can add Stories
-        <div class="sub header">Manage your scrum board from here.</div>
-    </h2>
+    <div class="ui segment">
+        <div class="ui grid header">
+            <div class="left floated eight wide column">
+                <h2 class="ui header storyHeader">
+                    Story: User can add Stories <span class="editStory"><i class="edit icon"></i></span>
+                    <div class="sub header">Manage your scrum board from here.</div>
+                </h2>
+            </div>
+
+            <div class="right floated navigation eight wide column">
+                <div class="ui labeled icon button"><i class="browser icon"></i>Wiki</div>
+            </div>
+        </div>
+
+        <div class="ui horizontal divider">
+            scrum
+        </div>
+        <div class="scrumboard">
+            <div class="scrumInner">
+                <div class="ui ribbon label">Dogs</div>
+                <div class="colHead">
+                    <h3>To Do</h3>
+
+                    <div class="scrumColumn">
+
+                        <div class="portlet task">
+                            <img class="circular ui mini image user-task hidden" src="/img/travis.jpg">
+                            <div class="tag red"></div>
+                            <div class="tag blue"></div>
+                            <div class="portlet-header">Feeds</div>
+                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                        </div>
+
+                        <div class="portlet task">
+                            <div class="tag green"></div>
+                            <div class="portlet-header">News</div>
+                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                        </div>
+
+                        <div class="portlet task">
+                            <img class="circular ui mini image user-task hidden" src="/img/travis.jpg">
+                            <div class="tag blue"></div>
+                            <div class="tag green"></div>
+                            <div class="portlet-header">News</div>
+                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                        </div>
+
+                    </div>
+                </div>
 
 
-    <div class="ui horizontal divider">
-        scrum
+                <div class="colHead">
+                    <h3>In Progress</h3>
+                    <div class="scrumColumn">
+
+                        <div class="portlet task">
+                            <div class="tag blue"></div>
+                            <div class="tag red"></div>
+                            <div class="portlet-header">Shopping</div>
+                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="colHead">
+                    <h3>Testing</h3>
+                    <div class="scrumColumn">
+
+                        <div class="portlet task">
+                            <img class="circular ui mini image user-task hidden" src="/img/travis.jpg">
+                            <div class="portlet-header">Links</div>
+                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                        </div>
+
+                        <div class="portlet task">
+                            <div class="tag red"></div>
+                            <div class="portlet-header">Images</div>
+                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                        </div>
+
+                        <div class="portlet task">
+                            <div class="portlet-header">Links</div>
+                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                        </div>
+
+                        <div class="portlet task">
+                            <div class="tag green"></div>
+                            <div class="tag red"></div>
+                            <img class="circular ui mini image user-task hidden" src="/img/travis.jpg">
+                            <div class="portlet-header">Images</div>
+                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                        </div>
+
+                        <div class="portlet task">
+                            <div class="portlet-header">Links</div>
+                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                        </div>
+
+                        <div class="portlet task">
+                            <img class="circular ui mini image user-task hidden" src="/img/travis.jpg">
+                            <div class="tag blue"></div>
+                            <div class="tag green"></div>
+                            <div class="tag red"></div>
+                            <div class="portlet-header">Images</div>
+                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                        </div>
+
+                        <div class="portlet task">
+                            <div class="tag red"></div>
+                            <div class="portlet-header">Links</div>
+                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                        </div>
+
+                        <div class="portlet task">
+                            <div class="portlet-header">Images</div>
+                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="colHead">
+                    <h3>Done</h3>
+                    <div class="scrumColumn">
+                        <div class="portlet task">
+                            <div class="tag green"></div>
+                            <div class="portlet-header">Images</div>
+                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                        </div>
+                        <div class="portlet task">
+                            <img class="circular ui mini image user-task hidden" src="/img/travis.jpg">
+                            <div class="portlet-header">Links</div>
+                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                        </div>
+
+                        <div class="portlet task">
+                            <div class="tag red"></div>
+                            <div class="tag blue"></div>
+                            <img class="circular ui mini image user-task hidden" src="/img/travis.jpg">
+                            <div class="portlet-header">Images</div>
+                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                        </div>
+
+                        <div class="portlet task">
+                            <div class="portlet-header">Links</div>
+                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                        </div>
+
+                        <div class="portlet task">
+                            <div class="tag blue"></div>
+                            <div class="tag green"></div>
+                            <img class="circular ui mini image user-task hidden" src="/img/travis.jpg">
+                            <div class="portlet-header">Images</div>
+                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                        </div>
+
+                        <div class="portlet task">
+                            <div class="tag red"></div>
+                            <div class="tag green"></div>
+                            <img class="circular ui mini image user-task hidden" src="/img/travis.jpg">
+                            <div class="portlet-header">Links</div>
+                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                        </div>
+
+                        <div class="portlet task">
+                            <div class="portlet-header">Images</div>
+                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
-
-
-
-<div class="colHead">
-    <h3>To Do</h3>
-
-<div class="scrumColumn">
-
-  <div class="portlet task">
-    <img class="circular ui mini image user-task hidden" src="/img/travis.jpg">
-    <div class="tag red"></div>
-    <div class="tag blue"></div>
-    <div class="portlet-header">Feeds</div>
-    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-  </div>
-
-  <div class="portlet task">
-    <div class="tag green"></div>
-    <div class="portlet-header">News</div>
-    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-  </div>
-
-  <div class="portlet task">
-    <img class="circular ui mini image user-task hidden" src="/img/travis.jpg">
-    <div class="tag blue"></div>
-    <div class="tag green"></div>
-    <div class="portlet-header">News</div>
-    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-  </div>
-
-</div>
-</div>
-
-
-<div class="colHead">
-    <h3>In Progress</h3>
-<div class="scrumColumn">
-
-  <div class="portlet task">
-    <div class="tag blue"></div>
-    <div class="tag red"></div>
-    <div class="portlet-header">Shopping</div>
-    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-  </div>
-
-</div>
-</div>
-
-
-<div class="colHead">
-    <h3>Testing</h3>
-<div class="scrumColumn">
-
-  <div class="portlet task">
-    <img class="circular ui mini image user-task hidden" src="/img/travis.jpg">
-    <div class="portlet-header">Links</div>
-    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-  </div>
-
-  <div class="portlet task">
-    <div class="tag red"></div>
-    <div class="portlet-header">Images</div>
-    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-  </div>
-
-  <div class="portlet task">
-    <div class="portlet-header">Links</div>
-    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-  </div>
-
-  <div class="portlet task">
-    <div class="tag green"></div>
-    <div class="tag red"></div>
-    <img class="circular ui mini image user-task hidden" src="/img/travis.jpg">
-    <div class="portlet-header">Images</div>
-    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-  </div>
-
-  <div class="portlet task">
-    <div class="portlet-header">Links</div>
-    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-  </div>
-
-  <div class="portlet task">
-    <img class="circular ui mini image user-task hidden" src="/img/travis.jpg">
-    <div class="tag blue"></div>
-    <div class="tag green"></div>
-    <div class="tag red"></div>
-    <div class="portlet-header">Images</div>
-    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-  </div>
-
-  <div class="portlet task">
-    <div class="tag red"></div>
-    <div class="portlet-header">Links</div>
-    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-  </div>
-
-  <div class="portlet task">
-    <div class="portlet-header">Images</div>
-    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-  </div>
-
-</div>
-</div>
-
-<div class="colHead">
-    <h3>Done</h3>
-<div class="scrumColumn">
-
-  <div class="portlet task">
-    <div class="portlet-header">Links</div>
-    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-  </div>
-
-  <div class="portlet task">
-    <div class="tag green"></div>
-    <div class="portlet-header">Images</div>
-    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-  </div>
-
-  <div class="portlet task">
-    <img class="circular ui mini image user-task hidden" src="/img/travis.jpg">
-    <div class="portlet-header">Links</div>
-    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-  </div>
-
-  <div class="portlet task">
-    <div class="tag red"></div>
-    <div class="tag blue"></div>
-    <img class="circular ui mini image user-task hidden" src="/img/travis.jpg">
-    <div class="portlet-header">Images</div>
-    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-  </div>
-
-  <div class="portlet task">
-    <div class="portlet-header">Links</div>
-    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-  </div>
-
-  <div class="portlet task">
-    <div class="tag blue"></div>
-    <div class="tag green"></div>
-    <img class="circular ui mini image user-task hidden" src="/img/travis.jpg">
-    <div class="portlet-header">Images</div>
-    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-  </div>
-
-  <div class="portlet task">
-    <div class="tag red"></div>
-    <div class="tag green"></div>
-    <img class="circular ui mini image user-task hidden" src="/img/travis.jpg">
-    <div class="portlet-header">Links</div>
-    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-  </div>
-
-  <div class="portlet task">
-    <div class="portlet-header">Images</div>
-    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-  </div>
-
-</div>
-</div>
-
 
 </template>
