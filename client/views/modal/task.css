@@ -17,12 +17,6 @@
 	margin-left: 10px;
 }
 
-.collaborator{
-	float: left;
-	margin-left: 5px;
+.collab-img > img.collab{
 	margin-top: 5px;
 }
-
-/*.collaborator:first-child{
-	clear: both;
-}*/
