@@ -1,0 +1,22 @@
+.ui.modal.task > .content {
+	background-color: #fff;
+}
+
+.ui.modal.task > .content > .left > i.icon {
+	font-size: .875em;
+	color: #999;
+}
+
+.description {
+	color: #999;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.ui.modal.task > .content > .left > .segment > .activity {
+	margin-left: 10px;
+}
+
+.collaborator {
+	position: relative;
+}

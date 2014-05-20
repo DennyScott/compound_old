@@ -24,6 +24,8 @@ Template.project.rendered = function(){
     ;
 
 
+
+
 };
 
 var down = false;
@@ -50,5 +52,10 @@ Template.project.events({
 
         'mouseup .scrumboard' : function(event){
             down = false;
+        },
+        'click .task' : function(event){
+          $('.ui.modal.task')
+            .modal('show')
+          ;
         }
 });
