@@ -20,3 +20,15 @@
 .collab-img > img.collab{
 	margin-top: 5px;
 }
+
+.card-tag{
+	text-align: center;
+}
+
+.card {
+	height: 12px;
+	width: 12px;
+	border: 1px solid black;
+	display: inline-block;
+	margin-top: 7px;
+}
