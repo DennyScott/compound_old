@@ -32,3 +32,33 @@
 	display: inline-block;
 	margin-top: 7px;
 }
+
+.scrolling-check-area{
+	margin-top: 7px;
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.velocity-area {
+	margin-top: 7px;
+}
+
+#head-star {
+	margin-right: 5px;
+}
+
+#head-list {
+	margin-right: 5px;
+}
+
+.schedule-area {
+	margin-top: 7px;
+	font-size: 11px;
+}
+
+.analytic-area {
+	margin-top: 7px;
+	font-size: 11px;
+}
+
