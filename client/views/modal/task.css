@@ -17,6 +17,12 @@
 	margin-left: 10px;
 }
 
-.collaborator {
-	position: relative;
+.collaborator{
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
 }
+
+/*.collaborator:first-child{
+	clear: both;
+}*/
