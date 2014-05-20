@@ -53,6 +53,10 @@
       padding-right:0px;
   }
 
+  .scrumColumn:last-child{
+      margin-right:20px;
+  }
+
   .header.grid > .right.floated.navigation {
       text-align:right;
   }
