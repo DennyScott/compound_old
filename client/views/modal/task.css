@@ -62,3 +62,33 @@
 	font-size: 11px;
 }
 
+.ui.popup {
+	z-index: 1000;
+}
+
+.popup-title {
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+.all-tasks {
+	font-size: 11px;
+	margin-top: 7px;
+}
+
+.popup-content {
+	font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.popup-icon {
+	margin-left: 8px !important;
+} 
+
+.pop-task {
+	margin-top: 5px;
+}
+
+.pop-rate {
+	margin-top: 7px;
+	text-align: center;
+}

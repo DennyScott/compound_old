@@ -25,7 +25,6 @@ Template.project.rendered = function(){
 
 
 
-
 };
 
 var down = false;
