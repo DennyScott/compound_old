@@ -13,6 +13,19 @@
                 <div class="goToRoadmap">
                     <i class="icon rocket"></i>Go to Roadmap
                 </div>
+                <div class = "other">
+                <div class="ui circular mini image dimmable">
+                    <div class="ui dimmer">
+                      <div class="content">
+                        <div class="center">
+                          <div class="ui mini green button">Vote</div>
+                          <a class="ui mini button">View</a>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="/img/travis.jpg">
+                </div>
+            </div>
             </div>
 
             <div class="right floated navigation eight wide column">
@@ -272,6 +285,8 @@
             </div>
         </div>
     </div>
-    {{>task}}
+    <div class="ui modal task">
+        {{>task}}
+    </div>
 
 </template>

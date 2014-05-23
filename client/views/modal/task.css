@@ -92,3 +92,21 @@
 	margin-top: 7px;
 	text-align: center;
 }
+
+.collab-edit {
+	float: left;
+	margin-right: 2px;
+}
+
+.dimmer {
+	z-index: 1001;
+}
+
+.content .center > .isCheck {
+	/*color: #51a351;*/
+	margin: auto;
+}
+
+.content > .center:hover {
+	cursor: pointer;
+}
