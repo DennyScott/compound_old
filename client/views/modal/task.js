@@ -7,7 +7,15 @@ Template.task.rendered = function () {
   .popup({
     on: 'click'
   });
-  
+
+$('#popover_test').unbind();
+console.log();
+$('#popover_test').popup({
+	on: "click",
+	html: UI.toHTML(Template['collaborators'])
+});
+
+
 //   $('.all-collabs .image')
 //   .dimmer({
 //     on: 'hover'
@@ -25,15 +33,9 @@ Template.task.events({
 		  .dimmer({
 		    on: 'hover'
 		 	});
+
+			$('.popup-content').on('click', function() {
+				console.log('woah');
+			});
 	}
 });
-$(document).ready(function(){
-  $('.isCheck').click(function () {
-		console.log("Hi!");
-	});
-});
-
-function sayHello() {
-	console.log("I've said hello!");
-}
-
