@@ -2,7 +2,6 @@
     <i class="close icon"></i>
     <div class="header">
       <i class="leaf icon"></i>
-      <i class="heart circular icon link" data-content="Hello, I am a pop-up."></i>
       Feeds
     </div>
     <div class="content">
@@ -86,7 +85,7 @@
 
 
 <div class="ui vertical labeled icon menu" id="menu" >
-  <a class="item card-menu" id="popover_test">
+  <a class="item card-menu collab-menu" id="popover-collaborators">
     <!-- <div class = "menu-head" id="profile-head">Profile</div> -->
     <div class = "collaborators">
       <i class = "users icon"></i>Collaborators
@@ -98,7 +97,7 @@
   </a>
 
 
-  <a class="item">
+  <a class="item card-menu tag-menu" id="popover-tags">
     <div class="card-tags-section">
       <i class = "tags icon"></i>Tags
       <div class = "card-tags">
@@ -108,27 +107,7 @@
     </div>
   </a>
 
-  <a class="item card-menu" data-html="
-  &lt;div class='popup-content'&gt;
-    &lt;div class='popup-title'&gt;
-    Task to Complete
-      &lt;i class='edit icon link popup-icon'&gt;&lt;/i&gt;
-    &lt;/div&gt;
-    &lt;div class='all-tasks'&gt;
-      &lt;div class='pop-task'&gt;
-        &lt;i class='empty checkbox icon link'&gt;&lt;/i&gt;Update Dashboard Notifications
-        &lt;/div&gt;
-      &lt;div class='pop-task'&gt;
-        &lt;i class='empty checkbox icon link'&gt;&lt;/i&gt;Update Dashboard Notifications
-      &lt;/div&gt;
-      &lt;div class='pop-task'&gt;
-        &lt;i class='empty checkbox icon link'&gt;&lt;/i&gt;Update Dashboard Notifications
-      &lt;/div&gt;
-      &lt;div class='pop-task'&gt;
-        &lt;i class='empty checkbox icon link'&gt;&lt;/i&gt;Update Dashboard Notifications
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;">
+  <a class="item card-menu checklist-menu" id="popover-checklist">
     <div class = "checklist">
       <i class="list icon link" id="head-list"></i>Checklist
       <div class="scrolling-check-area">
@@ -137,50 +116,7 @@
     </div>
   </a>
 
-  <a class="item card-menu" data-html="
-  &lt;div class='popup-content'&gt;
-    &lt;div class='popup-title'&gt;
-    Rating Factors&lt;i class='edit icon link popup-icon'&gt;&lt;/i&gt;
-    &lt;/div&gt;
-    &lt;div class='all-ratings'&gt;
-      &lt;div class='pop-rate'&gt;
-        &lt;div class='pop-rate-icons'&gt;
-          &lt;i class='empty star icon'&gt;&lt;/i&gt;
-          &lt;i class='empty star icon'&gt;&lt;/i&gt;
-          &lt;i class='empty star icon'&gt;&lt;/i&gt;
-          &lt;i class='empty star icon'&gt;&lt;/i&gt;
-          &lt;i class='empty star icon'&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class='pop-rate-head'&gt;
-          Complexity
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class='pop-rate'&gt;
-        &lt;div class='pop-rate-icons'&gt;
-          &lt;i class='empty star icon'&gt;&lt;/i&gt;
-          &lt;i class='empty star icon'&gt;&lt;/i&gt;
-          &lt;i class='empty star icon'&gt;&lt;/i&gt;
-          &lt;i class='empty star icon'&gt;&lt;/i&gt;
-          &lt;i class='empty star icon'&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class='pop-rate-head'&gt;
-          Complexity
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class='pop-rate'&gt;
-        &lt;div class='pop-rate-icons'&gt;
-          &lt;i class='empty star icon'&gt;&lt;/i&gt;
-          &lt;i class='empty star icon'&gt;&lt;/i&gt;
-          &lt;i class='empty star icon'&gt;&lt;/i&gt;
-          &lt;i class='empty star icon'&gt;&lt;/i&gt;
-          &lt;i class='empty star icon'&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class='pop-rate-head'&gt;
-          Complexity
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;">
+  <a class="item card-menu story-points-menu" id="popover-story-points">
     <div class = "velocity">
       <i class="star icon" id ="head-star" ></i>Story Points
       <div class="velocity-area">
@@ -195,7 +131,7 @@
   </div>
 </a>
 
-  <a class="item">
+  <a class="item card-menu schedule-menu">
     <div class = "schedule">
       <i class="calendar icon" id="schedule-list"></i>Schedule
       <div class="schedule-area">
@@ -205,10 +141,10 @@
   </a>
 
 
-  <a class="item">
-    <div class = "analytic">
-      <i class="bolt icon" id="schedule-list"></i>Analytics
-      <div class="analytic-area">
+  <a class="item card-menu analytics-menu">
+    <div class = "analytics">
+      <i class="bolt icon" id="analytics-list"></i>Analytics
+      <div class="analytics-area">
         Estimated Completion Time: <b>3 Days</b>
       </div>
     </div>

@@ -102,11 +102,17 @@
 	z-index: 1001;
 }
 
-.content .center > .isCheck {
+.content .center > .checkbox {
 	/*color: #51a351;*/
 	margin: auto;
+	margin-top: 8px;
 }
 
 .content > .center:hover {
 	cursor: pointer;
+}
+
+.all-tasks > .pop-task:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.02);
 }

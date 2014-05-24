@@ -8,34 +8,84 @@ Template.task.rendered = function () {
     on: 'click'
   });
 
-$('#popover_test').unbind();
-console.log();
-$('#popover_test').popup({
+//Injects the collaborators-side template as a popover
+$('#popover-collaborators').unbind();
+$('#popover-collaborators').popup({
 	on: "click",
-	html: UI.toHTML(Template['collaborators'])
+	html: UI.toHTML(Template['collaborators-side'])
 });
 
+//Injects the collaborators-side template as a popover
+$('#popover-tags').unbind();
+$('#popover-tags').popup({
+	on: "click",
+	html: UI.toHTML(Template['tags-side'])
+});
 
-//   $('.all-collabs .image')
-//   .dimmer({
-//     on: 'hover'
-//   })
-// ;
+//Injects the checklist-side template as a popover
+$('#popover-checklist').unbind();
+$('#popover-checklist').popup({
+	on: "click",
+	html: UI.toHTML(Template['checklist-side'])
+});
 
-//console.log($('.all-collabs.image'));
-
+//Injects the story-points-side template as a popover
+$('#popover-story-points').unbind();
+$('#popover-story-points').popup({
+	on: "click",
+	html: UI.toHTML(Template['story-points-side'])
+});
 
 };
 
 Template.task.events({
-	'click .card-menu': function () {
+	//Handles the Collaborators Popover Menu
+	'click .collab-menu': function () {
+		//Handles activating the hover dimming effect on pictures
 		$('.collab-person .image')
 		  .dimmer({
 		    on: 'hover'
 		 	});
 
-			$('.popup-content').on('click', function() {
-				console.log('woah');
+		  	//Handles changing the checkbox area on clicks
+			$('.collab-person').on('click', function() {
+				if($(this).hasClass('isChecked')){
+					$(this).removeClass('isChecked')
+					$(this).find('.checkbox').removeClass('checked').addClass('empty');
+				} else {
+					$(this).addClass('isChecked')
+					$(this).find('.checkbox').addClass('checked').removeClass('empty');
+				}
 			});
+	},
+
+	//Handles Tag Popup Menu
+	'click .tag-menu' : function () {
+
+	},
+
+	//Handles Checklist Popup Menu
+	'click .checklist-menu' : function () {
+		$('.pop-task').on('click', function() {
+			$(this).find(".checkbox").addClass('checked').removeClass('empty');
+			$(this).transition('fade down');
+		});
+	},
+
+	//Handles Story Point Popup Menu
+	'click .story-points-menu' : function () {
+		
+	},
+
+	//Handles Schedule Menu
+	'click .schedule-menu' : function () {
+		
+	},
+
+	//Handles the Analytics Menu
+	'click .analytics-menu' : function () {
+		
 	}
+
+
 });

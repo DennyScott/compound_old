@@ -1,20 +1,23 @@
-<template name="collaborators">
+<!--Currently the data being shown is not from a database, so it doesnt remember its state-->
+<template name="collaborators-side">
     <div class='popup-content'>
       <div class='popup-title'>
       Assign Collaborators
         <i class='edit icon link popup-icon'></i>
       </div>
-      <div class='collab-person'>
+      <div class='collab-person isChecked' id="travis"> <!--Take out ID=Travis and change to create id from mongoID-->
        <div class='ui circular mini image dimmable'>
           <div class='ui dimmer'>
             <div class='content'>
               <div class='center'>
-                <i class='ui large icon isCheck checkmark'></i>
+                <i class='ui big icon checked checkbox'></i>
               </div>
             </div>
           </div>
-          <img src='/img/travis.jpg'>
+          <img class = "profile-pic" src='/img/travis.jpg'>
         </div>
       </div>
     </div>
 </template>
+
+
