@@ -1,4 +1,8 @@
-var canMove = false;
+var canMove = false;  //Used to keep track of if the page can move?
+var newPort = null;  //Used to keep track of the new Portlet Created on add card
+var initRun = false; //This is used for when a new card is made so that if a user was to
+                     //Click anywhere else, the card will unfocus
+var isDescriptionFocus = false; //Boolean that keeps track if the tab hit is going into a new description
 Template.project.rendered = function(){
 
     $( "#scrumInner" ).sortable();
@@ -60,11 +64,152 @@ Template.project.rendered = function(){
     down = false;
   },
   'click .task' : function(event){
-    if(($(event.currentTarget).hasClass('add-card'))){
-      var base = $('.empty-portlet:first').clone().show();
-      $(event.currentTarget).before(base);
+    var target = $(event.currentTarget);
+    if(target.hasClass('add-card')){
+      //Is the Add Card Button at the bottom of a column
+      createNewCard(target);
+      initNewCard(target);
+    } else if (target.hasClass('new-portlet')) {
+      //If the task card clicked is the new one being created
+        initNewCard(target);
     } else {
+      //Is a regular task card
       $('.ui.modal.task').modal('show');
+    }
+  },
+
+  'click .scrumboard' : function(event){
+    if(newPort !== null){
+        //If the user is currently in the process of new cards
+        
+      if(initRun === true){
+        //if the user clicked the button to add a card, it will run this once, so this bool will make
+        //sure this function doesn't immediatly close so it can run again after
+        initRun = false;
+
+
+      } else {
+        //When the user clicks the scrum board the card will be set
+        newPort.blur();
+        newPort = null;
+      }
     }
   }
 });
+
+/**
+ * [initNewCard description]
+ * @param  [JQuery Selector]} targetButton [The target button pressed to open the new card]
+ * @return {[void]}              [No Return]
+ */
+function initNewCard(targetButton){
+  initRun = true;
+  var target = $(targetButton.siblings('.new-portlet'));
+  var titleBox = $(target.find('#new-title'));
+  var descriptionBox = $(target.find('#new-description'));
+  titleBox.focus();
+  newPort = target;
+
+  //This function will handles when the user hits various keys while focused on the title
+  titleBox.on('keydown', function(e) {
+    if (e.keyCode === 9) {
+      //If the User hits tab while in the title
+      e.preventDefault();
+      isDescriptionFocus = true;
+      target.find('#new-description').focus();
+    } else if(e.keyCode === 13) {
+      e.preventDefault();
+      enterOnCard(target, targetButton);
+    } else if (e.keyCode === 27){
+      e.preventDefault();
+      escapeCard(target);
+    }
+  });
+
+  //This is for when the user hits enter on the description
+  descriptionBox.on('keydown', function(e) {
+    if (e.keyCode === 13) {
+      e.preventDefault();
+      enterOnCard(target, targetButton);
+    } else if (e.keyCode === 27){
+      e.preventDefault();
+      escapeCard(target);
+    }
+  });
+
+  //When the user drops focus, the card will integrate into the other cards
+  target.focusout(function(){
+    if(newPort !== null){
+      if(!isDescriptionFocus){
+        unfocusCard($(this));
+      } else {
+        isDescriptionFocus = false;
+      }
+    }
+  });
+
+}
+
+function escapeCard(target) {
+        //If the user HAS NOT entered a name for the card
+        target.remove(); //Destroys the empty card
+        newPort = null; //Housekeeping on variables
+        initRun = false;
+}
+
+/**
+ * This function is used when creating a new card and the user hits enter
+ * @param  {[JQuery Selector]} target       [The target portlet]
+ * @param  {[JQuery Selector]} targetButton [The target button that was first clicked]
+ * @return {[void]}              [no return]
+ */
+function enterOnCard(target, targetButton) {
+      //If the user hits enter
+      if(target.find('#new-title').val().length > 0){
+        //If the user HAS entered a title in the card
+        newPort = null;
+        //These lines will unfocus the previous card and then create a new card
+        unfocusCard(target);
+        createNewCard(targetButton);
+        initNewCard(targetButton);
+        initRun = false; //This is because we don't click the mouse to hit this
+
+      } else {
+        //If the user did not enter a card title
+        escapeCard(target);
+      }
+}
+
+/**
+ * This fuction will create a new card in the given column
+ * @param  {[JQuery Selector]} target [The target button pressed to open the new card]
+ * @return {[void]}        [No Return]
+ */
+function createNewCard(target){
+      var base = $('.empty-portlet:first').clone().show().removeClass('empty-portlet').addClass('new-portlet');
+      target.before(base);
+}
+
+/**
+ * This function will unfocus a card and turn its text areas into actual text, and then remove the areas
+ * @param  {[JQuery Selector]} target [The target button pressed to open the new card]
+ * @return {[void]}        [No Return]
+ */
+function unfocusCard(target){
+    var title = target.find('#new-title');
+    var description = target.find('#new-description');
+    if(!(title.val() === null || title.val() === undefined)){
+      //Check to see that the title is not undefined
+      if(title.val().length === 0){
+        escapeCard(target);
+      } else {
+        //If the title is longer, set it into the card, and remove the text area and input field
+        newPort = null;
+        target.removeClass('new-portlet');
+        target.find('.portlet-header').text(title.val());
+        title.remove();
+        target.find('.portlet-content').text(description.html());
+        description.remove();
+      }
+    }
+}
