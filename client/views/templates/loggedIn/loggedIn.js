@@ -17,7 +17,6 @@ Template.loggedIn.events({
             overlay:true
         }).sidebar('toggle');
 
-
         $launchButton.toggleClass('pushed');
 
 

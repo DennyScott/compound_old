@@ -14,6 +14,61 @@ z-index:1000;
     margin-left:275px;
 }
 
+
+.menu.sidebar > .grid > .item.sidebar-bottom-fixed{
+    bottom:0;
+    left:0;
+    position:absolute;
+    height:10%;
+    max-height:10%;
+    min-height:10%;
+    overflow-x:hidden;
+    z-index:100;
+    text-align:center;
+    margin-bottom:0px;
+    padding-top:0px;
+    margin-top:0px;
+    border-top:1px solid rgba(255,255,255,.3);
+}
+
+.sidebar-search {
+    width:100%;
+}
+
+.vertical.menu .item .sidebar-search > input[type="text"] {
+    padding-top:.35em;
+    padding-bottom:.35em;
+}
+
+.menu.sidebar > .grid > .item.sidebar-bottom-fixed > .third {
+    width:33%;
+    float:left;
+}
+
+.menu.sidebar > .grid > .item.sidebar-bottom-fixed > .third > i{
+    cursor:pointer;
+}
+.menu.sidebar > .upper-menu-content {
+    height:90%;
+    max-height:90%;
+    min-height:90%;
+    overflow-y:scroll;
+}
+
+@media screen and ( min-height: 600px ){
+        .menu.sidebar > .upper-menu-content {
+            max-height:95%;
+            min-height:95%;
+            height:95%;
+        }
+
+        .menu.sidebar > .grid > .item.sidebar-bottom-fixed{
+            max-height:5%;
+            min-height:5%;
+            height:5%;
+        }
+    }
+
 .launch.attached.button.fixed {
     position:fixed;
     left:0px;
@@ -33,7 +88,7 @@ z-index:1000;
 	font-weight: bold;
 }
 
-#menu .item .item {
+#menu .item{
 	font-size: 0.875rem;
 }
 

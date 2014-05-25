@@ -1,21 +1,27 @@
 <template name='loggedIn'>
-    <div class="ui large vertical inverted labeled icon menu sidebar" id="menu">
+    <div class="ui large vertical inverted labeled menu sidebar" id="menu">
+        <div class="upper-menu-content vertical menu">
         <a class="item" href = "profile">
             <img class="circular ui small image profile-picture" src="/img/travis.jpg">
-            <div class = "menu-head" id="profile-head">Profile</div>
+        </a>
+
+        <a class="item">
+            <i class="browser icon"></i>Dashboard
+        </a>
+
+        <a class="item">
+            <i class="mail icon"></i>Messages
         </a>
 
         <div class="item">
-            <a href="project" class="menu-head">Roadmap</a>
-            <div class="menu">
-                <a class="item" href="#">Create a Story</a>
-            </div>
-        </div>
+            <i class="user icon"></i>Personal
 
-        <div class="item">
-            <a href="#" class="menu-head">Tasks</a>
             <div class="menu">
                 <a class="item" href="#">My Tasks</a>
+            </div>
+
+            <div class="menu">
+                <a class="item" href="#">Documents</a>
             </div>
 
             <div class="menu">
@@ -24,7 +30,17 @@
         </div>
 
         <div class="item">
-            <a href="#" class="menu-head">Analytics</a>
+            <i class="lab icon"></i>My Projects
+            <div class="menu">
+                <div class="item">
+                    <div class="ui input sidebar-search"><input type="text" placeholder="Search..."></div>
+                  </div>
+            </div>
+        </div>
+
+
+        <div class="item">
+            <i class="chart basic icon"></i>Analytics
             <div class="menu">
                 <a class="item" href="#">Burnout Chart</a>
             </div>
@@ -52,6 +68,14 @@
                 <a class="item" href="#">Edit Members</a>
             </div>
         </div>
+    </div>
+    <div class="ui grid">
+        <div class="item sixteen wide column sidebar-bottom-fixed">
+            <div class="ui third my-scrum"><i class="square tasks icon"></i></div>
+            <div class="ui third chat"><i class="square chat icon"></i></div>
+            <div class="ui third settings"><i class="square settings icon"></i></div>
+        </div>
+    </div>
 
     </div>
     <div class="ui black huge launch right attached button fixed" id="menu" style="width: 70px;">
