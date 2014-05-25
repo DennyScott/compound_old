@@ -118,9 +118,11 @@ function initNewCard(targetButton){
       isDescriptionFocus = true;
       target.find('#new-description').focus();
     } else if(e.keyCode === 13) {
+      //If the user hits Enter
       e.preventDefault();
       enterOnCard(target, targetButton);
     } else if (e.keyCode === 27){
+      //If the user hits ESC
       e.preventDefault();
       escapeCard(target);
     }
@@ -129,9 +131,11 @@ function initNewCard(targetButton){
   //This is for when the user hits enter on the description
   descriptionBox.on('keydown', function(e) {
     if (e.keyCode === 13) {
+      //If the user hits Enter
       e.preventDefault();
       enterOnCard(target, targetButton);
     } else if (e.keyCode === 27){
+      //If the user hits ESC
       e.preventDefault();
       escapeCard(target);
     }
