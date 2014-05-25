@@ -210,3 +210,18 @@
     font-size: 18px;
     margin-bottom: 10px;
   }
+
+  .stage > .setting {
+    float: right;
+    color: #999;
+    margin-top: 4px;
+    margin-right: 25px;
+    visibility: hidden;
+  }
+  .stage:hover {
+    cursor: pointer;
+  }
+
+  .stage:hover .setting{
+    visibility: visible;
+  }
