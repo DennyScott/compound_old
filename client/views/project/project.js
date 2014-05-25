@@ -8,6 +8,7 @@ Template.project.rendered = function(){
   $( ".scrumColumn" ).sortable({
     connectWith: ".scrumColumn",
     placeholder: "portlet-placeholder ui-corner-all",
+    cancel: ".add-card"
   });
 
   $( ".portlet")
@@ -26,6 +27,8 @@ Template.project.rendered = function(){
     $('.image.user-task')
     .transition('fade up')
     ;
+
+    $('.empty-portlet:first').hide();
 
 
 
@@ -57,8 +60,11 @@ Template.project.rendered = function(){
     down = false;
   },
   'click .task' : function(event){
-    $('.ui.modal.task')
-    .modal('show')
-    ;
+    if(($(event.currentTarget).hasClass('add-card'))){
+      var base = $('.empty-portlet:first').clone().show();
+      $(event.currentTarget).before(base);
+    } else {
+      $('.ui.modal.task').modal('show');
+    }
   }
 });
