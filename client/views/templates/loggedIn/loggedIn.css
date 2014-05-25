@@ -31,6 +31,15 @@ z-index:1000;
     border-top:1px solid rgba(255,255,255,.3);
 }
 
+.sidebar-search {
+    width:100%;
+}
+
+.vertical.menu .item .sidebar-search > input[type="text"] {
+    padding-top:.35em;
+    padding-bottom:.35em;
+}
+
 .menu.sidebar > .grid > .item.sidebar-bottom-fixed > .third {
     width:33%;
     float:left;
@@ -79,7 +88,7 @@ z-index:1000;
 	font-weight: bold;
 }
 
-#menu .item .item {
+#menu .item{
 	font-size: 0.875rem;
 }
 
