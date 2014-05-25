@@ -208,7 +208,7 @@ function unfocusCard(target){
         target.removeClass('new-portlet');
         target.find('.portlet-header').text(title.val());
         title.remove();
-        target.find('.portlet-content').text(description.html());
+        target.find('.portlet-content').text(description.val());
         description.remove();
       }
     }
