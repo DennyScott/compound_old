@@ -190,12 +190,10 @@
 
   .red {
     background-color: #dd362f;
-    right: 35px;
   }
 
    .blue {
     background-color: #0044cc;
-    right: 70px;
   }
 
    .green {
@@ -211,4 +209,19 @@
     padding: 6px 5px 10px 10px;
     font-size: 18px;
     margin-bottom: 10px;
+  }
+
+  .stage > .setting {
+    float: right;
+    color: #999;
+    margin-top: 4px;
+    margin-right: 25px;
+    visibility: hidden;
+  }
+  .stage:hover {
+    cursor: pointer;
+  }
+
+  .stage:hover .setting{
+    visibility: visible;
   }

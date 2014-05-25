@@ -5,18 +5,34 @@
       Assign Collaborators
         <i class='edit icon link popup-icon'></i>
       </div>
-      <div class='collab-person isChecked' id="travis"> <!--Take out ID=Travis and change to create id from mongoID-->
-       <div class='ui circular mini image dimmable'>
-          <div class='ui dimmer'>
+      <div class='collab-person' id="travis"> <!--Take out ID=Travis and change to create id from mongoID-->
+       <div class='ui circular mini image collab-image'>
+          <div class='ui inverted dimmer'>
             <div class='content'>
               <div class='center'>
-                <i class='ui big icon checked checkbox'></i>
+                <i class='ui big icon'></i>
               </div>
             </div>
           </div>
           <img class = "profile-pic" src='/img/travis.jpg'>
         </div>
       </div>
+
+      <!--Extra Just for Demo Purposes -->
+      <div class='collab-person' id="denny"> 
+       <div class='ui circular mini image collab-image isChecked'>
+          <div class='ui inverted dimmer'>
+            <div class='content'>
+              <div class='center'>
+                <i class='ui big icon checkmark'></i>
+              </div>
+            </div>
+          </div>
+          <img class = "profile-pic" src='/img/denny.jpg'>
+        </div>
+      </div>
+      <!-- End of Extra for Demo -->
+
     </div>
 </template>
 

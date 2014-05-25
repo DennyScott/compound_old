@@ -8,6 +8,10 @@ Template.task.rendered = function () {
     on: 'click'
   });
 
+  $('.story-point-area').rating('disable');
+  $('.story-point-area').rating('set rating', 3);
+
+
 //Injects the collaborators-side template as a popover
 $('#popover-collaborators').unbind();
 $('#popover-collaborators').popup({
@@ -42,26 +46,41 @@ Template.task.events({
 	//Handles the Collaborators Popover Menu
 	'click .collab-menu': function () {
 		//Handles activating the hover dimming effect on pictures
-		$('.collab-person .image')
-		  .dimmer({
-		    on: 'hover'
-		 	});
+		$('.collab-image').each(function(i, obj){
+			if($(this).hasClass('isChecked')){
+				$(this).dimmer('show');
+			}
+		});
 
-		  	//Handles changing the checkbox area on clicks
-			$('.collab-person').on('click', function() {
+		  	//Handles changing the check and dimming on clicks
+			$('.collab-image').on('click', function() {
 				if($(this).hasClass('isChecked')){
-					$(this).removeClass('isChecked')
-					$(this).find('.checkbox').removeClass('checked').addClass('empty');
+					$(this).removeClass('isChecked');
+					$(this).find('.icon').removeClass('checkmark');
+					$(this).dimmer('hide');
 				} else {
 					$(this).addClass('isChecked')
-					$(this).find('.checkbox').addClass('checked').removeClass('empty');
+					$(this).find('.icon').addClass('checkmark');
+					$(this).dimmer('show');
 				}
 			});
 	},
 
 	//Handles Tag Popup Menu
 	'click .tag-menu' : function () {
+		//Handles activating the hover dimming effect on pictures
+		$('.tag-image').each(function(i, obj){
+			if($(this).hasClass('isChecked')){
+				$(this).find('.icon').show();
+			} else {
+				$(this).find('.icon').hide();
+			}
+		});
 
+		//Handles changing the check and dim on clicks
+			$('.tag-image').on('click', function() {
+				$(this).find('.icon').toggle();
+			});
 	},
 
 	//Handles Checklist Popup Menu
@@ -74,7 +93,11 @@ Template.task.events({
 
 	//Handles Story Point Popup Menu
 	'click .story-points-menu' : function () {
-		
+		$('.pop-rate .rating').rating();
+		$('.pop-rate .rating').each(function(i, obj){
+			var randomnumber = Math.floor(Math.random() * (5 - 1 + 1)) + 1;
+			$(this).rating('set rating', randomnumber);
+		});		
 	},
 
 	//Handles Schedule Menu
