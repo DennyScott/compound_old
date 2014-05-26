@@ -1,169 +1,192 @@
 <template name="task">
     <i class="close icon"></i>
-    <div class="header">
-      <i class="leaf icon"></i>
-      Feeds
-    </div>
-    <div class="content">
-      <div class="left">
-        <i class="small ui edit sign link icon"></i><a href="#" class="description">Click to edit the description</a>
-        <div class="ui horizontal divider">
-          <i class="circular rocket icon"></i>
+
+    <div class="content ui grid">
+        <div class="left twelve wide column modal-content-left">
+            <div class="modal-top">
+                <div class="header modal-header">
+                    <i class="leaf icon"></i>
+                    Feeds
+                </div>
+                <div class="modal-description">
+                    <i class="small ui edit sign link icon"></i><a href="#" class="description">Click to edit the description</a>
+                </div>
+                <div class="ui horizontal divider content-split">
+                    <i class="circular rocket icon"></i>
+                </div>
+            </div>
+
+            <div class="ui small piled feed segment">
+                <div class = "activity">
+                    <h4 class="ui header">Recent Activity</h4>
+
+                    <div class="event">
+                        <div class="label">
+                            <a><img src="/img/travis.jpg"></a>
+                        </div>
+                        <div class="content">
+                            <div class="date">
+                                Moments ago
+                            </div>
+                            <div class="summary">
+                                You commented on the task
+                            </div>
+                            <div class="extra text">
+                                I'm sorry I didn't even notice you put up new documentation.  That's awesome!
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="event">
+                        <div class="label">
+                            <a><img src="/img/denny.jpg"></a>
+                        </div>
+                        <div class="content">
+                            <div class="date">
+                                3 days ago
+                            </div>
+                            <div class="summary">
+                                <a>Denny Scott</a> added <a>2 new pictures</a> to documentation
+                            </div>
+                            <div class="extra images">
+                                <a><img src="/img/class.jpg"></a>
+                                <a><img src="/img/flow-chart.jpg"></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="event">
+                        <div class="label">
+                            <a><img src="/img/travis.jpg"></a>
+                        </div>
+                        <div class="content">
+                            <div class="date">
+                                5 days ago
+                            </div>
+                            <div class="summary">
+                                <a>Travis Scott</a> created this task
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+        <div class="comment-input ui input">
+            <input type="text" placeholder="Add new comment">
         </div>
 
-        <div class="ui small piled feed segment">
-          <div class = "activity">
-            <h4 class="ui header">Recent Activity</h4>
+        </div>
 
-            <div class="event">
-              <div class="label">
-                <a><img src="/img/travis.jpg"></a>
-              </div>
-              <div class="content">
-                <div class="date">
-                  Moments ago
+
+        <div class="right four wide column right-container">
+            <div class="modal-top">
+
+                <div class="ui vertical divided grid">
+                    <div class="ui vertical row labeled icon menu" id="menu" >
+                        <a class="item card-menu collab-menu" id="popover-collaborators">
+                            <!-- <div class = "menu-head" id="profile-head">Profile</div> -->
+                            <div class = "collaborators">
+                                <i class = "users icon"></i>Collaborators
+                                <div class="ui mini circular images collab-img">
+                                    <img class="collab user-img" src="/img/travis.jpg">
+                                    <img class="collab user-img" src="/img/denny.jpg">
+                                </div>
+                            </div>
+                        </a>
+
+
+                        <a class="item card-menu tag-menu" id="popover-tags">
+                            <div class="card-tags-section">
+                                <i class = "tags icon"></i>Labels
+                                <div class = "card-tags">
+                                    <div class="card red-tag"></div>
+                                    <div class="card blue-tag"></div>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
                 </div>
-                <div class="summary">
-                  You commented on the task
+
+                <div class="ui vertical row labeled icon menu recent-content-select" id="menu" >
+
+                    <a class="item card-menu analytics-menu">
+                        <div class = "analytics">
+                            <i class="book basic icon" id="analytics-list"></i>Recent Activity
+                        </div>
+                    </a>
+
+                    <a class="item card-menu checklist-menu" id="popover-checklist">
+                        <div class = "checklist">
+                            <i class="list icon link" id="head-list"></i>Checklist
+                        </div>
+                    </a>
+
+                    <a class="item card-menu analytics-menu">
+                        <div class = "analytics">
+                            <i class="comment icon" id="analytics-list"></i>Comments
+                        </div>
+                    </a>
+
+                    <a class="item card-menu analytics-menu">
+                        <div class = "analytics">
+                            <i class="attachment icon" id="analytics-list"></i>Attachments
+                        </div>
+                    </a>
                 </div>
-                <div class="extra text">
-                  I'm sorry I didn't even notice you put up new documentation.  That's awesome!
+
+                <div class="ui vertical row labeled icon menu" id="menu" >
+
+
+                    <a class="item card-menu story-points-menu" id="popover-story-points">
+                        <div class = "velocity">
+                            <i class="star icon" id ="head-star" ></i>Story Points
+                            <div class="story-point-area">
+                                <div class="ui star rating">
+                                    <i class="icon"></i>
+                                    <i class="icon"></i>
+                                    <i class="icon"></i>
+                                    <i class="icon"></i>
+                                    <i class="icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="item card-menu schedule-menu">
+                        <div class = "schedule">
+                            <i class="calendar icon" id="schedule-list"></i>Schedule
+                            <div class="schedule-area">
+                                Scheduled Completion Date: <b>May 27th, 2014</b>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    <a class="item card-menu analytics-menu">
+                        <div class = "analytics">
+                            <i class="chart basic icon" id="analytics-list"></i>Analytics
+                            <div class="analytics-area">
+                                Estimated Completion Time: <b>3 Days</b>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-              </div>
             </div>
-
-
-            <div class="event">
-              <div class="label">
-                <a><img src="/img/denny.jpg"></a>
-              </div>
-              <div class="content">
-                <div class="date">
-                  3 days ago
-                </div>
-                <div class="summary">
-                  <a>Denny Scott</a> added <a>2 new pictures</a> to documentation
-                </div>
-                <div class="extra images">
-                  <a><img src="/img/class.jpg"></a>
-                  <a><img src="/img/flow-chart.jpg"></a>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="event">
-              <div class="label">
-                <a><img src="/img/travis.jpg"></a>
-              </div>
-              <div class="content">
-                <div class="date">
-                  5 days ago
-                </div>
-                <div class="summary">
-                 <a>Travis Scott</a> created this task
-               </div>
-             </div>
-           </div>
-
-
-         </div>
-
-
-
-       </div>
-
-
-
-
-
-     </div>
-     <div class="right">
-<!--
-
--->
-
-
-<div class="ui vertical labeled icon menu" id="menu" >
-  <a class="item card-menu collab-menu" id="popover-collaborators">
-    <div class = "collaborators">
-      <i class = "users icon"></i>Collaborators
-      <div class="ui mini circular images collab-img">
-        <img class="collab user-img" src="/img/travis.jpg">
-        <img class="collab user-img" src="/img/denny.jpg">
-      </div>
+        </div>
     </div>
-  </a>
-
-
-  <a class="item card-menu tag-menu" id="popover-tags">
-    <div class="card-tags-section">
-      <i class = "tags icon"></i>Tags
-      <div class = "card-tags">
-        <div class="card red-tag"></div>
-        <div class="card blue-tag"></div>
-      </div>
+    <div class="actions">
+        <div class="ui button">Cancel</div>
+        <div class="ui button">OK</div>
     </div>
-  </a>
-
-  <a class="item card-menu checklist-menu" id="popover-checklist">
-    <div class = "checklist">
-      <i class="list icon link" id="head-list"></i>Checklist
-    </div>
-  </a>
-
-  <a class="item card-menu analytics-menu">
-    <div class = "analytics">
-      <i class="comment icon" id="analytics-list"></i>Comments
-    </div>
-  </a>
-
-  <a class="item card-menu analytics-menu">
-    <div class = "analytics">
-      <i class="attachment icon" id="analytics-list"></i>Attachments
-    </div>
-  </a>
-
-
-  <a class="item card-menu story-points-menu" id="popover-story-points">
-    <div class = "velocity">
-      <i class="star icon" id ="head-star" ></i>Story Points
-      <div class="story-point-area">
-       <div class="ui star rating">
-        <i class="icon"></i>
-        <i class="icon"></i>
-        <i class="icon"></i>
-        <i class="icon"></i>
-        <i class="icon"></i>
-      </div>
-    </div>
-  </div>
-</a>
-
-  <a class="item card-menu schedule-menu">
-    <div class = "schedule">
-      <i class="calendar icon" id="schedule-list"></i>Schedule
-      <div class="schedule-area">
-        Scheduled Completion Date: <b>May 27th, 2014</b>
-      </div>
-    </div>
-  </a>
-
-
-  <a class="item card-menu analytics-menu">
-    <div class = "analytics">
-      <i class="chart basic icon" id="analytics-list"></i>Analytics
-      <div class="analytics-area">
-        Estimated Completion Time: <b>3 Days</b>
-      </div>
-    </div>
-  </a>
-
-</div>
-</div>
-</div>
-<div class="actions">
-  <div class="ui button">Cancel</div>
-  <div class="ui button">OK</div>
-</div>
 </template>
