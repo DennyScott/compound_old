@@ -76,7 +76,7 @@
     float: left;
     padding-bottom: 50px;
   }
-  .scrumColumn > .portlet.task{
+  .scrumColumn > .portlet.task, .colHead > .portlet.task{
 
   display: block;
   position: relative;
@@ -136,7 +136,7 @@
   font-size: 12px;
 }
 
-.scrumColumn > .portlet.item, .scrumColumn > .add-card.portlet.task {
+.scrumColumn > .portlet.item, .scrumColumn > .add-card.portlet.task, .colHead > .add-stage {
   margin: 1em 1em 20px 0;
   padding: 0.3em;
   width: 215px;
@@ -146,6 +146,11 @@
   font-size: 14px;
   font-style: bold;
 }
+
+.colHead > .add-stage > .portlet-content {
+  padding-top: 0.1em;
+}
+
   .portlet-header {
     padding: 0.2em 0.3em;
     margin-bottom: 0.5em;
@@ -199,15 +204,15 @@
     top: 0px;
   }
 
-  .red {
+  .red-tag {
     background-color: #dd362f;
   }
 
-   .blue {
+   .blue-tag {
     background-color: #0044cc;
   }
 
-   .green {
+   .green-tag {
     background-color: #51a351;
     right: 105px;
   }
@@ -237,7 +242,7 @@
     visibility: visible;
   }
 
-  .add-card > .add {
+  .add-card > .add, .add-stage > .add {
     color: #999;
     position: absolute;
     right: 0px;

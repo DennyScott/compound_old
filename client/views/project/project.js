@@ -5,8 +5,8 @@ var initRun = false; //This is used for when a new card is made so that if a use
 var isDescriptionFocus = false; //Boolean that keeps track if the tab hit is going into a new description
 Template.project.rendered = function(){
 
-    $( "#scrumInner" ).sortable();
-    $( "#scrumInner" ).disableSelection();
+  $( "#scrumInner" ).sortable();
+  $( "#scrumInner" ).disableSelection();
 
 
   $( ".scrumColumn" ).sortable({
@@ -34,6 +34,11 @@ Template.project.rendered = function(){
 
     $('.empty-portlet:first').hide();
 
+    $('.add-stage').unbind();
+    $('.add-stage').popup({
+      on: "click",
+      html: UI.toHTML(Template['stageCreation'])
+    });
 
 
   };
@@ -71,7 +76,21 @@ Template.project.rendered = function(){
       initNewCard(target);
     } else if (target.hasClass('new-portlet')) {
       //If the task card clicked is the new one being created
-        initNewCard(target);
+      initNewCard(target);
+    } else if (target.hasClass('add-stage')) {
+      //If the task card clicked is the new stage card
+      $('#stage-input').focus();
+      $('#stage-input').on('keydown', function(e) {
+        if (e.keyCode === 13) {
+          //If the user hits Enter
+          e.preventDefault();
+          addStage($(this));
+        } else if (e.keyCode === 27){
+          //If the user hits ESC
+          e.preventDefault();
+          $('#stage-input').popup('hide');
+        }
+      });
     } else {
       //Is a regular task card
       $('.ui.modal.task').modal('show');
@@ -82,7 +101,7 @@ Template.project.rendered = function(){
     if(newPort !== null){
         //If the user is currently in the process of new cards
         
-      if(initRun === true){
+        if(initRun === true){
         //if the user clicked the button to add a card, it will run this once, so this bool will make
         //sure this function doesn't immediatly close so it can run again after
         initRun = false;
@@ -102,7 +121,7 @@ Template.project.rendered = function(){
  * @param  [JQuery Selector]} targetButton [The target button pressed to open the new card]
  * @return {[void]}              [No Return]
  */
-function initNewCard(targetButton){
+ function initNewCard(targetButton){
   initRun = true;
   var target = $(targetButton.siblings('.new-portlet'));
   var titleBox = $(target.find('#new-title'));
@@ -154,12 +173,21 @@ function initNewCard(targetButton){
 
 }
 
-function escapeCard(target) {
+function addStage(target){
+  //Insert code to add a column to the database, and meteor will automatically add it to the table
+}
+
+/**
+ * This function allows a user to just exit and destroy a newly created card.
+ * @param  jQuery Selector target The target card to destroy
+ * @return {[void]}        [No Return]
+ */
+ function escapeCard(target) {
         //If the user HAS NOT entered a name for the card
         target.remove(); //Destroys the empty card
         newPort = null; //Housekeeping on variables
         initRun = false;
-}
+      }
 
 /**
  * This function is used when creating a new card and the user hits enter
@@ -167,7 +195,7 @@ function escapeCard(target) {
  * @param  {[JQuery Selector]} targetButton [The target button that was first clicked]
  * @return {[void]}              [no return]
  */
-function enterOnCard(target, targetButton) {
+ function enterOnCard(target, targetButton) {
       //If the user hits enter
       if(target.find('#new-title').val().length > 0){
         //If the user HAS entered a title in the card
@@ -182,16 +210,16 @@ function enterOnCard(target, targetButton) {
         //If the user did not enter a card title
         escapeCard(target);
       }
-}
+    }
 
 /**
  * This fuction will create a new card in the given column
  * @param  {[JQuery Selector]} target [The target button pressed to open the new card]
  * @return {[void]}        [No Return]
  */
-function createNewCard(target){
-      var base = $('.empty-portlet:first').clone().show().removeClass('empty-portlet').addClass('new-portlet');
-      target.before(base);
+ function createNewCard(target){
+  var base = $('.empty-portlet:first').clone().show().removeClass('empty-portlet').addClass('new-portlet');
+  target.before(base);
 }
 
 /**
@@ -199,10 +227,10 @@ function createNewCard(target){
  * @param  {[JQuery Selector]} target [The target button pressed to open the new card]
  * @return {[void]}        [No Return]
  */
-function unfocusCard(target){
-    var title = target.find('#new-title');
-    var description = target.find('#new-description');
-    if(!(title.val() === null || title.val() === undefined)){
+ function unfocusCard(target){
+  var title = target.find('#new-title');
+  var description = target.find('#new-description');
+  if(!(title.val() === null || title.val() === undefined)){
       //Check to see that the title is not undefined
       if(title.val().length === 0){
         escapeCard(target);
@@ -214,6 +242,9 @@ function unfocusCard(target){
         title.remove();
         target.find('.portlet-content').text(description.val());
         description.remove();
+
+        //The code in this else will be deleted, simply add the title and descrption to the database, 
+        //and delete the working card
       }
     }
-}
+  }
