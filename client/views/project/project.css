@@ -135,6 +135,17 @@
   max-height: 100px;
   font-size: 12px;
 }
+
+.scrumColumn > .portlet.item, .scrumColumn > .add-card.portlet.task {
+  margin: 1em 1em 20px 0;
+  padding: 0.3em;
+  width: 215px;
+  height: 20px;
+  min-height: 40px;
+  max-height: 40px;
+  font-size: 14px;
+  font-style: bold;
+}
   .portlet-header {
     padding: 0.2em 0.3em;
     margin-bottom: 0.5em;
@@ -224,4 +235,11 @@
 
   .stage:hover .setting{
     visibility: visible;
+  }
+
+  .add-card > .add {
+    color: #999;
+    position: absolute;
+    right: 0px;
+    top: 11px;
   }
