@@ -29,7 +29,9 @@ Meteor.methods({
 			stories: [], 	// {id, submitted, lastUpdated, authorID, stage, position, scheduledDate, label[], collaborators[]}
 			iteration: [],	// {id, startDate, endDate, storyId}
 			comments: [],  	//{id, submitted, lastUpdated, authorID}
-			labels: []    	//{id, color, name}
+			labels: [],    	//{id, color, name}
+			storyScrumColumns: [], //{id, columnNumber, title}
+			projectScrumColumns: [] //{id, columnNumber, title}
 		});
 
 		//Inserts new project into collection
@@ -102,42 +104,6 @@ Meteor.methods({
 		} else {
 			throw new Meteor.Error(405, "You need to own this project to delete it");
 		}
-	},
-	//---------------------------------END OF PROJECT REMOVE METHODS-----------------------------------------//
-	
-
-	addTask: function(id, task){
-		//Need to check input
-		var finalizedTask = _.extend(_.pick(task, 'title', 'description'), {
-
-		});
-		var story = Stories.findOne(id);
-		var maxID = 0;
-		story.tasks.forEach(function(entry) {
-			if(entry.id > maxID){
-				maxID = entry.id;
-			}
-		});
-		finalizedTask.id = maxID+1;
-		Stories.update(id, {$push: {'tasks': finalizedTask}});
-	},
-
-	removeTask: function(id, taskID){
-		Stories.update(id, {$pull: {'tasks' : {'id': taskID}}});
-	},
-
-	updateTask: function(id, task){
-		var story = Stories.findOne(id);
-		var tasks = story.tasks;
-		for(i = 0; i < tasks.length; i++){
-			if(tasks[i].id === task.id){
-				tasks[i] = task;
-			}
-		}
-		Stories.update(id, {$set: {'tasks' : tasks}});
-	},
-
-	removeStory: function(id){
-		Stories.remove(id);
 	}
+	//---------------------------------END OF PROJECT REMOVE METHODS-----------------------------------------//
 });
