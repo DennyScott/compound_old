@@ -13,7 +13,7 @@ Meteor.methods({
 
 		//Ensures that the user is logged in
 		if (!user){
-			throw new Meteor.Error(401, "You need to log in to create new stories");
+			throw new Meteor.Error(401, "You need to log in to create new projects");
 		}
 
 		if(!projectAttributes.title){
@@ -21,17 +21,11 @@ Meteor.methods({
 		}
 
 		//filling in other keys
-		var proj = _.extend(_.pick(storyAttributes, 'title', 'description'), {
+		var proj = _.extend(_.pick(projectAttributes, 'title', 'description'), {
 			authorID: user._id,
 			submitted: new Date().getTime(),
 			lastUpdated: new Date().getTime(),
 			updateAuthorID: user._id,
-			stories: [], 	// {id, submitted, lastUpdated, authorID, stage, position, scheduledDate, label[], collaborators[]}
-			iteration: [],	// {id, startDate, endDate, storyId}
-			comments: [],  	//{id, submitted, lastUpdated, authorID}
-			labels: [],    	//{id, color, name}
-			storyScrumColumns: [], //{id, columnNumber, title}
-			projectScrumColumns: [] //{id, columnNumber, title}
 		});
 
 		//Inserts new project into collection
@@ -71,7 +65,7 @@ Meteor.methods({
 	 * @param  {String} title The New title of the Project
 	 * @return {void}       No Return
 	 */
-	updateTitle: function(id, title) {
+	updateProjectTitle: function(id, title) {
 		Projects.update(id, {$set: {'title': title}});
 		Meteor.call('updateProject', id);
 	},
@@ -82,7 +76,7 @@ Meteor.methods({
 	 * @param  {String} author The ID of the author
 	 * @return {void}        No Return
 	 */
-	updateAuthor: function(id, author) {
+	updateProjectAuthor: function(id, author) {
 		Projects.update(id, {$set: {'authorID': author}});
 		Meteor.call('updateProject', id);
 	},
@@ -107,3 +101,4 @@ Meteor.methods({
 	}
 	//---------------------------------END OF PROJECT REMOVE METHODS-----------------------------------------//
 });
+
