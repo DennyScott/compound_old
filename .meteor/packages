@@ -6,10 +6,11 @@
 standard-app-packages
 autopublish
 insecure
-iron-router
-accounts-entry
-roles
 accounts-ui
 accounts-password
-semantic-ui
-jquery-ui
+mrt:jquery-ui@1.9.2
+iron:router
+iron:layout
+splendido:accounts-templates-semantic-ui
+nooitaf:semantic-ui
+

@@ -159,7 +159,16 @@
 
   .portlet-content {
       color: #999;
+			max-height:38px;
+			overflow-y:hidden;
   }
+
+	 .new-portlet .portlet-content {
+      color: #999;
+			max-height:none;
+			overflow-y:visible;
+  }
+
 
   .goToRoadmap {
       cursor:pointer;
@@ -172,6 +181,11 @@
       margin-top:30px;
       border:1px solid #dadada;
   }
+
+	.new-portlet {
+		height:auto !important;
+		max-height:none !important;
+	}
 
   .portlet-toggle {
     position: absolute;
@@ -196,7 +210,7 @@
   }
   .tag {
     width: 35px;
-    height: 8px;
+    height: 3px;
     /*border-radius: 30px 30px 0 0;
      -moz-border-radius: 30px 30px 0 0;
      -webkit-border-radius: 30px 30px 0 0;*/
@@ -248,3 +262,20 @@
     right: 0px;
     top: 11px;
   }
+
+	.portlet-content textarea {
+		background: none;
+border: 1px solid #eee;
+-webkit-box-shadow: none;
+box-shadow: none;
+margin-bottom: 4px;
+overflow-y: auto;
+padding: 0;
+	}
+
+	textarea {
+-webkit-transition: background 85ms ease-in,border-color 85ms ease-in;
+transition: background 85ms ease-in,border-color 85ms ease-in;
+resize: vertical;
+width: 100%;
+	}

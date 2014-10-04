@@ -1,9 +1,0 @@
-{
-  "packages": {
-    "iron-router": {},
-    "accounts-entry": {},
-    "roles": {},
-    "semantic-ui": {},
-    "jquery-ui": {}
-  }
-}
