@@ -1,0 +1,238 @@
+.ui.modal.task > .content {
+	background-color: #fff;
+}
+
+.ui.modal.task > .content > .left > i.icon {
+	font-size: .875em;
+	color: #999;
+}
+
+.description {
+	color: #999;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.ui.modal.task > .content > .left > .segment > .activity {
+	margin-left: 10px;
+	height:310px;
+}
+
+.collab-img > img.collab{
+	margin-top: 5px;
+}
+
+.card-tag{
+	text-align: center;
+}
+
+.modal-content-left > .ui.small.feed{
+	margin-bottom:1em;
+}
+
+.card {
+	height: 15px;
+	width: 15px;
+	border: 1px solid black;
+	display: inline-block;
+	margin-top: 7px;
+}
+
+.comment-input {
+	width:100%;
+}
+
+.ui.vertical.divided.grid > .row {
+	padding: 0 0 0 0;
+}
+
+.ui.modal {
+width: 67%;
+margin-left: -33%;
+}
+
+.medium-card {
+	height: 25px;
+	width: 25px;
+	border: 1px solid black;
+	display: inline-block;
+	margin-top: 7px;
+	margin-right: 5px;
+}
+
+.card-outline {
+	height: 12px;
+	width: 12px;
+}
+
+.scrolling-check-area{
+	margin-top: 7px;
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.velocity-area {
+	margin-top: 7px;
+}
+
+#head-star {
+	margin-right: 5px;
+}
+
+#head-list {
+	margin-right: 5px;
+}
+
+.left.twelve.wide.column.modal-content-left {
+	padding-top:1.5rem;
+}
+
+.schedule-area, .analytics-area {
+	margin-top: 7px;
+	font-size: 11px;
+}
+
+.modal-top{
+	height:150px;
+}
+
+.analytic-area {
+	margin-top: 7px;
+	font-size: 11px;
+}
+
+.modal-top > .modal-description {
+	height: 65px;
+	max-height:65px;
+	min-height:65px;
+}
+
+.ui.horizontal.divider.content-split {
+
+}
+
+.story-point-area {
+	margin-top:7px;
+}
+
+.ui.vertical.row.labeled.icon.menu.recent-content-select{
+	width:100%;
+	margin-top:33px;
+}
+
+.ui.popup {
+	z-index: 1000;
+}
+
+.popup-title {
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+.all-tasks {
+	font-size: 11px;
+	margin-top: 7px;
+}
+
+.popup-content {
+	font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.popup-icon {
+	margin-left: 8px !important;
+}
+
+.pop-task {
+	margin-top: 5px;
+}
+
+.pop-rate {
+	margin-top: 7px;
+	text-align: center;
+}
+
+.collab-edit {
+	float: left;
+	margin-right: 2px;
+}
+
+.dimmer {
+	z-index: 1001;
+}
+
+.content > .center:hover {
+	cursor: pointer;
+}
+
+.all-tasks > .pop-task:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.02);
+}
+
+.popup-content .collab-person > .image {
+	cursor: pointer;
+	border: 2px solid #fff;
+
+}
+
+.right-container {
+	padding-top: 1.5rem;
+}
+
+.modal-header {
+	margin: 0em;
+	padding-bottom:1.5rem;
+font-size: 1.6em;
+font-weight: bold;
+border-radius: 0.325em 0.325em 0px 0px;
+}
+
+
+.modal > .content.ui.grid {
+	margin: 0 0 0 0;
+}
+
+.popup-content > .collab-person {
+	position: relative;
+	display: inline-block;
+	margin-right: -3px;
+}
+
+.popup-content > .select-tag {
+	position: relative;
+	display: inline-block;
+}
+
+
+.popup-content .collab-person > .image:hover {
+	cursor: pointer;
+	border: 2px solid #4076ea;
+}
+
+.popup-content .collab-person .image .content .center > .icon {
+	color: #777;
+}
+
+.small-check {
+	width: auto;
+	display: inline-block;
+	background-color: #000;
+	border-radius: 30px;
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	right: -2px;
+	top: 0px;
+}
+
+.small-check > .checkmark {
+	margin: auto;
+	color: #fff;
+	opacity: 1;
+	padding-right: 1px;
+}
+
+.popup-content .select-tag > .tag-image:hover {
+	cursor: pointer;
+}

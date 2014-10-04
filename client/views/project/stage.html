@@ -1,0 +1,20 @@
+<template name='stage'>
+    <div class="colHead">
+        <div class = "stage">Done
+            <i class = "icon small setting"></i>
+        </div>
+        <div class="scrumColumn">
+
+            {{#each tasks}}
+                {{> taskCard}}
+            {{/each}}
+           
+
+            <div class="add-card portlet task">
+                <div class="portlet-content">Add a Card</div>
+                <i class="add icon"></i>
+            </div>
+        </div>
+
+    </div>
+</template>

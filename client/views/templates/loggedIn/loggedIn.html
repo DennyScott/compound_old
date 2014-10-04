@@ -1,0 +1,96 @@
+<template name='loggedIn'>
+    <div class="ui large vertical inverted labeled menu sidebar" id="menu">
+        <div class="upper-menu-content vertical menu">
+        <a class="item" href = "profile">
+            <img class="circular ui small image profile-picture" src="/img/travis.jpg">
+        </a>
+
+        <a class="item">
+            <i class="browser icon"></i>Dashboard
+        </a>
+
+        <a class="item">
+            <i class="mail icon"></i>Messages
+        </a>
+
+        <div class="item">
+            <i class="user icon"></i>Personal
+
+            <div class="menu">
+                <a class="item" href="#">My Tasks</a>
+            </div>
+
+            <div class="menu">
+                <a class="item" href="#">Documents</a>
+            </div>
+
+            <div class="menu">
+                <a class="item" href="#">Issue Tracker</a>
+            </div>
+        </div>
+
+        <div class="item">
+            <i class="lab icon"></i>My Projects
+            <div class="menu">
+                <div class="item">
+                    <div class="ui input sidebar-search"><input type="text" placeholder="Search..."></div>
+                  </div>
+            </div>
+        </div>
+
+
+        <div class="item">
+            <i class="chart basic icon"></i>Analytics
+            <div class="menu">
+                <a class="item" href="#">Burnout Chart</a>
+            </div>
+
+            <div class="menu">
+                <a class="item" href="#">Velocity Chart</a>
+            </div>
+
+            <div class="menu">
+                <a class="item" href="#">My Velocity</a>
+            </div>
+
+            <div class="menu">
+                <a class="item" href="#">Issue Analytics</a>
+            </div>
+        </div>
+
+        <div class="item">
+            <a href="#" class="menu-head">Members</a>
+            <div class="menu">
+                <a class="item" href="#">Add a Member</a>
+            </div>
+
+            <div class="menu">
+                <a class="item" href="#">Edit Members</a>
+            </div>
+        </div>
+    </div>
+    <div class="ui grid">
+        <div class="item sixteen wide column sidebar-bottom-fixed">
+            <div class="ui third my-scrum"><i class="square tasks icon"></i></div>
+            <div class="ui third chat"><i class="square chat icon"></i></div>
+            <div class="ui third settings"><i class="square settings icon"></i></div>
+        </div>
+    </div>
+
+    </div>
+    <div class="ui black huge launch right attached button fixed" id="menu" style="width: 70px;">
+        <i class="icon list layout"></i>
+        <span class="text" style="display: none;">Menu</span>
+    </div>
+
+    <div class="ui page grid">
+
+        <div class="sixteen wide column">
+
+                {{> yield}}
+        </div>
+
+    </div>
+
+
+</template>

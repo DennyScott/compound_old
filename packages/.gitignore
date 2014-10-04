@@ -5,10 +5,11 @@
 /accounts-t9n
 /bootstrap-3
 /roles
+/semantic-ui
+/jquery-ui
 iron-router
 accounts-entry
-bootstrap-3
-roles
+semantic-ui
+jquery-ui
 blaze-layout
-just-i18n
 accounts-t9n

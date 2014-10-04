@@ -1,0 +1,327 @@
+<template name="project">
+    <div class="ui segment">
+        <div class="ui grid header">
+            <div class="left floated eight wide column">
+                <div class="left floated four wide column projectImage">
+                    <img src='/img/product-sample.png'>
+                </div>
+                {{> loginButtons}}  
+                <h2 class="ui header storyHeader">
+                    Story: User can add Stories <span class="editStory"><i class="edit icon"></i></span>
+                    <div class="sub header">What is this feature for?</div>
+                </h2>
+                <div class="goToRoadmap">
+                    <i class="icon rocket"></i>Go to Roadmap
+                </div>
+            </div>
+
+            <div class="right floated navigation eight wide column">
+                <div class="members">
+                    <img class="ui avatar image" src="/img/travis.jpg">
+                    <img class="ui avatar image" src="/img/travis.jpg">
+                    <img class="ui avatar image" src="/img/travis.jpg">
+                    <img class="ui avatar image" src="/img/travis.jpg">
+                    <img class="ui avatar image" src="/img/add-member.png">
+                </div>
+
+                <div class="ui small icon buttons">
+
+                  <div class="ui button">
+                    <i class="archive icon"></i>
+                </div>
+                <div class="ui button">
+                    <i class="lab icon"></i>
+                </div>
+                <div class="ui button">
+                    <i class="setting icon"></i>
+                </div>
+            </div>
+
+            <div class="ui basic small button"><i class="lightning basic icon"></i>Analytics</div>
+            <div class="ui basic small button"><i class="browser icon"></i>Wiki</div>
+        </div>
+    </div>
+
+    <div class="ui horizontal divider">
+        scrum
+    </div>
+    <div class="ui">
+        <div class="scrumboard" id="scrumboard">
+
+            <div class="scrumInner" id="scrumInner">
+
+                <div class="colHead">
+                    <div class = "stage">To Do
+                        <i class = "icon small setting"></i>
+                    </div>
+
+                    <div class="scrumColumn">
+
+                        <div class="portlet task">
+                            <div class="tag ui red-tag"></div>
+                            <div class="tag blue-tag"></div>
+                            <div class="portlet-header">Feeds</div>
+                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                            <img class="circular ui tiny image user-task hidden" src="/img/travis.jpg">
+                        </div>
+
+                        <div class="portlet task">
+                            <div class="tag green-tag"></div>
+                            <div class="portlet-header">News</div>
+                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                        </div>
+
+                        <div class="portlet task">
+                            <div class="tag blue-tag"></div>
+                            <div class="tag green-tag"></div>
+                            <div class="portlet-header">News</div>
+                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div
+                                >
+                                <img class="circular ui tiny image user-task hidden" src="/img/travis.jpg">
+                            </div>
+
+                            <div class="portlet task empty-portlet">
+                                <div class="portlet-header ui input fluid focus"><input type="text" id='new-title'></div>
+                                <div class="portlet-content ui input fluid"><textarea id="new-description"></textarea></div>
+                            </div>
+
+                            <div class="add-card portlet task">
+                                <div class="portlet-content">Add a Card</div>
+                                <i class="add icon"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="colHead">
+                        <div class = "stage">To Do
+                            <i class = "icon small setting"></i>
+                        </div>
+
+                        <div class="scrumColumn">
+
+                            <div class="portlet task">
+                                <div class="tag ui red-tag"></div>
+                                <div class="tag blue-tag"></div>
+                                <div class="portlet-header">Feeds</div>
+                                <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                                <img class="circular ui tiny image user-task hidden" src="/img/travis.jpg">
+                            </div>
+
+                            <div class="portlet task">
+                                <div class="tag green-tag"></div>
+                                <div class="portlet-header">News</div>
+                                <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                            </div>
+
+                            <div class="portlet task">
+                                <div class="tag blue-tag"></div>
+                                <div class="tag green-tag"></div>
+                                <div class="portlet-header">News</div>
+                                <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div
+                                    >
+                                    <img class="circular ui tiny image user-task hidden" src="/img/travis.jpg">
+                                </div>
+
+                                <div class="add-card portlet task">
+                                    <div class="portlet-content">Add a Card</div>
+                                    <i class="add icon"></i>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="colHead">
+                            <div class = "stage">To Do
+                                <i class = "icon small setting"></i>
+                            </div>
+
+                            <div class="scrumColumn">
+
+                                <div class="portlet task">
+                                    <div class="tag ui red-tag"></div>
+                                    <div class="tag blue-tag"></div>
+                                    <div class="portlet-header">Feeds</div>
+                                    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                                    <img class="circular ui tiny image user-task hidden" src="/img/travis.jpg">
+                                </div>
+
+                                <div class="portlet task">
+                                    <div class="tag green-tag"></div>
+                                    <div class="portlet-header">News</div>
+                                    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                                </div>
+
+                                <div class="portlet task">
+                                    <div class="tag blue-tag"></div>
+                                    <div class="tag green-tag"></div>
+                                    <div class="portlet-header">News</div>
+                                    <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div
+                                        >
+                                        <img class="circular ui tiny image user-task hidden" src="/img/travis.jpg">
+                                    </div>
+                                    <div class="add-card portlet task">
+                                        <div class="portlet-content">Add a Card</div>
+                                        <i class="add icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="colHead">
+                                <div class = "stage">In Progress
+                                    <i class = "icon small setting"></i>
+                                </div>
+                                <div class="scrumColumn">
+
+                                    <div class="portlet task">
+                                        <div class="tag blue-tag"></div>
+                                        <div class="tag red-tag"></div>
+                                        <div class="portlet-header">Shopping</div>
+                                        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                                    </div>
+                                    <div class="add-card portlet task">
+                                        <div class="portlet-content">Add a Card</div>
+                                        <i class="add icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="colHead">
+                                <div class = "stage">Testing
+                                    <i class = "icon small setting"></i>
+                                </div>
+                                <div class="scrumColumn">
+
+                                    <div class="portlet task">
+                                        <div class="portlet-header">Links</div>
+                                        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                                        <img class="circular ui tiny image user-task hidden" src="/img/travis.jpg">
+                                    </div>
+
+                                    <div class="portlet task">
+                                        <div class="tag red-tag"></div>
+                                        <div class="portlet-header">Images</div>
+                                        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                                    </div>
+
+                                    <div class="portlet task">
+                                        <div class="portlet-header">Links</div>
+                                        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                                    </div>
+
+                                    <div class="portlet task">
+                                        <div class="tag green-tag"></div>
+                                        <div class="tag red-tag"></div>
+                                        <div class="portlet-header">Images</div>
+                                        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                                        <img class="circular ui tiny image user-task hidden" src="/img/travis.jpg">
+                                    </div>
+
+                                    <div class="portlet task">
+                                        <div class="portlet-header">Links</div>
+                                        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                                    </div>
+
+                                    <div class="portlet task">
+                                        <div class="tag blue-tag"></div>
+                                        <div class="tag green-tag"></div>
+                                        <div class="tag red-tag"></div>
+                                        <div class="portlet-header">Images</div>
+                                        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                                        <img class="circular ui tiny image user-task hidden" src="/img/travis.jpg">
+                                    </div>
+
+                                    <div class="portlet task">
+                                        <div class="tag red-tag"></div>
+                                        <div class="portlet-header">Links</div>
+                                        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                                    </div>
+
+                                    <div class="portlet task">
+                                        <div class="portlet-header">Images</div>
+                                        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                                    </div>
+                                    <div class="add-card portlet task">
+                                        <div class="portlet-content">Add a Card</div>
+                                        <i class="add icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="colHead">
+                                <div class = "stage">Done
+                                    <i class = "icon small setting"></i>
+                                </div>
+                                <div class="scrumColumn">
+                                    <div class="portlet task">
+                                        <div class="tag green-tag"></div>
+                                        <div class="portlet-header">Images</div>
+                                        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                                    </div>
+                                    <div class="portlet task">
+                                        <div class="portlet-header">Links</div>
+                                        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                                        <img class="circular ui tiny image user-task hidden" src="/img/travis.jpg">
+                                    </div>
+
+                                    <div class="portlet task">
+                                        <div class="tag red-tag"></div>
+                                        <div class="tag blue-tag"></div>
+                                        <div class="portlet-header">Images</div>
+                                        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                                        <img class="circular ui tiny image user-task hidden" src="/img/travis.jpg">
+                                    </div>
+
+                                    <div class="portlet task">
+                                        <div class="portlet-header">Links</div>
+                                        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                                    </div>
+
+                                    <div class="portlet task">
+                                        <div class="tag blue-tag"></div>
+                                        <div class="tag green-tag"></div>
+                                        <div class="portlet-header">Images</div>
+                                        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                                        <img class="circular ui tiny image user-task hidden" src="/img/travis.jpg">
+                                    </div>
+
+                                    <div class="portlet task">
+                                        <div class="tag red-tag"></div>
+                                        <div class="tag green-tag"></div>
+                                        <div class="portlet-header">Links</div>
+                                        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                                        <img class="circular ui tiny image user-task hidden" src="/img/travis.jpg">
+                                    </div>
+
+                                    <div class="portlet task">
+                                        <div class="portlet-header">Images</div>
+                                        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+                                    </div>
+
+                                    <div class="add-card portlet task">
+                                        <div class="portlet-content">Add a Card</div>
+                                        <i class="add icon"></i>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="colHead">
+                                    <div class="add-stage portlet task" id='stage-btn'>
+                                        <div class="portlet-content">Add a Stage</div>
+                                        <i class="add icon"></i>
+                                    </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui modal task">
+                {{>task}}
+            </div>
+
+        </template>
