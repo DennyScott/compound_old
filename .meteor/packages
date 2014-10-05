@@ -13,4 +13,6 @@ iron:router
 iron:layout
 splendido:accounts-templates-semantic-ui
 nooitaf:semantic-ui
+sanjo:jasmine
+velocity:html-reporter
 
