@@ -2,6 +2,8 @@ accounts-base@1.1.1
 accounts-password@1.0.2
 accounts-ui-unstyled@1.1.2
 accounts-ui@1.1.1
+alanning:package-stubber@0.0.9
+amplify@1.0.0
 application-configuration@1.0.2
 autopublish@1.0.0
 autoupdate@1.1.1
@@ -54,6 +56,7 @@ reactive-var@1.0.2
 reload@1.1.0
 retry@1.0.0
 routepolicy@1.0.1
+sanjo:jasmine@0.4.7
 service-configuration@1.0.1
 session@1.0.2
 sha@1.0.0
@@ -69,5 +72,7 @@ tracker@1.0.2
 ui@1.0.3
 underscore@1.0.0
 url@1.0.0
+velocity:core@0.2.14
+velocity:html-reporter@0.2.3
 webapp-hashing@1.0.0
 webapp@1.1.2
