@@ -13,6 +13,10 @@ Schemas.Tasks = new SimpleSchema({
 		label: 'Description',
 		max: 300
 	},
+	projectID: {
+		type: String,
+		label: 'Project ID'
+	},
 	storyID: {
 		type: String,
 		label: 'Story ID'
@@ -64,13 +68,27 @@ Meteor.methods({
 		}
 
 		//filling in other keys
-		var task = _.extend(_.pick(taskAttributes, 'title', 'description', 'storyID'), {
+		var task = _.extend(_.pick(taskAttributes, 'title', 'description', 'storyID', 'projectID'), {
 			authorID: user._id,
 			submitted: new Date(),
 			lastUpdated: new Date(),
 			updateAuthorID: user._id,
 			state: '', // String title of stage
 			position: '', // int number position
+		});
+
+		//Updates the Project to have 1 more task
+		Projects.update(task.projectID, {
+			$inc: {
+				taskCount: 1
+			}
+		});
+
+		//Updates the Story to have 1 more task
+		Stories.update(task.storyID, {
+			$inc: {
+				taskCount: 1
+			}
 		});
 
 		//Inserts new project into collection
@@ -112,6 +130,19 @@ Meteor.methods({
 		var task = Tasks.findOne(taskAttributes._id);
 
 		if(task.authorID === user._id) {
+			//Updates the Project to have 1 more task
+			Projects.update(task.projectID, {
+				$inc: {
+					taskCount: -1
+				}
+			});
+
+			//Updates the Story to have 1 more task
+			Stories.update(task.storyID, {
+				$inc: {
+					taskCount: -1
+				}
+			});
 			Tasks.remove(taskAttributes._id);
 		}
 	}

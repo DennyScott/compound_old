@@ -73,6 +73,13 @@ Meteor.methods({
 			taskCount: 0
 		});
 
+		//Updates Projects to have one more story counted
+		Projects.update(story.projectID, {
+			$inc: {
+				storyCount: 1
+			}
+		});
+
 		//Inserts new project into collection
 		var storyID = Stories.insert(story);
 
@@ -110,6 +117,12 @@ Meteor.methods({
 		var user = Meteor.user();
 		var found = Stories.findOne(id);
 		if (found.authorID === user._id) {
+			//Updates Projects to have one more story counted
+			Projects.update(story.projectID, {
+				$inc: {
+					storyCount: -1
+				}
+			});
 			Stories.remove(id);
 		} else {
 			throw new Meteor.Error(405, "You need to own this project to delete it");
