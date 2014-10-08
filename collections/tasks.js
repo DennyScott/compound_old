@@ -89,7 +89,7 @@ Meteor.methods({
 		}
 
 		//filling in other keys
-		var task = _.extend(_.pick(taskAttributes, 'title', 'description'), {
+		var task = _.extend(_.pick(taskAttributes, 'title', 'description', 'state', 'position'), {
 			lastUpdated: new Date(),
 			updateAuthorID: user._id
 		});
@@ -100,7 +100,7 @@ Meteor.methods({
 		//returns the ID of the new project
 		return taskID;
 	},
-	
+
 	removeTask: function(taskAttributes) {
 		var user = Meteor.user();
 

@@ -87,7 +87,7 @@ Meteor.methods({
 			updateAuthorID: user._id,
 		});
 
-		Projects.update(proj);
+		Projects.update(projectAttributes._id, proj);
 	},
 
 	//---------------------------------END OF PROJECT UPDATE METHODS-----------------------------------------//
