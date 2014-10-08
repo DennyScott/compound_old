@@ -33,6 +33,11 @@ Schemas.Projects = new SimpleSchema({
 		type: [String],
 		label: 'States',
 		optional: true
+	},
+	storyCount: {
+		type: Number,
+		label: 'Story Count',
+		min: 0
 	}
 });
 
@@ -60,6 +65,8 @@ Meteor.methods({
 			submitted: new Date(),
 			lastUpdated: new Date(),
 			updateAuthorID: user._id,
+			storyCount: 0,
+			taskCount: 0
 		});
 
 		//Inserts new project into collection
