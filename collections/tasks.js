@@ -1,5 +1,9 @@
 Tasks = new Mongo.Collection('tasks');
 
+Tasks.allow ({
+	remove: ownsDocument
+})
+
 var Schemas = {};
 
 Schemas.Tasks = new SimpleSchema({
@@ -75,6 +79,27 @@ Meteor.methods({
 
 		//Inserts new project into collection
 		var taskID = Tasks.insert(task);
+
+		//returns the ID of the new project
+		return taskID;
+	},
+
+	editTask: function(taskAttributes) {
+		var user = Meteor.user();
+
+		//Ensures that the user is logged in
+		if (!user){
+			throw new Meteor.Error(401, "You need to log in to edit tasks");
+		}
+
+		//filling in other keys
+		var task = _.extend(_.pick(taskAttributes, 'title', 'description'), {
+			lastUpdated: new Date(),
+			updateAuthorID: user._id
+		});
+
+		//Inserts new project into collection
+		var taskID = Tasks.update(taskAttributes._id, task);
 
 		//returns the ID of the new project
 		return taskID;
