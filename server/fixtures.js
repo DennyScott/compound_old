@@ -1,4 +1,3 @@
-console.log(Tasks);
 if (Tasks) {
 	if (Tasks.find()) {
 		if (Tasks.find({}).count() === 0) {

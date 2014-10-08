@@ -1,4 +1,42 @@
-Projects = new Meteor.Collection('projects');
+Projects = new Mongo.Collection('projects');
+
+var Schemas = {};
+
+Schemas.Projects = new SimpleSchema({
+	title: {
+		type: String,
+		label: 'Title',
+		max: 100
+	},
+	description: {
+		type: String,
+		label: 'Description',
+		max: 300
+	},
+	authorID: {
+		type: String,
+		label: 'Author ID'
+	},
+	submitted: {
+		type: Date,
+		label: 'Submitted'
+	},
+	lastUpdated: {
+		type: Date,
+		label: 'Last Updated'
+	},
+	updateAuthorID: {
+		type: String,
+		label: 'Last Updated By Author ID'
+	},
+	states: {
+		type: [String],
+		label: 'States',
+		optional: true
+	}
+});
+
+Projects.attachSchema(Schemas.Projects);
 
 Meteor.methods({
 
@@ -36,39 +74,6 @@ Meteor.methods({
 	},
 
 	//-----------------------------------PROJECT UPDATE METHODS----------------------------------------------//
-	
-	/**
-	 * Updates the Description of a Project
-	 * @param  {[String]} id          [The ID of the Project to update]
-	 * @param  {[String]} description [The new description of that Project]
-	 * @return {[void]}             [No Return]
-	 */
-	updateProjectDescription: function(id, description){
-		Projects.update(id, {$set: {'description': description}});
-		Meteor.call('updateProject', id);
-	},
-
-	/**
-	 * Update the update vitols of a project
-	 * @param  {[String]} id [The ID of the Project]
-	 * @return {[void]}    [No Return]
-	 */
-	updateProject: function(id) {
-		var user = Meteor.user();
-		var now = new Date().getTime;
-		Projects.update(id, {$set: {'lastUpdated': now,  'updateAuthorID': user._id}});
-	},
-
-	/**
-	 * Update the Title of a Project
-	 * @param  {String} id    The ID of the Project
-	 * @param  {String} title The New title of the Project
-	 * @return {void}       No Return
-	 */
-	updateProjectTitle: function(id, title) {
-		Projects.update(id, {$set: {'title': title}});
-		Meteor.call('updateProject', id);
-	},
 
 	/**
 	 * Update the Author ownership of the Project
