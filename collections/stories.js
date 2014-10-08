@@ -92,11 +92,11 @@ Meteor.methods({
 		}
 
 		//filling in other keys
-		var story = _.extend(_.pick(storyAttributes, 'title', 'description', 'projectID', 'position', '_id'), {
+		var story = _.extend(_.pick(storyAttributes, 'title', 'description', 'projectID', 'position'), {
 			lastUpdated: new Date(),
 			updateAuthorID: user._id,
 		});
-		var returnStuff = Stories.update(story);
+		var returnStuff = Stories.update(storyAttributes, story);
 
 		return returnStuff;
 	},
