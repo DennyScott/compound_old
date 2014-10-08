@@ -1,4 +1,4 @@
-Tasks = new Meteor.Collection('tasks');
+Tasks = new Mongo.Collection('tasks');
 
 var Schemas = {};
 
@@ -17,7 +17,7 @@ Schemas.Tasks = new SimpleSchema({
 		type: String,
 		label: 'Story ID'
 	},
-	autherID: {
+	authorID: {
 		type: String,
 		label: 'Author ID'
 	},
@@ -29,24 +29,25 @@ Schemas.Tasks = new SimpleSchema({
 		type: Date,
 		label: 'Last Updated'
 	},
-	updatedAuthorID: {
+	updateAuthorID: {
 		type: String,
 		label: 'Last Updated By Author ID'
 	},
 	state: {
 		type: String,
-		label: 'State'
+		label: 'State',
 		optional: true
 	},
 	position: {
 		type: Number,
-		label: 'Position'
+		label: 'Position',
 		optional: true
 	}
 });
 
 Tasks.attachSchema(Schemas.Tasks);
 
+//Methods for client to interact with DB
 Meteor.methods({
 
 	 addTask: function(taskAttributes){
@@ -65,8 +66,8 @@ Meteor.methods({
 		//filling in other keys
 		var task = _.extend(_.pick(taskAttributes, 'title', 'description', 'storyID'), {
 			authorID: user._id,
-			submitted: new Date().getTime(),
-			lastUpdated: new Date().getTime(),
+			submitted: new Date(),
+			lastUpdated: new Date(),
 			updateAuthorID: user._id,
 			state: '', 				// String title of stage
 			position: '', 			// int number position
