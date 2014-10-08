@@ -1,4 +1,52 @@
-Stories = new Meteor.Collection('stories');
+Stories = new Mongo.Collection('stories');
+
+var Schemas = {};
+
+Schemas.Stories = new SimpleSchema({
+	title: {
+		type: String,
+		label: 'Title',
+		max: 100
+	},
+	description: {
+		type: String,
+		label: 'Description',
+		max: 300
+	},
+	authorID: {
+		type: String,
+		label: 'Author ID'
+	},
+	submitted: {
+		type: Date,
+		label: 'Submitted'
+	},
+	lastUpdated: {
+		type: Date,
+		label: 'Last Updated'
+	},
+	updateAuthorID: {
+		type: String,
+		label: 'Last Updated By Author ID'
+	},
+	projectID: {
+		type: String,
+		label: 'Project ID'
+	},
+	position: {
+		type: Number,
+		label: 'Position',
+		optional: true
+	},
+	taskCount: {
+		type: Number,
+		label: 'Task Count',
+		min: 0
+	}
+});
+
+Stories.attachSchema(Schemas.Stories);
+
 
 Meteor.methods({
 
