@@ -40,6 +40,8 @@
     <div class="ui horizontal divider">
         scrum
     </div>
+
+
     <div class="ui">
         <div class="scrumboard" id="scrumboard">
             <div class="scrumInner" id="scrumInner">
@@ -48,6 +50,9 @@
                         <i class = "icon small setting"></i>
                     </div>
                     <div class="scrumColumn">
+                        {{#each stories}}
+                            {{> story}}
+                        {{/each}}
                         <div class="portlet task">
                             <div class="tag ui red-tag"></div>
                             <div class="tag blue-tag"></div>

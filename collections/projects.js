@@ -38,6 +38,16 @@ Schemas.Projects = new SimpleSchema({
 		type: Number,
 		label: 'Story Count',
 		min: 0
+	},
+	taskCount: {
+		type: Number,
+		label: 'Task Count',
+		min: 0
+	},
+	sprintCount: {
+		type: Number,
+		label: 'Sprint Count',
+		min: 0
 	}
 });
 
