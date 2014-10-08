@@ -57,6 +57,12 @@ Template.project.rendered = function(){
      }
    },
 
+	 'click .make-full-screen' : function(e){
+		 $('body').addClass('bodyWhite');
+		 $('.ui.page.grid').hide();
+		 $('#fullScreen-scrumboard').show();
+	 },
+
    'mousemove .scrumboard': function(e) {
     if(down){
       var newX=e.pageX;
