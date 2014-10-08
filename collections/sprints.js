@@ -58,14 +58,14 @@ Meteor.methods({
 			updateAuthorID: user._id
 		});
 
-		//Inserts new project into collection
+		//Inserts new sprint into collection
 		var sprintID = Sprints.insert(sprint);
 
-		//returns the ID of the new project
+		//returns the ID of the new sprint
 		return sprintID;
 	},
 
-	//-----------------------------------STORY UPDATE METHODS----------------------------------------------//
+	//-----------------------------------SPRINT UPDATE METHODS----------------------------------------------//
 
 
 	updateSprint: function(sprintAttributes) {
@@ -86,9 +86,9 @@ Meteor.methods({
 		return returnStuff;
 	},
 
-	//---------------------------------END OF STORY UPDATE METHODS-----------------------------------------//
+	//---------------------------------END OF SPRINT UPDATE METHODS-----------------------------------------//
 
-	//-----------------------------------STORY REMOVE METHODS----------------------------------------------//
+	//-----------------------------------SPRINT REMOVE METHODS----------------------------------------------//
 
 
 	removeSprint: function(id) {
