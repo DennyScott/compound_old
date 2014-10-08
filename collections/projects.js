@@ -54,15 +54,11 @@ Meteor.methods({
 			throw new Meteor.Error(401, "You need to log in to create new projects");
 		}
 
-		if(!projectAttributes.title){
-			throw new Meteor.Error(422, 'Error 422: Project must have a title');
-		}
-
 		//filling in other keys
 		var proj = _.extend(_.pick(projectAttributes, 'title', 'description'), {
 			authorID: user._id,
-			submitted: new Date().getTime(),
-			lastUpdated: new Date().getTime(),
+			submitted: new Date(),
+			lastUpdated: new Date(),
 			updateAuthorID: user._id,
 		});
 
@@ -75,15 +71,23 @@ Meteor.methods({
 
 	//-----------------------------------PROJECT UPDATE METHODS----------------------------------------------//
 
-	/**
-	 * Update the Author ownership of the Project
-	 * @param  {String} id     The ID of the project
-	 * @param  {String} author The ID of the author
-	 * @return {void}        No Return
-	 */
-	updateProjectAuthor: function(id, author) {
-		Projects.update(id, {$set: {'authorID': author}});
-		Meteor.call('updateProject', id);
+
+	updateProject: function(projectAttributes) {
+				
+		var user = Meteor.user();
+
+		//Ensures that the user is logged in
+		if (!user){
+			throw new Meteor.Error(401, "You need to log in to edit projects");
+		}
+
+		//filling in other keys
+		var proj = _.extend(_.pick(projectAttributes, 'title', 'description'), {
+			lastUpdated: new Date(),
+			updateAuthorID: user._id,
+		});
+
+		Projects.update(proj);
 	},
 
 	//---------------------------------END OF PROJECT UPDATE METHODS-----------------------------------------//
