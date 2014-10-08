@@ -1,4 +1,42 @@
-Projects = new Meteor.Collection('projects');
+Projects = new Mongo.Collection('projects');
+
+var Schemas = {};
+
+Schemas.Projects = new SimpleSchema({
+	title: {
+		type: String,
+		label: 'Title',
+		max: 100
+	},
+	description: {
+		type: String,
+		label: 'Description',
+		max: 300
+	},
+	authorID: {
+		type: String,
+		label: 'Author ID'
+	},
+	submitted: {
+		type: Date,
+		label: 'Submitted'
+	},
+	lastUpdated: {
+		type: Date,
+		label: 'Last Updated'
+	},
+	updateAuthorID: {
+		type: String,
+		label: 'Last Updated By Author ID'
+	},
+	states: {
+		type: [String],
+		label: 'States',
+		optional: true
+	}
+});
+
+Projects.attachSchema(Schemas.Projects);
 
 Meteor.methods({
 
@@ -16,15 +54,11 @@ Meteor.methods({
 			throw new Meteor.Error(401, "You need to log in to create new projects");
 		}
 
-		if(!projectAttributes.title){
-			throw new Meteor.Error(422, 'Error 422: Project must have a title');
-		}
-
 		//filling in other keys
 		var proj = _.extend(_.pick(projectAttributes, 'title', 'description'), {
 			authorID: user._id,
-			submitted: new Date().getTime(),
-			lastUpdated: new Date().getTime(),
+			submitted: new Date(),
+			lastUpdated: new Date(),
 			updateAuthorID: user._id,
 		});
 
@@ -36,49 +70,24 @@ Meteor.methods({
 	},
 
 	//-----------------------------------PROJECT UPDATE METHODS----------------------------------------------//
-	
-	/**
-	 * Updates the Description of a Project
-	 * @param  {[String]} id          [The ID of the Project to update]
-	 * @param  {[String]} description [The new description of that Project]
-	 * @return {[void]}             [No Return]
-	 */
-	updateProjectDescription: function(id, description){
-		Projects.update(id, {$set: {'description': description}});
-		Meteor.call('updateProject', id);
-	},
 
-	/**
-	 * Update the update vitols of a project
-	 * @param  {[String]} id [The ID of the Project]
-	 * @return {[void]}    [No Return]
-	 */
-	updateProject: function(id) {
+
+	updateProject: function(projectAttributes) {
+				
 		var user = Meteor.user();
-		var now = new Date().getTime;
-		Projects.update(id, {$set: {'lastUpdated': now,  'updateAuthorID': user._id}});
-	},
 
-	/**
-	 * Update the Title of a Project
-	 * @param  {String} id    The ID of the Project
-	 * @param  {String} title The New title of the Project
-	 * @return {void}       No Return
-	 */
-	updateProjectTitle: function(id, title) {
-		Projects.update(id, {$set: {'title': title}});
-		Meteor.call('updateProject', id);
-	},
+		//Ensures that the user is logged in
+		if (!user){
+			throw new Meteor.Error(401, "You need to log in to edit projects");
+		}
 
-	/**
-	 * Update the Author ownership of the Project
-	 * @param  {String} id     The ID of the project
-	 * @param  {String} author The ID of the author
-	 * @return {void}        No Return
-	 */
-	updateProjectAuthor: function(id, author) {
-		Projects.update(id, {$set: {'authorID': author}});
-		Meteor.call('updateProject', id);
+		//filling in other keys
+		var proj = _.extend(_.pick(projectAttributes, 'title', 'description'), {
+			lastUpdated: new Date(),
+			updateAuthorID: user._id,
+		});
+
+		Projects.update(projectAttributes._id, proj);
 	},
 
 	//---------------------------------END OF PROJECT UPDATE METHODS-----------------------------------------//
