@@ -4,8 +4,6 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-autopublish
-insecure
 accounts-ui
 accounts-password
 mrt:jquery-ui@1.9.2
@@ -15,4 +13,4 @@ splendido:accounts-templates-semantic-ui
 nooitaf:semantic-ui
 sanjo:jasmine
 velocity:html-reporter
-
+aldeed:collection2

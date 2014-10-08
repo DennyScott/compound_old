@@ -1,5 +1,52 @@
 Tasks = new Meteor.Collection('tasks');
 
+var Schemas = {};
+
+Schemas.Tasks = new SimpleSchema({
+	title: {
+		type: String,
+		label: 'Title',
+		max: 100
+	},
+	description: {
+		type: String,
+		label: 'Description',
+		max: 300
+	},
+	storyID: {
+		type: String,
+		label: 'Story ID'
+	},
+	autherID: {
+		type: String,
+		label: 'Author ID'
+	},
+	submitted: {
+		type: Date,
+		label: 'Submitted'
+	},
+	lastUpdated: {
+		type: Date,
+		label: 'Last Updated'
+	},
+	updatedAuthorID: {
+		type: String,
+		label: 'Last Updated By Author ID'
+	},
+	state: {
+		type: String,
+		label: 'State'
+		optional: true
+	},
+	position: {
+		type: Number,
+		label: 'Position'
+		optional: true
+	}
+});
+
+Tasks.attachSchema(Schemas.Tasks);
+
 Meteor.methods({
 
 	 addTask: function(taskAttributes){
@@ -21,9 +68,8 @@ Meteor.methods({
 			submitted: new Date().getTime(),
 			lastUpdated: new Date().getTime(),
 			updateAuthorID: user._id,
-			stage: '', 				// String title of stage
+			state: '', 				// String title of stage
 			position: '', 			// int number position
-			scheduledDate: null 	// Date Object
 		});
 
 		//Inserts new project into collection
