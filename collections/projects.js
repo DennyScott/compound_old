@@ -34,6 +34,11 @@ Schemas.Projects = new SimpleSchema({
 		label: 'States',
 		optional: true
 	},
+	currentSprintID: {
+		type: String,
+		label: 'Current Sprint ID',
+		optional: true
+	},
 	storyCount: {
 		type: Number,
 		label: 'Story Count',
@@ -60,12 +65,12 @@ Meteor.methods({
 	 * @param  {[Object]} projectAttributes [A object containing a title and description]
 	 * @return {[String]}                   [ID of the new Project]
 	 */
-	 project: function(projectAttributes){
+	project: function(projectAttributes) {
 
 		var user = Meteor.user();
 
 		//Ensures that the user is logged in
-		if (!user){
+		if (!user) {
 			throw new Meteor.Error(401, "You need to log in to create new projects");
 		}
 
@@ -90,11 +95,11 @@ Meteor.methods({
 
 
 	updateProject: function(projectAttributes) {
-				
+
 		var user = Meteor.user();
 
 		//Ensures that the user is logged in
-		if (!user){
+		if (!user) {
 			throw new Meteor.Error(401, "You need to log in to edit projects");
 		}
 
@@ -110,7 +115,7 @@ Meteor.methods({
 	//---------------------------------END OF PROJECT UPDATE METHODS-----------------------------------------//
 
 	//-----------------------------------PROJECT REMOVE METHODS----------------------------------------------//
-	
+
 	/**
 	 * Removes a project for the projects collection
 	 * @param  {String} id The ID of the project
@@ -119,7 +124,7 @@ Meteor.methods({
 	removeProject: function(id) {
 		var user = Meteor.user();
 		var found = Projects.findOne(id);
-		if(found.authorID === user._id){
+		if (found.authorID === user._id) {
 			Projects.remove(id);
 		} else {
 			throw new Meteor.Error(405, "You need to own this project to delete it");
@@ -127,4 +132,3 @@ Meteor.methods({
 	}
 	//---------------------------------END OF PROJECT REMOVE METHODS-----------------------------------------//
 });
-

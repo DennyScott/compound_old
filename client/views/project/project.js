@@ -3,6 +3,7 @@ var newPort = null; //Used to keep track of the new Portlet Created on add card
 var initRun = false; //This is used for when a new card is made so that if a user was to
 //Click anywhere else, the card will unfocus
 var isDescriptionFocus = false; //Boolean that keeps track if the tab hit is going into a new description
+var project;
 Template.project.rendered = function() {
 
     $("#scrumInner").sortable();
@@ -43,8 +44,34 @@ Template.project.rendered = function() {
 };
 
 Template.project.helpers({
-    stories: function() {
-        
+    currentSprint: function () {
+        project = Projects.findOne(); //This needs to be found later when a user will be connected to a project
+        if(project){
+            return Sprints.findOne(project.currentSprintID);
+        } else {
+            return [];
+        }
+    },
+
+    stories: function () {
+        if(project){
+            return Stories.find({sprintID: project.currentSprintID});
+        } else {
+            return [];
+        }
+    },
+
+    stateTasks: function () {
+        console.log(this === 'To Do');
+        return Tasks.find({state: this.state})
+    },
+
+    states: function () {
+        var states = [];
+        for(var i = 0; i < project.states.length; i++) {
+            states[i] = {state: project.states[i]};
+        }
+        return states;
     }
 });
 
