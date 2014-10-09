@@ -18,6 +18,20 @@ Schemas.Sprints = new SimpleSchema({
 		type: String,
 		label: 'Author ID'
 	},
+	projectID: {
+		type: String,
+		label: 'Project ID'
+	},
+	storyCount: {
+		type: Number,
+		label: 'Story Count',
+		min: 0
+	},
+	taskCount: {
+		type: Number,
+		label: 'Task Count',
+		min: 0
+	},
 	submitted: {
 		type: Date,
 		label: 'Submitted'
@@ -55,7 +69,16 @@ Meteor.methods({
 			authorID: user._id,
 			submitted: new Date(),
 			lastUpdated: new Date(),
-			updateAuthorID: user._id
+			updateAuthorID: user._id,
+			taskCount: 0,
+			storyCount: 0
+		});
+
+		//Updates Projects to have one more story counted
+		Projects.update(story.projectID, {
+			$inc: {
+				sprintCount: 1
+			}
 		});
 
 		//Inserts new sprint into collection
