@@ -10,7 +10,8 @@ if (Projects) {
 				updateAuthorID: '1234',
 				states: ['To Do', 'Doing', 'Done'],
 				storyCount: 0,
-				taskCount: 0
+				taskCount: 0,
+				sprintCount: 0
 			};
 
 			var pID = Projects.insert(project);

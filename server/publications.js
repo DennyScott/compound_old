@@ -9,3 +9,7 @@ Meteor.publish('projects', function() {
 Meteor.publish('stories', function() {
 	return Stories.find({});
 });
+
+Meteor.publish('sprints', function() {
+	return Sprints.find({});
+});
