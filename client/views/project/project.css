@@ -74,7 +74,6 @@
   .scrumColumn {
     width: 215px;
     float: left;
-    padding-bottom: 50px;
   }
   .scrumColumn > .portlet.task, .colHead > .portlet.task{
 

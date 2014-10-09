@@ -6,8 +6,8 @@ var isDescriptionFocus = false; //Boolean that keeps track if the tab hit is goi
 
 
 Template.scrumboard.rendered = function() {
-	$('#scrumInner').sortable();
-	$('#scrumInner').disableSelection();
+	$('.scrumInner').sortable();
+	$('.scrumInner').disableSelection();
 
 	$(".scrumColumn").sortable({
 		connectWith: '.scrumColumn',
@@ -62,17 +62,24 @@ Template.scrumboard.helpers({
 
 var down = false;
 var x, y, top, left;
+var dragItem;
 
 Template.scrumboard.events({
 	'mousedown .scrumboard': function(e) {
-		console.log(e);
-		console.log($(event.currentTarget));
-		if ($(event.target)[0].id === 'scrumboard') {
-		console.log('in mousedown');	
+		var currentTarget = $(event.target)[0].id;
+		if(currentTarget === 'scrumboard'){
+			dragItem = $($(event.target)[0]);
+		}
+
+		if(currentTarget === 'colHead'){
+			dragItem = $($(event.target)[0]).parent().parent();
+		}
+
+		if (currentTarget === 'scrumboard' || currentTarget === 'colHead') {
 			e.preventDefault();
 			down = true;
 			x = e.pageX;
-			left = $('#scrumboard').scrollLeft();
+			left =dragItem.scrollLeft();
 
 		}
 	},
@@ -81,13 +88,14 @@ Template.scrumboard.events({
 		if (down) {
 			var newX = e.pageX;
 
-			$("#scrumboard").scrollLeft(left - newX + x);
+			dragItem.scrollLeft(left - newX + x);
 		}
 	},
 
 	'mouseup .scrumboard': function(event) {
 		down = false;
 	},
+	
 	'click .task': function(event) {
 		var target = $(event.currentTarget);
 		if (target.hasClass('add-card')) {
