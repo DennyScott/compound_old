@@ -7152,7 +7152,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "eff63924d897f2d8a113b394bc04c651174580f7"
+                  "value": "055a4ba20ca3ea090aa0be10a5226385b1c42e0f"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7384,7 +7384,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/underscore.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/underscore.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7401,7 +7401,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/underscore.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/underscore.js.map"
                 }
               }
             },
@@ -7410,7 +7410,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/meteor.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/meteor.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7427,7 +7427,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/meteor.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/meteor.js.map"
                 }
               }
             },
@@ -7436,7 +7436,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/standard-app-packages.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/standard-app-packages.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7453,7 +7453,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/standard-app-packages.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/standard-app-packages.js.map"
                 }
               }
             },
@@ -7462,7 +7462,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/tracker.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/tracker.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7479,7 +7479,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/tracker.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/tracker.js.map"
                 }
               }
             },
@@ -7488,7 +7488,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/random.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/random.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7505,7 +7505,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/random.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/random.js.map"
                 }
               }
             },
@@ -7514,7 +7514,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/localstorage.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/localstorage.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7531,7 +7531,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/localstorage.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/localstorage.js.map"
                 }
               }
             },
@@ -7540,7 +7540,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/json.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/json.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7557,7 +7557,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/json.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/json.js.map"
                 }
               }
             },
@@ -7566,7 +7566,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/base64.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/base64.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7583,7 +7583,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/base64.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/base64.js.map"
                 }
               }
             },
@@ -7592,7 +7592,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/ejson.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/ejson.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7609,7 +7609,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/ejson.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/ejson.js.map"
                 }
               }
             },
@@ -7618,7 +7618,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/check.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/check.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7635,7 +7635,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/check.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/check.js.map"
                 }
               }
             },
@@ -7644,7 +7644,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/logging.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/logging.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7661,7 +7661,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/logging.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/logging.js.map"
                 }
               }
             },
@@ -7670,7 +7670,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/retry.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/retry.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7687,7 +7687,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/retry.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/retry.js.map"
                 }
               }
             },
@@ -7696,7 +7696,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/reload.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/reload.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7713,7 +7713,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/reload.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/reload.js.map"
                 }
               }
             },
@@ -7722,7 +7722,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/id-map.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/id-map.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7739,7 +7739,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/id-map.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/id-map.js.map"
                 }
               }
             },
@@ -7748,7 +7748,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/ordered-dict.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/ordered-dict.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7765,7 +7765,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/ordered-dict.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/ordered-dict.js.map"
                 }
               }
             },
@@ -7774,7 +7774,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/geojson-utils.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/geojson-utils.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7791,7 +7791,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/geojson-utils.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/geojson-utils.js.map"
                 }
               }
             },
@@ -7800,7 +7800,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/minimongo.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/minimongo.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7817,7 +7817,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/minimongo.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/minimongo.js.map"
                 }
               }
             },
@@ -7826,7 +7826,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/ddp.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/ddp.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7843,7 +7843,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/ddp.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/ddp.js.map"
                 }
               }
             },
@@ -7852,7 +7852,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/follower-livedata.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/follower-livedata.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7869,7 +7869,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/follower-livedata.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/follower-livedata.js.map"
                 }
               }
             },
@@ -7878,7 +7878,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/application-configuration.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/application-configuration.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7895,7 +7895,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/application-configuration.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/application-configuration.js.map"
                 }
               }
             },
@@ -7904,7 +7904,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/mongo.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/mongo.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7921,7 +7921,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/mongo.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/mongo.js.map"
                 }
               }
             },
@@ -7930,7 +7930,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/jquery.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/jquery.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7947,7 +7947,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/jquery.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/jquery.js.map"
                 }
               }
             },
@@ -7956,7 +7956,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/deps.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/deps.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7973,7 +7973,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/deps.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/deps.js.map"
                 }
               }
             },
@@ -7982,7 +7982,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/htmljs.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/htmljs.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -7999,7 +7999,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/htmljs.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/htmljs.js.map"
                 }
               }
             },
@@ -8008,7 +8008,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/observe-sequence.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/observe-sequence.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8025,7 +8025,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/observe-sequence.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/observe-sequence.js.map"
                 }
               }
             },
@@ -8034,7 +8034,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/reactive-var.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/reactive-var.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8051,7 +8051,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/reactive-var.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/reactive-var.js.map"
                 }
               }
             },
@@ -8060,7 +8060,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/blaze.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/blaze.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8077,7 +8077,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/blaze.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/blaze.js.map"
                 }
               }
             },
@@ -8086,7 +8086,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/accounts-base.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/accounts-base.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8103,7 +8103,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/accounts-base.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/accounts-base.js.map"
                 }
               }
             },
@@ -8112,7 +8112,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/service-configuration.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/service-configuration.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8129,7 +8129,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/service-configuration.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/service-configuration.js.map"
                 }
               }
             },
@@ -8138,7 +8138,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/templating.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/templating.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8155,7 +8155,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/templating.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/templating.js.map"
                 }
               }
             },
@@ -8164,7 +8164,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/reactive-dict.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/reactive-dict.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8181,7 +8181,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/reactive-dict.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/reactive-dict.js.map"
                 }
               }
             },
@@ -8190,7 +8190,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/session.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/session.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8207,7 +8207,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/session.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/session.js.map"
                 }
               }
             },
@@ -8216,7 +8216,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/sha.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/sha.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8233,7 +8233,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/sha.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/sha.js.map"
                 }
               }
             },
@@ -8242,7 +8242,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/srp.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/srp.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8259,7 +8259,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/srp.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/srp.js.map"
                 }
               }
             },
@@ -8268,7 +8268,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/accounts-password.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/accounts-password.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8285,7 +8285,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/accounts-password.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/accounts-password.js.map"
                 }
               }
             },
@@ -8294,7 +8294,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/accounts-ui-unstyled.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/accounts-ui-unstyled.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8311,7 +8311,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/accounts-ui-unstyled.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/accounts-ui-unstyled.js.map"
                 }
               }
             },
@@ -8320,7 +8320,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/less.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/less.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8337,7 +8337,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/less.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/less.js.map"
                 }
               }
             },
@@ -8346,7 +8346,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/accounts-ui.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/accounts-ui.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8363,7 +8363,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/accounts-ui.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/accounts-ui.js.map"
                 }
               }
             },
@@ -8372,7 +8372,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/mrt_jquery-ui.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/mrt_jquery-ui.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8389,7 +8389,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/mrt_jquery-ui.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/mrt_jquery-ui.js.map"
                 }
               }
             },
@@ -8398,7 +8398,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/iron_core.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/iron_core.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8415,7 +8415,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/iron_core.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/iron_core.js.map"
                 }
               }
             },
@@ -8424,7 +8424,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/ui.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/ui.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8441,7 +8441,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/ui.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/ui.js.map"
                 }
               }
             },
@@ -8450,7 +8450,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/iron_dynamic-template.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/iron_dynamic-template.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8467,7 +8467,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/iron_dynamic-template.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/iron_dynamic-template.js.map"
                 }
               }
             },
@@ -8476,7 +8476,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/iron_layout.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/iron_layout.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8493,7 +8493,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/iron_layout.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/iron_layout.js.map"
                 }
               }
             },
@@ -8502,7 +8502,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/iron_router.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/iron_router.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8519,7 +8519,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/iron_router.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/iron_router.js.map"
                 }
               }
             },
@@ -8528,7 +8528,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/splendido_accounts-templates-core.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/splendido_accounts-templates-core.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8545,7 +8545,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/splendido_accounts-templates-core.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/splendido_accounts-templates-core.js.map"
                 }
               }
             },
@@ -8554,7 +8554,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/coffeescript.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/coffeescript.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8571,7 +8571,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/coffeescript.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/coffeescript.js.map"
                 }
               }
             },
@@ -8580,7 +8580,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/softwarerero_accounts-t9n.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/softwarerero_accounts-t9n.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8597,7 +8597,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/softwarerero_accounts-t9n.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/softwarerero_accounts-t9n.js.map"
                 }
               }
             },
@@ -8606,7 +8606,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/splendido_accounts-templates-semantic-ui.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/splendido_accounts-templates-semantic-ui.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8623,7 +8623,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/splendido_accounts-templates-semantic-ui.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/splendido_accounts-templates-semantic-ui.js.map"
                 }
               }
             },
@@ -8632,7 +8632,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8649,7 +8649,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui.js.map"
                 }
               }
             },
@@ -8658,7 +8658,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/sanjo_jasmine.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/sanjo_jasmine.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8675,7 +8675,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/sanjo_jasmine.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/sanjo_jasmine.js.map"
                 }
               }
             },
@@ -8684,7 +8684,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/url.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/url.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8701,7 +8701,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/url.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/url.js.map"
                 }
               }
             },
@@ -8710,7 +8710,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/http.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/http.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8727,7 +8727,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/http.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/http.js.map"
                 }
               }
             },
@@ -8736,7 +8736,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/velocity_core.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/velocity_core.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8753,7 +8753,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/velocity_core.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/velocity_core.js.map"
                 }
               }
             },
@@ -8762,7 +8762,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/amplify.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/amplify.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8779,7 +8779,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/amplify.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/amplify.js.map"
                 }
               }
             },
@@ -8788,7 +8788,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8805,7 +8805,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter.js.map"
                 }
               }
             },
@@ -8814,7 +8814,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/aldeed_simple-schema.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/aldeed_simple-schema.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8831,7 +8831,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/aldeed_simple-schema.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/aldeed_simple-schema.js.map"
                 }
               }
             },
@@ -8840,7 +8840,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/mongo-livedata.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/mongo-livedata.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8857,7 +8857,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/mongo-livedata.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/mongo-livedata.js.map"
                 }
               }
             },
@@ -8866,7 +8866,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/aldeed_collection2.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/aldeed_collection2.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8883,7 +8883,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/aldeed_collection2.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/aldeed_collection2.js.map"
                 }
               }
             },
@@ -8892,7 +8892,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/autoupdate.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/autoupdate.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8909,7 +8909,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/autoupdate.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/autoupdate.js.map"
                 }
               }
             },
@@ -8918,7 +8918,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/meteor-platform.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/meteor-platform.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8935,7 +8935,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/meteor-platform.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/meteor-platform.js.map"
                 }
               }
             },
@@ -8944,7 +8944,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/webapp.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/webapp.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8961,7 +8961,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/webapp.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/webapp.js.map"
                 }
               }
             },
@@ -8970,7 +8970,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/livedata.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/livedata.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -8987,7 +8987,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/livedata.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/livedata.js.map"
                 }
               }
             },
@@ -8996,7 +8996,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/spacebars.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/spacebars.js"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
@@ -9013,7 +9013,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/spacebars.js.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/spacebars.js.map"
                 }
               }
             },
@@ -9022,7 +9022,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/global-imports.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/global-imports.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9038,7 +9038,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/views/modal/collaborators/template.checklist-side.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/views/modal/collaborators/template.checklist-side.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9054,7 +9054,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/views/modal/collaborators/template.collaborators-name.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/views/modal/collaborators/template.collaborators-name.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9070,7 +9070,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/views/modal/collaborators/template.story-points-side.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/views/modal/collaborators/template.story-points-side.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9086,7 +9086,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/views/modal/collaborators/template.tags-side.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/views/modal/collaborators/template.tags-side.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9102,7 +9102,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/views/modal/task/template.task.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/views/modal/task/template.task.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9118,7 +9118,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/views/project/popup/template.stageCreation.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/views/project/popup/template.stageCreation.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9134,7 +9134,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/views/templates/loggedIn/template.loggedIn.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/views/templates/loggedIn/template.loggedIn.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9150,7 +9150,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/views/dashboard/template.dashboard.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/views/dashboard/template.dashboard.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9166,7 +9166,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/views/home/template.home.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/views/home/template.home.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9182,7 +9182,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/views/profile/template.profile.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/views/profile/template.profile.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9198,7 +9198,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/views/project/template.project.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/views/project/template.project.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9214,7 +9214,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/views/project/template.stage.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/views/project/template.stage.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9230,7 +9230,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/views/project/template.story.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/views/project/template.story.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9246,7 +9246,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/views/project/template.task.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/views/project/template.task.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9262,7 +9262,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/views/scrumboard/template.scrumboard.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/views/scrumboard/template.scrumboard.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9278,7 +9278,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/lib/app.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/lib/app.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9294,7 +9294,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/lib/config.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/lib/config.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9310,7 +9310,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/lib/permissions.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/lib/permissions.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9326,7 +9326,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/views/modal/task/task.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/views/modal/task/task.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9342,7 +9342,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/views/templates/loggedIn/loggedIn.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/views/templates/loggedIn/loggedIn.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9358,7 +9358,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/views/home/home.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/views/home/home.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9374,7 +9374,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/views/project/project.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/views/project/project.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9390,7 +9390,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/views/project/stage.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/views/project/stage.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9406,7 +9406,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/views/project/task.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/views/project/task.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9422,7 +9422,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/views/scrumboard/scrumboard.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/views/scrumboard/scrumboard.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9438,7 +9438,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/client/helpers/accounts.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/client/helpers/accounts.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9454,7 +9454,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/collections/comments.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/collections/comments.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9470,7 +9470,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/collections/epics.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/collections/epics.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9486,7 +9486,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/collections/projects.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/collections/projects.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9502,7 +9502,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/collections/sprints.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/collections/sprints.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9518,7 +9518,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/collections/stories.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/collections/stories.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9534,7 +9534,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/collections/tasks.js"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/collections/tasks.js"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9545,16 +9545,16 @@ var packageMetadata = {
                 }
               }
             },
-            "/b6c5ae33784739a3694d9a6e64950d1091f238be.css": {
+            "/e8a754a85a1f2b0eb4ebf61891515d5cbf5f94af.css": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/b6c5ae33784739a3694d9a6e64950d1091f238be.css"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/e8a754a85a1f2b0eb4ebf61891515d5cbf5f94af.css"
                 },
                 "sourceMapUrl": {
                   "type": "constant",
-                  "value": "/b6c5ae33784739a3694d9a6e64950d1091f238be.map"
+                  "value": "/e8a754a85a1f2b0eb4ebf61891515d5cbf5f94af.map"
                 },
                 "type": {
                   "type": "constant",
@@ -9562,12 +9562,12 @@ var packageMetadata = {
                 }
               }
             },
-            "/b6c5ae33784739a3694d9a6e64950d1091f238be.map": {
+            "/e8a754a85a1f2b0eb4ebf61891515d5cbf5f94af.map": {
               "type": "object",
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/b6c5ae33784739a3694d9a6e64950d1091f238be.css.map"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/e8a754a85a1f2b0eb4ebf61891515d5cbf5f94af.css.map"
                 }
               }
             },
@@ -9576,7 +9576,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.eot"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.eot"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9592,7 +9592,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.svg"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.svg"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9608,7 +9608,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.ttf"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.ttf"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9624,7 +9624,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.woff"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.woff"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9640,7 +9640,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.eot"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.eot"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9656,7 +9656,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.otf"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.otf"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9672,7 +9672,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.svg"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.svg"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9688,7 +9688,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.ttf"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.ttf"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9704,7 +9704,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.woff"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.woff"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9720,7 +9720,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-large-inverted.gif"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-large-inverted.gif"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9736,7 +9736,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-large.gif"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-large.gif"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9752,7 +9752,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-medium-inverted.gif"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-medium-inverted.gif"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9768,7 +9768,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-medium.gif"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-medium.gif"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9784,7 +9784,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-mini-inverted.gif"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-mini-inverted.gif"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9800,7 +9800,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-mini.gif"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-mini.gif"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9816,7 +9816,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-small-inverted.gif"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-small-inverted.gif"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9832,7 +9832,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-small.gif"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-small.gif"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9848,7 +9848,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9864,7 +9864,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9880,7 +9880,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9896,7 +9896,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9912,7 +9912,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/spinner.gif"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/packages/velocity_html-reporter/lib/spinner.gif"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9928,7 +9928,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/img/add-member.png"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/img/add-member.png"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9944,7 +9944,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/img/class.jpg"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/img/class.jpg"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9960,7 +9960,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/img/denny.jpg"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/img/denny.jpg"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9976,7 +9976,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/img/flow-chart.jpg"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/img/flow-chart.jpg"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -9992,7 +9992,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/img/product-sample.png"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/img/product-sample.png"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -10008,7 +10008,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/img/stage-arrow.png"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/img/stage-arrow.png"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -10024,7 +10024,7 @@ var packageMetadata = {
               "members": {
                 "absolutePath": {
                   "type": "constant",
-                  "value": "/Users/denny/Projects/Personal/compound/.meteor/local/build/programs/web.browser/app/img/travis.jpg"
+                  "value": "/Users/travis/Documents/compound/.meteor/local/build/programs/web.browser/app/img/travis.jpg"
                 },
                 "sourceMapUrl": {
                   "type": "undefined"
@@ -10040,7 +10040,7 @@ var packageMetadata = {
               "members": {
                 "content": {
                   "type": "constant",
-                  "value": "{\"manifest\":[{\"path\":\"packages/underscore.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18\",\"sourceMap\":\"packages/underscore.js.map\",\"sourceMapUrl\":\"/packages/0a80a8623e1b40b5df5a05582f288ddd586eaa18.map\",\"size\":150686,\"hash\":\"0a80a8623e1b40b5df5a05582f288ddd586eaa18\"},{\"path\":\"packages/meteor.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor.js?012a26290d9cb731a3b52b396e571c8159d11236\",\"sourceMap\":\"packages/meteor.js.map\",\"sourceMapUrl\":\"/packages/012a26290d9cb731a3b52b396e571c8159d11236.map\",\"size\":104598,\"hash\":\"012a26290d9cb731a3b52b396e571c8159d11236\"},{\"path\":\"packages/standard-app-packages.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/standard-app-packages.js?be7072e6abfda638502b63fa0f809c85c8c2b8ed\",\"sourceMap\":\"packages/standard-app-packages.js.map\",\"sourceMapUrl\":\"/packages/be7072e6abfda638502b63fa0f809c85c8c2b8ed.map\",\"size\":1306,\"hash\":\"be7072e6abfda638502b63fa0f809c85c8c2b8ed\"},{\"path\":\"packages/tracker.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/tracker.js?192a05cc46b867dadbe8bf90dd961f6f8fd1574f\",\"sourceMap\":\"packages/tracker.js.map\",\"sourceMapUrl\":\"/packages/192a05cc46b867dadbe8bf90dd961f6f8fd1574f.map\",\"size\":66854,\"hash\":\"192a05cc46b867dadbe8bf90dd961f6f8fd1574f\"},{\"path\":\"packages/random.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/random.js?fe7b46080c91ce482acf6fc326afbc5b176f0502\",\"sourceMap\":\"packages/random.js.map\",\"sourceMapUrl\":\"/packages/fe7b46080c91ce482acf6fc326afbc5b176f0502.map\",\"size\":24099,\"hash\":\"fe7b46080c91ce482acf6fc326afbc5b176f0502\"},{\"path\":\"packages/localstorage.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/localstorage.js?9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c\",\"sourceMap\":\"packages/localstorage.js.map\",\"sourceMapUrl\":\"/packages/9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c.map\",\"size\":7092,\"hash\":\"9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c\"},{\"path\":\"packages/json.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/json.js?e22856eae714c681199eabc5c0710b904b125554\",\"sourceMap\":\"packages/json.js.map\",\"sourceMapUrl\":\"/packages/e22856eae714c681199eabc5c0710b904b125554.map\",\"size\":58343,\"hash\":\"e22856eae714c681199eabc5c0710b904b125554\"},{\"path\":\"packages/base64.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/base64.js?1a63019243b73298e2964e6d4680f25bca657726\",\"sourceMap\":\"packages/base64.js.map\",\"sourceMapUrl\":\"/packages/1a63019243b73298e2964e6d4680f25bca657726.map\",\"size\":15685,\"hash\":\"1a63019243b73298e2964e6d4680f25bca657726\"},{\"path\":\"packages/ejson.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ejson.js?71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\",\"sourceMap\":\"packages/ejson.js.map\",\"sourceMapUrl\":\"/packages/71047b64b5196348bdbe5fd5eea9ac97a5a9eb14.map\",\"size\":81471,\"hash\":\"71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\"},{\"path\":\"packages/check.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/check.js?803a2be518a0c6c3949e45cf65c4ad627a3d603a\",\"sourceMap\":\"packages/check.js.map\",\"sourceMapUrl\":\"/packages/803a2be518a0c6c3949e45cf65c4ad627a3d603a.map\",\"size\":35207,\"hash\":\"803a2be518a0c6c3949e45cf65c4ad627a3d603a\"},{\"path\":\"packages/logging.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/logging.js?07e201b648f16be8435a4f666156995eeda0c750\",\"sourceMap\":\"packages/logging.js.map\",\"sourceMapUrl\":\"/packages/07e201b648f16be8435a4f666156995eeda0c750.map\",\"size\":27996,\"hash\":\"07e201b648f16be8435a4f666156995eeda0c750\"},{\"path\":\"packages/retry.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/retry.js?1f1dd2c35d300110fdaba51ce4473583bc3bf031\",\"sourceMap\":\"packages/retry.js.map\",\"sourceMapUrl\":\"/packages/1f1dd2c35d300110fdaba51ce4473583bc3bf031.map\",\"size\":7245,\"hash\":\"1f1dd2c35d300110fdaba51ce4473583bc3bf031\"},{\"path\":\"packages/reload.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reload.js?92c60ae92333f52459da974d9158da7fedeb6375\",\"sourceMap\":\"packages/reload.js.map\",\"sourceMapUrl\":\"/packages/92c60ae92333f52459da974d9158da7fedeb6375.map\",\"size\":28228,\"hash\":\"92c60ae92333f52459da974d9158da7fedeb6375\"},{\"path\":\"packages/id-map.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/id-map.js?9ea6eaae8d74693ce2505a858d9a5e60cf191298\",\"sourceMap\":\"packages/id-map.js.map\",\"sourceMapUrl\":\"/packages/9ea6eaae8d74693ce2505a858d9a5e60cf191298.map\",\"size\":8584,\"hash\":\"9ea6eaae8d74693ce2505a858d9a5e60cf191298\"},{\"path\":\"packages/ordered-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ordered-dict.js?bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\",\"sourceMap\":\"packages/ordered-dict.js.map\",\"sourceMapUrl\":\"/packages/bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37.map\",\"size\":20395,\"hash\":\"bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\"},{\"path\":\"packages/geojson-utils.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/geojson-utils.js?81b79d5cf96d00b4b7a28987debcffb665c17526\",\"sourceMap\":\"packages/geojson-utils.js.map\",\"sourceMapUrl\":\"/packages/81b79d5cf96d00b4b7a28987debcffb665c17526.map\",\"size\":48339,\"hash\":\"81b79d5cf96d00b4b7a28987debcffb665c17526\"},{\"path\":\"packages/minimongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/minimongo.js?9005f7df7e2bef877712fee40d7b14aa8f5d4f8b\",\"sourceMap\":\"packages/minimongo.js.map\",\"sourceMapUrl\":\"/packages/9005f7df7e2bef877712fee40d7b14aa8f5d4f8b.map\",\"size\":427384,\"hash\":\"9005f7df7e2bef877712fee40d7b14aa8f5d4f8b\"},{\"path\":\"packages/ddp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ddp.js?ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6\",\"sourceMap\":\"packages/ddp.js.map\",\"sourceMapUrl\":\"/packages/ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6.map\",\"size\":617168,\"hash\":\"ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6\"},{\"path\":\"packages/follower-livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/follower-livedata.js?74156c6baa89da861fc4ddb58ef158eac71e58e0\",\"sourceMap\":\"packages/follower-livedata.js.map\",\"sourceMapUrl\":\"/packages/74156c6baa89da861fc4ddb58ef158eac71e58e0.map\",\"size\":1490,\"hash\":\"74156c6baa89da861fc4ddb58ef158eac71e58e0\"},{\"path\":\"packages/application-configuration.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/application-configuration.js?dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\",\"sourceMap\":\"packages/application-configuration.js.map\",\"sourceMapUrl\":\"/packages/dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f.map\",\"size\":1485,\"hash\":\"dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\"},{\"path\":\"packages/mongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mongo.js?9bc2c5a8b2796fab86b51660ca643e5a49a30c84\",\"sourceMap\":\"packages/mongo.js.map\",\"sourceMapUrl\":\"/packages/9bc2c5a8b2796fab86b51660ca643e5a49a30c84.map\",\"size\":146178,\"hash\":\"9bc2c5a8b2796fab86b51660ca643e5a49a30c84\"},{\"path\":\"packages/jquery.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/jquery.js?265926494aaa3929cd2e30da265211c5929f37a4\",\"sourceMap\":\"packages/jquery.js.map\",\"sourceMapUrl\":\"/packages/265926494aaa3929cd2e30da265211c5929f37a4.map\",\"size\":1295407,\"hash\":\"265926494aaa3929cd2e30da265211c5929f37a4\"},{\"path\":\"packages/deps.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/deps.js?504589e1e9585dec8f9f6094e5a87b22de3783a1\",\"sourceMap\":\"packages/deps.js.map\",\"sourceMapUrl\":\"/packages/504589e1e9585dec8f9f6094e5a87b22de3783a1.map\",\"size\":1442,\"hash\":\"504589e1e9585dec8f9f6094e5a87b22de3783a1\"},{\"path\":\"packages/htmljs.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/htmljs.js?b0108e24d5956ee910ea579c7a4ace00b4ecd4ae\",\"sourceMap\":\"packages/htmljs.js.map\",\"sourceMapUrl\":\"/packages/b0108e24d5956ee910ea579c7a4ace00b4ecd4ae.map\",\"size\":110439,\"hash\":\"b0108e24d5956ee910ea579c7a4ace00b4ecd4ae\"},{\"path\":\"packages/observe-sequence.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/observe-sequence.js?2fd807ea171ead273b9e6458607cb226012d9240\",\"sourceMap\":\"packages/observe-sequence.js.map\",\"sourceMapUrl\":\"/packages/2fd807ea171ead273b9e6458607cb226012d9240.map\",\"size\":30271,\"hash\":\"2fd807ea171ead273b9e6458607cb226012d9240\"},{\"path\":\"packages/reactive-var.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-var.js?20335b7b37165980ddd9f23943b2e5b00aae1cc2\",\"sourceMap\":\"packages/reactive-var.js.map\",\"sourceMapUrl\":\"/packages/20335b7b37165980ddd9f23943b2e5b00aae1cc2.map\",\"size\":13963,\"hash\":\"20335b7b37165980ddd9f23943b2e5b00aae1cc2\"},{\"path\":\"packages/blaze.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/blaze.js?7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0\",\"sourceMap\":\"packages/blaze.js.map\",\"sourceMapUrl\":\"/packages/7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0.map\",\"size\":380068,\"hash\":\"7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0\"},{\"path\":\"packages/accounts-base.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-base.js?94972067650078763eca7f54b72598624e0d8b9d\",\"sourceMap\":\"packages/accounts-base.js.map\",\"sourceMapUrl\":\"/packages/94972067650078763eca7f54b72598624e0d8b9d.map\",\"size\":96808,\"hash\":\"94972067650078763eca7f54b72598624e0d8b9d\"},{\"path\":\"packages/service-configuration.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/service-configuration.js?262da6fb1e9c97be84333c429c9a2929c80f8e3b\",\"sourceMap\":\"packages/service-configuration.js.map\",\"sourceMapUrl\":\"/packages/262da6fb1e9c97be84333c429c9a2929c80f8e3b.map\",\"size\":5082,\"hash\":\"262da6fb1e9c97be84333c429c9a2929c80f8e3b\"},{\"path\":\"packages/templating.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/templating.js?6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8\",\"sourceMap\":\"packages/templating.js.map\",\"sourceMapUrl\":\"/packages/6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8.map\",\"size\":10464,\"hash\":\"6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8\"},{\"path\":\"packages/reactive-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-dict.js?6b25309b1f0dcf775b44984324878d6f8ad1abc2\",\"sourceMap\":\"packages/reactive-dict.js.map\",\"sourceMapUrl\":\"/packages/6b25309b1f0dcf775b44984324878d6f8ad1abc2.map\",\"size\":19802,\"hash\":\"6b25309b1f0dcf775b44984324878d6f8ad1abc2\"},{\"path\":\"packages/session.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/session.js?442b1bc169c2a1fb8c1fc5420041baa1ed9cb940\",\"sourceMap\":\"packages/session.js.map\",\"sourceMapUrl\":\"/packages/442b1bc169c2a1fb8c1fc5420041baa1ed9cb940.map\",\"size\":6487,\"hash\":\"442b1bc169c2a1fb8c1fc5420041baa1ed9cb940\"},{\"path\":\"packages/sha.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sha.js?65ef52f7221944768bfc2049d6b7e163c8ae2615\",\"sourceMap\":\"packages/sha.js.map\",\"sourceMapUrl\":\"/packages/65ef52f7221944768bfc2049d6b7e163c8ae2615.map\",\"size\":19584,\"hash\":\"65ef52f7221944768bfc2049d6b7e163c8ae2615\"},{\"path\":\"packages/srp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/srp.js?e2e28156e8c912d504a3586351c8a1119f664cfd\",\"sourceMap\":\"packages/srp.js.map\",\"sourceMapUrl\":\"/packages/e2e28156e8c912d504a3586351c8a1119f664cfd.map\",\"size\":173470,\"hash\":\"e2e28156e8c912d504a3586351c8a1119f664cfd\"},{\"path\":\"packages/accounts-password.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-password.js?6c517b689e15ab07dd443895b7ed801683dda159\",\"sourceMap\":\"packages/accounts-password.js.map\",\"sourceMapUrl\":\"/packages/6c517b689e15ab07dd443895b7ed801683dda159.map\",\"size\":33053,\"hash\":\"6c517b689e15ab07dd443895b7ed801683dda159\"},{\"path\":\"packages/accounts-ui-unstyled.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-ui-unstyled.js?724142103f86896bf7ab0a57672b34086f989b24\",\"sourceMap\":\"packages/accounts-ui-unstyled.js.map\",\"sourceMapUrl\":\"/packages/724142103f86896bf7ab0a57672b34086f989b24.map\",\"size\":241869,\"hash\":\"724142103f86896bf7ab0a57672b34086f989b24\"},{\"path\":\"packages/less.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/less.js?7d1bf981a25a449d6270558bcfc983313c40cd26\",\"sourceMap\":\"packages/less.js.map\",\"sourceMapUrl\":\"/packages/7d1bf981a25a449d6270558bcfc983313c40cd26.map\",\"size\":1286,\"hash\":\"7d1bf981a25a449d6270558bcfc983313c40cd26\"},{\"path\":\"packages/accounts-ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-ui.js?1ff79db616cce9b320fe8aed6103eded31248467\",\"sourceMap\":\"packages/accounts-ui.js.map\",\"sourceMapUrl\":\"/packages/1ff79db616cce9b320fe8aed6103eded31248467.map\",\"size\":1346,\"hash\":\"1ff79db616cce9b320fe8aed6103eded31248467\"},{\"path\":\"packages/mrt_jquery-ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_jquery-ui.js?ccd29dc05b85d9f7fe580438f97f1735af190eb2\",\"sourceMap\":\"packages/mrt_jquery-ui.js.map\",\"sourceMapUrl\":\"/packages/ccd29dc05b85d9f7fe580438f97f1735af190eb2.map\",\"size\":1901351,\"hash\":\"ccd29dc05b85d9f7fe580438f97f1735af190eb2\"},{\"path\":\"packages/iron_core.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_core.js?fe41a023a7a6f1ded90b0729437928a8ddccc7d4\",\"sourceMap\":\"packages/iron_core.js.map\",\"sourceMapUrl\":\"/packages/fe41a023a7a6f1ded90b0729437928a8ddccc7d4.map\",\"size\":31679,\"hash\":\"fe41a023a7a6f1ded90b0729437928a8ddccc7d4\"},{\"path\":\"packages/ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ui.js?5a663333fd30f8fd913f110e0ef779e84f67c4b8\",\"sourceMap\":\"packages/ui.js.map\",\"sourceMapUrl\":\"/packages/5a663333fd30f8fd913f110e0ef779e84f67c4b8.map\",\"size\":1529,\"hash\":\"5a663333fd30f8fd913f110e0ef779e84f67c4b8\"},{\"path\":\"packages/iron_dynamic-template.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_dynamic-template.js?32038885cb1dad7957291ffebfffcb7f8cd57d20\",\"sourceMap\":\"packages/iron_dynamic-template.js.map\",\"sourceMapUrl\":\"/packages/32038885cb1dad7957291ffebfffcb7f8cd57d20.map\",\"size\":51775,\"hash\":\"32038885cb1dad7957291ffebfffcb7f8cd57d20\"},{\"path\":\"packages/iron_layout.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_layout.js?080dc95e770e3130757bf6af69fd0abb99573ae4\",\"sourceMap\":\"packages/iron_layout.js.map\",\"sourceMapUrl\":\"/packages/080dc95e770e3130757bf6af69fd0abb99573ae4.map\",\"size\":56973,\"hash\":\"080dc95e770e3130757bf6af69fd0abb99573ae4\"},{\"path\":\"packages/iron_router.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_router.js?da7f2ac81c3fd9daebf49ce9a6980a54caa1dc17\",\"sourceMap\":\"packages/iron_router.js.map\",\"sourceMapUrl\":\"/packages/da7f2ac81c3fd9daebf49ce9a6980a54caa1dc17.map\",\"size\":250621,\"hash\":\"da7f2ac81c3fd9daebf49ce9a6980a54caa1dc17\"},{\"path\":\"packages/splendido_accounts-templates-core.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/splendido_accounts-templates-core.js?09da9f45d56d06b7eced2459fb53fcab7daa2b7c\",\"sourceMap\":\"packages/splendido_accounts-templates-core.js.map\",\"sourceMapUrl\":\"/packages/09da9f45d56d06b7eced2459fb53fcab7daa2b7c.map\",\"size\":226562,\"hash\":\"09da9f45d56d06b7eced2459fb53fcab7daa2b7c\"},{\"path\":\"packages/coffeescript.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/coffeescript.js?969f68786bbc68e6cad299e74922a53af3d1404b\",\"sourceMap\":\"packages/coffeescript.js.map\",\"sourceMapUrl\":\"/packages/969f68786bbc68e6cad299e74922a53af3d1404b.map\",\"size\":1294,\"hash\":\"969f68786bbc68e6cad299e74922a53af3d1404b\"},{\"path\":\"packages/softwarerero_accounts-t9n.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/softwarerero_accounts-t9n.js?d2d8d1d115a4cb8262d753882e538fc83571d960\",\"sourceMap\":\"packages/softwarerero_accounts-t9n.js.map\",\"sourceMapUrl\":\"/packages/d2d8d1d115a4cb8262d753882e538fc83571d960.map\",\"size\":105833,\"hash\":\"d2d8d1d115a4cb8262d753882e538fc83571d960\"},{\"path\":\"packages/splendido_accounts-templates-semantic-ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/splendido_accounts-templates-semantic-ui.js?baddd291b8de577420273711a125d1cfff2948d7\",\"sourceMap\":\"packages/splendido_accounts-templates-semantic-ui.js.map\",\"sourceMapUrl\":\"/packages/baddd291b8de577420273711a125d1cfff2948d7.map\",\"size\":79110,\"hash\":\"baddd291b8de577420273711a125d1cfff2948d7\"},{\"path\":\"packages/nooitaf_semantic-ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/nooitaf_semantic-ui.js?883f22b2be95bf6569643832e0401280aea97ebd\",\"sourceMap\":\"packages/nooitaf_semantic-ui.js.map\",\"sourceMapUrl\":\"/packages/883f22b2be95bf6569643832e0401280aea97ebd.map\",\"size\":1552439,\"hash\":\"883f22b2be95bf6569643832e0401280aea97ebd\"},{\"path\":\"packages/sanjo_jasmine.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sanjo_jasmine.js?73ad7def495ec4743a7124c3ecb8c6e32234b06c\",\"sourceMap\":\"packages/sanjo_jasmine.js.map\",\"sourceMapUrl\":\"/packages/73ad7def495ec4743a7124c3ecb8c6e32234b06c.map\",\"size\":552726,\"hash\":\"73ad7def495ec4743a7124c3ecb8c6e32234b06c\"},{\"path\":\"packages/url.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/url.js?f267b683007ca477629c166b4bd43499e3122351\",\"sourceMap\":\"packages/url.js.map\",\"sourceMapUrl\":\"/packages/f267b683007ca477629c166b4bd43499e3122351.map\",\"size\":6612,\"hash\":\"f267b683007ca477629c166b4bd43499e3122351\"},{\"path\":\"packages/http.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/http.js?9c5d152169ba9a5a57b6b8ec28e64bbd0d308077\",\"sourceMap\":\"packages/http.js.map\",\"sourceMapUrl\":\"/packages/9c5d152169ba9a5a57b6b8ec28e64bbd0d308077.map\",\"size\":37036,\"hash\":\"9c5d152169ba9a5a57b6b8ec28e64bbd0d308077\"},{\"path\":\"packages/velocity_core.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_core.js?6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a\",\"sourceMap\":\"packages/velocity_core.js.map\",\"sourceMapUrl\":\"/packages/6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a.map\",\"size\":6854,\"hash\":\"6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a\"},{\"path\":\"packages/amplify.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/amplify.js?0943ecb804169b991257a319fa92b9e6f34e2d1b\",\"sourceMap\":\"packages/amplify.js.map\",\"sourceMapUrl\":\"/packages/0943ecb804169b991257a319fa92b9e6f34e2d1b.map\",\"size\":88428,\"hash\":\"0943ecb804169b991257a319fa92b9e6f34e2d1b\"},{\"path\":\"packages/velocity_html-reporter.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_html-reporter.js?6c24ef7bd026690306effa4c6e77fd0c21902b5e\",\"sourceMap\":\"packages/velocity_html-reporter.js.map\",\"sourceMapUrl\":\"/packages/6c24ef7bd026690306effa4c6e77fd0c21902b5e.map\",\"size\":83898,\"hash\":\"6c24ef7bd026690306effa4c6e77fd0c21902b5e\"},{\"path\":\"packages/aldeed_simple-schema.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/aldeed_simple-schema.js?6b088ed5394a2f8f07e9602d918d515b3acad5e6\",\"sourceMap\":\"packages/aldeed_simple-schema.js.map\",\"sourceMapUrl\":\"/packages/6b088ed5394a2f8f07e9602d918d515b3acad5e6.map\",\"size\":471515,\"hash\":\"6b088ed5394a2f8f07e9602d918d515b3acad5e6\"},{\"path\":\"packages/mongo-livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mongo-livedata.js?e6ebca489f38b73788b494509a4f83d87fdbf6c0\",\"sourceMap\":\"packages/mongo-livedata.js.map\",\"sourceMapUrl\":\"/packages/e6ebca489f38b73788b494509a4f83d87fdbf6c0.map\",\"size\":1299,\"hash\":\"e6ebca489f38b73788b494509a4f83d87fdbf6c0\"},{\"path\":\"packages/aldeed_collection2.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/aldeed_collection2.js?2eb03e08f9f68bafcca5bc2482243b2faca23db3\",\"sourceMap\":\"packages/aldeed_collection2.js.map\",\"sourceMapUrl\":\"/packages/2eb03e08f9f68bafcca5bc2482243b2faca23db3.map\",\"size\":68728,\"hash\":\"2eb03e08f9f68bafcca5bc2482243b2faca23db3\"},{\"path\":\"packages/autoupdate.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/autoupdate.js?c823646e93561d86e6bcb3cbd2457a8540e519c1\",\"sourceMap\":\"packages/autoupdate.js.map\",\"sourceMapUrl\":\"/packages/c823646e93561d86e6bcb3cbd2457a8540e519c1.map\",\"size\":17152,\"hash\":\"c823646e93561d86e6bcb3cbd2457a8540e519c1\"},{\"path\":\"packages/meteor-platform.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor-platform.js?499a2f8522e25820b1153c69a92751ccaae507b3\",\"sourceMap\":\"packages/meteor-platform.js.map\",\"sourceMapUrl\":\"/packages/499a2f8522e25820b1153c69a92751ccaae507b3.map\",\"size\":1384,\"hash\":\"499a2f8522e25820b1153c69a92751ccaae507b3\"},{\"path\":\"packages/webapp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/webapp.js?e1be090051b82f046484dccc2de7d747e50c7328\",\"sourceMap\":\"packages/webapp.js.map\",\"sourceMapUrl\":\"/packages/e1be090051b82f046484dccc2de7d747e50c7328.map\",\"size\":3106,\"hash\":\"e1be090051b82f046484dccc2de7d747e50c7328\"},{\"path\":\"packages/livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/livedata.js?718526445deb4d9baacb6d92c551adea1d36c1e1\",\"sourceMap\":\"packages/livedata.js.map\",\"sourceMapUrl\":\"/packages/718526445deb4d9baacb6d92c551adea1d36c1e1.map\",\"size\":1413,\"hash\":\"718526445deb4d9baacb6d92c551adea1d36c1e1\"},{\"path\":\"packages/spacebars.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/spacebars.js?cb20740019f26bdca2faa89ba9c973f618118521\",\"sourceMap\":\"packages/spacebars.js.map\",\"sourceMapUrl\":\"/packages/cb20740019f26bdca2faa89ba9c973f618118521.map\",\"size\":41807,\"hash\":\"cb20740019f26bdca2faa89ba9c973f618118521\"},{\"path\":\"packages/global-imports.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/global-imports.js?93b39eb149501f2fdec934ae8d3ffc018e48e2f0\",\"size\":1184,\"hash\":\"93b39eb149501f2fdec934ae8d3ffc018e48e2f0\"},{\"path\":\"app/client/views/modal/collaborators/template.checklist-side.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/modal/collaborators/template.checklist-side.js?604b8029a768abbf567422de61d9228b8ef60b63\",\"size\":860,\"hash\":\"604b8029a768abbf567422de61d9228b8ef60b63\"},{\"path\":\"app/client/views/modal/collaborators/template.collaborators-name.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/modal/collaborators/template.collaborators-name.js?c62dba735dbe40b88a7054213e5af64e0bf1af80\",\"size\":1363,\"hash\":\"c62dba735dbe40b88a7054213e5af64e0bf1af80\"},{\"path\":\"app/client/views/modal/collaborators/template.story-points-side.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/modal/collaborators/template.story-points-side.js?acc3c5c50fc89b7ab51af9c207aded4bc0405dc7\",\"size\":1382,\"hash\":\"acc3c5c50fc89b7ab51af9c207aded4bc0405dc7\"},{\"path\":\"app/client/views/modal/collaborators/template.tags-side.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/modal/collaborators/template.tags-side.js?4a124b0056d898c76603734f048fb90941fcbfca\",\"size\":956,\"hash\":\"4a124b0056d898c76603734f048fb90941fcbfca\"},{\"path\":\"app/client/views/modal/task/template.task.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/modal/task/template.task.js?174f04b927d4627e89729645cfbed29ee95e3d17\",\"size\":7988,\"hash\":\"174f04b927d4627e89729645cfbed29ee95e3d17\"},{\"path\":\"app/client/views/project/popup/template.stageCreation.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/project/popup/template.stageCreation.js?98779a86cab4dac20556e3bb009053263ff72766\",\"size\":328,\"hash\":\"98779a86cab4dac20556e3bb009053263ff72766\"},{\"path\":\"app/client/views/templates/loggedIn/template.loggedIn.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/templates/loggedIn/template.loggedIn.js?ee1aea4260b6a04b37cc8ff29854432e4eb31bfb\",\"size\":2618,\"hash\":\"ee1aea4260b6a04b37cc8ff29854432e4eb31bfb\"},{\"path\":\"app/client/views/dashboard/template.dashboard.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/dashboard/template.dashboard.js?bcbca03b14e18d136cb77029de349dd1cdc7e785\",\"size\":186,\"hash\":\"bcbca03b14e18d136cb77029de349dd1cdc7e785\"},{\"path\":\"app/client/views/home/template.home.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/home/template.home.js?6cfe5dfd35880bf41b6fa329c4edfde5b8b0acff\",\"size\":376,\"hash\":\"6cfe5dfd35880bf41b6fa329c4edfde5b8b0acff\"},{\"path\":\"app/client/views/profile/template.profile.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/profile/template.profile.js?3bffe4844b330eff6db36f5d47e5cef13b4fbf7f\",\"size\":179,\"hash\":\"3bffe4844b330eff6db36f5d47e5cef13b4fbf7f\"},{\"path\":\"app/client/views/project/template.project.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/project/template.project.js?a7d88670a4cec1affec804e6c2e042e1e60569d4\",\"size\":2036,\"hash\":\"a7d88670a4cec1affec804e6c2e042e1e60569d4\"},{\"path\":\"app/client/views/project/template.stage.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/project/template.stage.js?81e5f79923b57dc41988b3b01bec1daffc71ed29\",\"size\":811,\"hash\":\"81e5f79923b57dc41988b3b01bec1daffc71ed29\"},{\"path\":\"app/client/views/project/template.story.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/project/template.story.js?41572a81884d5bf886febb732376f8fae5659be8\",\"size\":483,\"hash\":\"41572a81884d5bf886febb732376f8fae5659be8\"},{\"path\":\"app/client/views/project/template.task.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/project/template.task.js?d3a0a6ad7929130d794dff3dc78a996b3eaca20d\",\"size\":496,\"hash\":\"d3a0a6ad7929130d794dff3dc78a996b3eaca20d\"},{\"path\":\"app/client/views/scrumboard/template.scrumboard.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/scrumboard/template.scrumboard.js?cb7b31d584e10c45e8c14e2308d1f5308739da5b\",\"size\":2914,\"hash\":\"cb7b31d584e10c45e8c14e2308d1f5308739da5b\"},{\"path\":\"app/lib/app.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/lib/app.js?718fdaac9f908478c1a2fe542d5d34b6900a56a3\",\"size\":728,\"hash\":\"718fdaac9f908478c1a2fe542d5d34b6900a56a3\"},{\"path\":\"app/lib/config.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/lib/config.js?5657d6ea4ed6f278262b44b56fd46e008286d9e0\",\"size\":77,\"hash\":\"5657d6ea4ed6f278262b44b56fd46e008286d9e0\"},{\"path\":\"app/lib/permissions.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/lib/permissions.js?95f43cdc5b2e7017d3208b7f33f62b13be7ef56b\",\"size\":153,\"hash\":\"95f43cdc5b2e7017d3208b7f33f62b13be7ef56b\"},{\"path\":\"app/client/views/modal/task/task.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/modal/task/task.js?f428bcd9c265de74dbc39a89d9954d79aefe31a8\",\"size\":2290,\"hash\":\"f428bcd9c265de74dbc39a89d9954d79aefe31a8\"},{\"path\":\"app/client/views/templates/loggedIn/loggedIn.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/templates/loggedIn/loggedIn.js?dd9cdde1d40c2d7a2c83515ee542645290be0b17\",\"size\":1234,\"hash\":\"dd9cdde1d40c2d7a2c83515ee542645290be0b17\"},{\"path\":\"app/client/views/home/home.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/home/home.js?1866798d3ce480a1796d8db5650bfcb50a0c9802\",\"size\":318,\"hash\":\"1866798d3ce480a1796d8db5650bfcb50a0c9802\"},{\"path\":\"app/client/views/project/project.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/project/project.js?60d2a2c6e0122db263061612d8a40a16f846747b\",\"size\":744,\"hash\":\"60d2a2c6e0122db263061612d8a40a16f846747b\"},{\"path\":\"app/client/views/project/stage.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/project/stage.js?5a0bd8ff03ee564cef138909bafa7e87e3d43340\",\"size\":88,\"hash\":\"5a0bd8ff03ee564cef138909bafa7e87e3d43340\"},{\"path\":\"app/client/views/project/task.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/project/task.js?2a3453bba5b8f7e5a39caf4f0fb6016f1b588104\",\"size\":19,\"hash\":\"2a3453bba5b8f7e5a39caf4f0fb6016f1b588104\"},{\"path\":\"app/client/views/scrumboard/scrumboard.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/scrumboard/scrumboard.js?9473658446638c7607edf4578a4f150e0129ea18\",\"size\":7779,\"hash\":\"9473658446638c7607edf4578a4f150e0129ea18\"},{\"path\":\"app/client/helpers/accounts.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/helpers/accounts.js?2608ba050c7b8c937cf17e0b1539746eb7972ca2\",\"size\":223,\"hash\":\"2608ba050c7b8c937cf17e0b1539746eb7972ca2\"},{\"path\":\"app/collections/comments.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/collections/comments.js?7ebca3eb71c59ed083b8b6a95f5917f67b571efa\",\"size\":2341,\"hash\":\"7ebca3eb71c59ed083b8b6a95f5917f67b571efa\"},{\"path\":\"app/collections/epics.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/collections/epics.js?2a3453bba5b8f7e5a39caf4f0fb6016f1b588104\",\"size\":19,\"hash\":\"2a3453bba5b8f7e5a39caf4f0fb6016f1b588104\"},{\"path\":\"app/collections/projects.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/collections/projects.js?e1357ca02415f226f1320e89ed140f89a60fe27c\",\"size\":2997,\"hash\":\"e1357ca02415f226f1320e89ed140f89a60fe27c\"},{\"path\":\"app/collections/sprints.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/collections/sprints.js?6e1fa5d3b030f67119dfd446dfd6693d06a254aa\",\"size\":2758,\"hash\":\"6e1fa5d3b030f67119dfd446dfd6693d06a254aa\"},{\"path\":\"app/collections/stories.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/collections/stories.js?45999f8ba58736b9c532a1cd68cfd5a0756b0154\",\"size\":3420,\"hash\":\"45999f8ba58736b9c532a1cd68cfd5a0756b0154\"},{\"path\":\"app/collections/tasks.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/collections/tasks.js?5f8cb6e0b762ab740adaf8c8e31bb5ba64f24f38\",\"size\":2923,\"hash\":\"5f8cb6e0b762ab740adaf8c8e31bb5ba64f24f38\"},{\"path\":\"b6c5ae33784739a3694d9a6e64950d1091f238be.css\",\"where\":\"client\",\"type\":\"css\",\"cacheable\":true,\"url\":\"/b6c5ae33784739a3694d9a6e64950d1091f238be.css\",\"sourceMap\":\"b6c5ae33784739a3694d9a6e64950d1091f238be.css.map\",\"sourceMapUrl\":\"/b6c5ae33784739a3694d9a6e64950d1091f238be.map\",\"size\":480193,\"hash\":\"b6c5ae33784739a3694d9a6e64950d1091f238be\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.eot\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.eot\",\"size\":40166,\"hash\":\"f5e824186bc1d712d5703c872135ef0e786cabf8\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.svg\",\"size\":64121,\"hash\":\"144958374a5b188939a4ef8a578ba46ffdc8ba61\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.ttf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.ttf\",\"size\":39924,\"hash\":\"aa384f8e70fe7d54b7ed05ecd2c2ec13a01fad77\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.woff\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.woff\",\"size\":24676,\"hash\":\"6ec5c193dd77b2c65af67806c13b83384ff617c9\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.eot\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.eot\",\"size\":37405,\"hash\":\"d7e77928069bdd227f291b9a2c9bdd918793e529\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.otf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.otf\",\"size\":61896,\"hash\":\"82a7ff73f96e2f6ef419d2d9fd520b4c93bdae7c\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.svg\",\"size\":197829,\"hash\":\"8419c95027e27da84c7d7aa4df7f61d1dd04af81\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.ttf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.ttf\",\"size\":79076,\"hash\":\"c019e0e02b24f99ca8eef73cfe3d134e904f323a\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.woff\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.woff\",\"size\":43572,\"hash\":\"12f8c193902e99348493ace32e498031bf79b654\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-large-inverted.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-large-inverted.gif\",\"size\":10168,\"hash\":\"6f09544fe0b6e2fe57a4f2d9487cfee183d2fffe\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-large.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-large.gif\",\"size\":8492,\"hash\":\"bb9b0f2f1a67dbd00edf250517cbb0a0efac66d5\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-medium-inverted.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-medium-inverted.gif\",\"size\":5384,\"hash\":\"5df5395b7f5f72e2b0f59c3901e677f7e80b6c53\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-medium.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-medium.gif\",\"size\":4472,\"hash\":\"ac6ae1785858b42f3bb99c20f0ac7ca0ed503e85\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-mini-inverted.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-mini-inverted.gif\",\"size\":2722,\"hash\":\"fdede2a0f465d7119c8bc04c82db4a49a4944657\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-mini.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-mini.gif\",\"size\":2548,\"hash\":\"7455fdbfe313e7aaa96cdb7fa561fb923b3bf7bc\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-small-inverted.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-small-inverted.gif\",\"size\":4241,\"hash\":\"bac72b19ee2aa0edea93693943e950c783ad5fa2\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-small.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-small.gif\",\"size\":3447,\"hash\":\"ebaa2d25a006d16e1bd0c09b078865b9cbc0ca92\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot\",\"size\":14079,\"hash\":\"d53dff38dfb5c414015dfb31d30a473c95b50904\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf\",\"size\":29512,\"hash\":\"c427041d38cd6597ae7e758028ab72756849ec26\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff\",\"size\":16448,\"hash\":\"c707207e52ffe555a36880e9873d146c226e3533\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg\",\"size\":63157,\"hash\":\"796e58aedfcfe8a3b0829bc0594f739936a9d7d0\"},{\"path\":\"packages/velocity_html-reporter/lib/spinner.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/spinner.gif\",\"size\":1849,\"hash\":\"dcabdd743fd3e9d7bd5647abeb86e66a3e6f9597\"},{\"path\":\"app/img/add-member.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/img/add-member.png\",\"size\":227,\"hash\":\"903101494738052696c0c25bc28bc709b7057856\"},{\"path\":\"app/img/class.jpg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/img/class.jpg\",\"size\":7255,\"hash\":\"995a5141bc3abc2edf66013887068ce962a7dd23\"},{\"path\":\"app/img/denny.jpg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/img/denny.jpg\",\"size\":417436,\"hash\":\"80f4dd213cdaa284a1a8babed35b098c6d0623a8\"},{\"path\":\"app/img/flow-chart.jpg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/img/flow-chart.jpg\",\"size\":4276,\"hash\":\"40b27eccf2a3f8d4e4debb7bedc8bdb1ab719c24\"},{\"path\":\"app/img/product-sample.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/img/product-sample.png\",\"size\":2205,\"hash\":\"1d09437953a1e7e8f6472a0b133438f31b1fe4b9\"},{\"path\":\"app/img/stage-arrow.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/img/stage-arrow.png\",\"size\":8385,\"hash\":\"14b7c3277845a17d32f8afa1a08d1b93fe58196f\"},{\"path\":\"app/img/travis.jpg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/img/travis.jpg\",\"size\":127866,\"hash\":\"5950608490180b4cf78d3314dde2df4ce90d3527\"}],\"version\":\"eff63924d897f2d8a113b394bc04c651174580f7\"}"
+                  "value": "{\"manifest\":[{\"path\":\"packages/underscore.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/underscore.js?0a80a8623e1b40b5df5a05582f288ddd586eaa18\",\"sourceMap\":\"packages/underscore.js.map\",\"sourceMapUrl\":\"/packages/0a80a8623e1b40b5df5a05582f288ddd586eaa18.map\",\"size\":150686,\"hash\":\"0a80a8623e1b40b5df5a05582f288ddd586eaa18\"},{\"path\":\"packages/meteor.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor.js?012a26290d9cb731a3b52b396e571c8159d11236\",\"sourceMap\":\"packages/meteor.js.map\",\"sourceMapUrl\":\"/packages/012a26290d9cb731a3b52b396e571c8159d11236.map\",\"size\":104598,\"hash\":\"012a26290d9cb731a3b52b396e571c8159d11236\"},{\"path\":\"packages/standard-app-packages.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/standard-app-packages.js?be7072e6abfda638502b63fa0f809c85c8c2b8ed\",\"sourceMap\":\"packages/standard-app-packages.js.map\",\"sourceMapUrl\":\"/packages/be7072e6abfda638502b63fa0f809c85c8c2b8ed.map\",\"size\":1306,\"hash\":\"be7072e6abfda638502b63fa0f809c85c8c2b8ed\"},{\"path\":\"packages/tracker.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/tracker.js?192a05cc46b867dadbe8bf90dd961f6f8fd1574f\",\"sourceMap\":\"packages/tracker.js.map\",\"sourceMapUrl\":\"/packages/192a05cc46b867dadbe8bf90dd961f6f8fd1574f.map\",\"size\":66854,\"hash\":\"192a05cc46b867dadbe8bf90dd961f6f8fd1574f\"},{\"path\":\"packages/random.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/random.js?fe7b46080c91ce482acf6fc326afbc5b176f0502\",\"sourceMap\":\"packages/random.js.map\",\"sourceMapUrl\":\"/packages/fe7b46080c91ce482acf6fc326afbc5b176f0502.map\",\"size\":24099,\"hash\":\"fe7b46080c91ce482acf6fc326afbc5b176f0502\"},{\"path\":\"packages/localstorage.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/localstorage.js?9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c\",\"sourceMap\":\"packages/localstorage.js.map\",\"sourceMapUrl\":\"/packages/9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c.map\",\"size\":7092,\"hash\":\"9ec7d68858d2e33aa807e5cfd5e12bb4d62fe00c\"},{\"path\":\"packages/json.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/json.js?e22856eae714c681199eabc5c0710b904b125554\",\"sourceMap\":\"packages/json.js.map\",\"sourceMapUrl\":\"/packages/e22856eae714c681199eabc5c0710b904b125554.map\",\"size\":58343,\"hash\":\"e22856eae714c681199eabc5c0710b904b125554\"},{\"path\":\"packages/base64.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/base64.js?1a63019243b73298e2964e6d4680f25bca657726\",\"sourceMap\":\"packages/base64.js.map\",\"sourceMapUrl\":\"/packages/1a63019243b73298e2964e6d4680f25bca657726.map\",\"size\":15685,\"hash\":\"1a63019243b73298e2964e6d4680f25bca657726\"},{\"path\":\"packages/ejson.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ejson.js?71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\",\"sourceMap\":\"packages/ejson.js.map\",\"sourceMapUrl\":\"/packages/71047b64b5196348bdbe5fd5eea9ac97a5a9eb14.map\",\"size\":81471,\"hash\":\"71047b64b5196348bdbe5fd5eea9ac97a5a9eb14\"},{\"path\":\"packages/check.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/check.js?803a2be518a0c6c3949e45cf65c4ad627a3d603a\",\"sourceMap\":\"packages/check.js.map\",\"sourceMapUrl\":\"/packages/803a2be518a0c6c3949e45cf65c4ad627a3d603a.map\",\"size\":35207,\"hash\":\"803a2be518a0c6c3949e45cf65c4ad627a3d603a\"},{\"path\":\"packages/logging.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/logging.js?07e201b648f16be8435a4f666156995eeda0c750\",\"sourceMap\":\"packages/logging.js.map\",\"sourceMapUrl\":\"/packages/07e201b648f16be8435a4f666156995eeda0c750.map\",\"size\":27996,\"hash\":\"07e201b648f16be8435a4f666156995eeda0c750\"},{\"path\":\"packages/retry.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/retry.js?1f1dd2c35d300110fdaba51ce4473583bc3bf031\",\"sourceMap\":\"packages/retry.js.map\",\"sourceMapUrl\":\"/packages/1f1dd2c35d300110fdaba51ce4473583bc3bf031.map\",\"size\":7245,\"hash\":\"1f1dd2c35d300110fdaba51ce4473583bc3bf031\"},{\"path\":\"packages/reload.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reload.js?92c60ae92333f52459da974d9158da7fedeb6375\",\"sourceMap\":\"packages/reload.js.map\",\"sourceMapUrl\":\"/packages/92c60ae92333f52459da974d9158da7fedeb6375.map\",\"size\":28228,\"hash\":\"92c60ae92333f52459da974d9158da7fedeb6375\"},{\"path\":\"packages/id-map.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/id-map.js?9ea6eaae8d74693ce2505a858d9a5e60cf191298\",\"sourceMap\":\"packages/id-map.js.map\",\"sourceMapUrl\":\"/packages/9ea6eaae8d74693ce2505a858d9a5e60cf191298.map\",\"size\":8584,\"hash\":\"9ea6eaae8d74693ce2505a858d9a5e60cf191298\"},{\"path\":\"packages/ordered-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ordered-dict.js?bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\",\"sourceMap\":\"packages/ordered-dict.js.map\",\"sourceMapUrl\":\"/packages/bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37.map\",\"size\":20395,\"hash\":\"bf8af2f26c8d96bf8b2e6b407d3ed69f23c2cd37\"},{\"path\":\"packages/geojson-utils.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/geojson-utils.js?81b79d5cf96d00b4b7a28987debcffb665c17526\",\"sourceMap\":\"packages/geojson-utils.js.map\",\"sourceMapUrl\":\"/packages/81b79d5cf96d00b4b7a28987debcffb665c17526.map\",\"size\":48339,\"hash\":\"81b79d5cf96d00b4b7a28987debcffb665c17526\"},{\"path\":\"packages/minimongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/minimongo.js?9005f7df7e2bef877712fee40d7b14aa8f5d4f8b\",\"sourceMap\":\"packages/minimongo.js.map\",\"sourceMapUrl\":\"/packages/9005f7df7e2bef877712fee40d7b14aa8f5d4f8b.map\",\"size\":427384,\"hash\":\"9005f7df7e2bef877712fee40d7b14aa8f5d4f8b\"},{\"path\":\"packages/ddp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ddp.js?ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6\",\"sourceMap\":\"packages/ddp.js.map\",\"sourceMapUrl\":\"/packages/ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6.map\",\"size\":617168,\"hash\":\"ed3a8b20e91a598de5b24a7c98c5ae4be1c0f9e6\"},{\"path\":\"packages/follower-livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/follower-livedata.js?74156c6baa89da861fc4ddb58ef158eac71e58e0\",\"sourceMap\":\"packages/follower-livedata.js.map\",\"sourceMapUrl\":\"/packages/74156c6baa89da861fc4ddb58ef158eac71e58e0.map\",\"size\":1490,\"hash\":\"74156c6baa89da861fc4ddb58ef158eac71e58e0\"},{\"path\":\"packages/application-configuration.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/application-configuration.js?dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\",\"sourceMap\":\"packages/application-configuration.js.map\",\"sourceMapUrl\":\"/packages/dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f.map\",\"size\":1485,\"hash\":\"dcbf1f0774460fccf098a4c9e8fad4c3a0f2952f\"},{\"path\":\"packages/mongo.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mongo.js?9bc2c5a8b2796fab86b51660ca643e5a49a30c84\",\"sourceMap\":\"packages/mongo.js.map\",\"sourceMapUrl\":\"/packages/9bc2c5a8b2796fab86b51660ca643e5a49a30c84.map\",\"size\":146178,\"hash\":\"9bc2c5a8b2796fab86b51660ca643e5a49a30c84\"},{\"path\":\"packages/jquery.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/jquery.js?265926494aaa3929cd2e30da265211c5929f37a4\",\"sourceMap\":\"packages/jquery.js.map\",\"sourceMapUrl\":\"/packages/265926494aaa3929cd2e30da265211c5929f37a4.map\",\"size\":1295407,\"hash\":\"265926494aaa3929cd2e30da265211c5929f37a4\"},{\"path\":\"packages/deps.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/deps.js?504589e1e9585dec8f9f6094e5a87b22de3783a1\",\"sourceMap\":\"packages/deps.js.map\",\"sourceMapUrl\":\"/packages/504589e1e9585dec8f9f6094e5a87b22de3783a1.map\",\"size\":1442,\"hash\":\"504589e1e9585dec8f9f6094e5a87b22de3783a1\"},{\"path\":\"packages/htmljs.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/htmljs.js?b0108e24d5956ee910ea579c7a4ace00b4ecd4ae\",\"sourceMap\":\"packages/htmljs.js.map\",\"sourceMapUrl\":\"/packages/b0108e24d5956ee910ea579c7a4ace00b4ecd4ae.map\",\"size\":110439,\"hash\":\"b0108e24d5956ee910ea579c7a4ace00b4ecd4ae\"},{\"path\":\"packages/observe-sequence.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/observe-sequence.js?2fd807ea171ead273b9e6458607cb226012d9240\",\"sourceMap\":\"packages/observe-sequence.js.map\",\"sourceMapUrl\":\"/packages/2fd807ea171ead273b9e6458607cb226012d9240.map\",\"size\":30271,\"hash\":\"2fd807ea171ead273b9e6458607cb226012d9240\"},{\"path\":\"packages/reactive-var.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-var.js?20335b7b37165980ddd9f23943b2e5b00aae1cc2\",\"sourceMap\":\"packages/reactive-var.js.map\",\"sourceMapUrl\":\"/packages/20335b7b37165980ddd9f23943b2e5b00aae1cc2.map\",\"size\":13963,\"hash\":\"20335b7b37165980ddd9f23943b2e5b00aae1cc2\"},{\"path\":\"packages/blaze.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/blaze.js?7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0\",\"sourceMap\":\"packages/blaze.js.map\",\"sourceMapUrl\":\"/packages/7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0.map\",\"size\":380068,\"hash\":\"7b7ff7ee2ccdccd85a1ad0d8dc9d96193e29e8b0\"},{\"path\":\"packages/accounts-base.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-base.js?94972067650078763eca7f54b72598624e0d8b9d\",\"sourceMap\":\"packages/accounts-base.js.map\",\"sourceMapUrl\":\"/packages/94972067650078763eca7f54b72598624e0d8b9d.map\",\"size\":96808,\"hash\":\"94972067650078763eca7f54b72598624e0d8b9d\"},{\"path\":\"packages/service-configuration.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/service-configuration.js?262da6fb1e9c97be84333c429c9a2929c80f8e3b\",\"sourceMap\":\"packages/service-configuration.js.map\",\"sourceMapUrl\":\"/packages/262da6fb1e9c97be84333c429c9a2929c80f8e3b.map\",\"size\":5082,\"hash\":\"262da6fb1e9c97be84333c429c9a2929c80f8e3b\"},{\"path\":\"packages/templating.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/templating.js?6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8\",\"sourceMap\":\"packages/templating.js.map\",\"sourceMapUrl\":\"/packages/6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8.map\",\"size\":10464,\"hash\":\"6420eb7dcc133dc4c49a090c3c6f31bf3ce71fe8\"},{\"path\":\"packages/reactive-dict.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/reactive-dict.js?6b25309b1f0dcf775b44984324878d6f8ad1abc2\",\"sourceMap\":\"packages/reactive-dict.js.map\",\"sourceMapUrl\":\"/packages/6b25309b1f0dcf775b44984324878d6f8ad1abc2.map\",\"size\":19802,\"hash\":\"6b25309b1f0dcf775b44984324878d6f8ad1abc2\"},{\"path\":\"packages/session.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/session.js?442b1bc169c2a1fb8c1fc5420041baa1ed9cb940\",\"sourceMap\":\"packages/session.js.map\",\"sourceMapUrl\":\"/packages/442b1bc169c2a1fb8c1fc5420041baa1ed9cb940.map\",\"size\":6487,\"hash\":\"442b1bc169c2a1fb8c1fc5420041baa1ed9cb940\"},{\"path\":\"packages/sha.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sha.js?65ef52f7221944768bfc2049d6b7e163c8ae2615\",\"sourceMap\":\"packages/sha.js.map\",\"sourceMapUrl\":\"/packages/65ef52f7221944768bfc2049d6b7e163c8ae2615.map\",\"size\":19584,\"hash\":\"65ef52f7221944768bfc2049d6b7e163c8ae2615\"},{\"path\":\"packages/srp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/srp.js?e2e28156e8c912d504a3586351c8a1119f664cfd\",\"sourceMap\":\"packages/srp.js.map\",\"sourceMapUrl\":\"/packages/e2e28156e8c912d504a3586351c8a1119f664cfd.map\",\"size\":173470,\"hash\":\"e2e28156e8c912d504a3586351c8a1119f664cfd\"},{\"path\":\"packages/accounts-password.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-password.js?6c517b689e15ab07dd443895b7ed801683dda159\",\"sourceMap\":\"packages/accounts-password.js.map\",\"sourceMapUrl\":\"/packages/6c517b689e15ab07dd443895b7ed801683dda159.map\",\"size\":33053,\"hash\":\"6c517b689e15ab07dd443895b7ed801683dda159\"},{\"path\":\"packages/accounts-ui-unstyled.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-ui-unstyled.js?724142103f86896bf7ab0a57672b34086f989b24\",\"sourceMap\":\"packages/accounts-ui-unstyled.js.map\",\"sourceMapUrl\":\"/packages/724142103f86896bf7ab0a57672b34086f989b24.map\",\"size\":241869,\"hash\":\"724142103f86896bf7ab0a57672b34086f989b24\"},{\"path\":\"packages/less.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/less.js?7d1bf981a25a449d6270558bcfc983313c40cd26\",\"sourceMap\":\"packages/less.js.map\",\"sourceMapUrl\":\"/packages/7d1bf981a25a449d6270558bcfc983313c40cd26.map\",\"size\":1286,\"hash\":\"7d1bf981a25a449d6270558bcfc983313c40cd26\"},{\"path\":\"packages/accounts-ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/accounts-ui.js?1ff79db616cce9b320fe8aed6103eded31248467\",\"sourceMap\":\"packages/accounts-ui.js.map\",\"sourceMapUrl\":\"/packages/1ff79db616cce9b320fe8aed6103eded31248467.map\",\"size\":1346,\"hash\":\"1ff79db616cce9b320fe8aed6103eded31248467\"},{\"path\":\"packages/mrt_jquery-ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mrt_jquery-ui.js?ccd29dc05b85d9f7fe580438f97f1735af190eb2\",\"sourceMap\":\"packages/mrt_jquery-ui.js.map\",\"sourceMapUrl\":\"/packages/ccd29dc05b85d9f7fe580438f97f1735af190eb2.map\",\"size\":1901351,\"hash\":\"ccd29dc05b85d9f7fe580438f97f1735af190eb2\"},{\"path\":\"packages/iron_core.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_core.js?fe41a023a7a6f1ded90b0729437928a8ddccc7d4\",\"sourceMap\":\"packages/iron_core.js.map\",\"sourceMapUrl\":\"/packages/fe41a023a7a6f1ded90b0729437928a8ddccc7d4.map\",\"size\":31679,\"hash\":\"fe41a023a7a6f1ded90b0729437928a8ddccc7d4\"},{\"path\":\"packages/ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/ui.js?5a663333fd30f8fd913f110e0ef779e84f67c4b8\",\"sourceMap\":\"packages/ui.js.map\",\"sourceMapUrl\":\"/packages/5a663333fd30f8fd913f110e0ef779e84f67c4b8.map\",\"size\":1529,\"hash\":\"5a663333fd30f8fd913f110e0ef779e84f67c4b8\"},{\"path\":\"packages/iron_dynamic-template.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_dynamic-template.js?32038885cb1dad7957291ffebfffcb7f8cd57d20\",\"sourceMap\":\"packages/iron_dynamic-template.js.map\",\"sourceMapUrl\":\"/packages/32038885cb1dad7957291ffebfffcb7f8cd57d20.map\",\"size\":51775,\"hash\":\"32038885cb1dad7957291ffebfffcb7f8cd57d20\"},{\"path\":\"packages/iron_layout.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_layout.js?080dc95e770e3130757bf6af69fd0abb99573ae4\",\"sourceMap\":\"packages/iron_layout.js.map\",\"sourceMapUrl\":\"/packages/080dc95e770e3130757bf6af69fd0abb99573ae4.map\",\"size\":56973,\"hash\":\"080dc95e770e3130757bf6af69fd0abb99573ae4\"},{\"path\":\"packages/iron_router.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/iron_router.js?da7f2ac81c3fd9daebf49ce9a6980a54caa1dc17\",\"sourceMap\":\"packages/iron_router.js.map\",\"sourceMapUrl\":\"/packages/da7f2ac81c3fd9daebf49ce9a6980a54caa1dc17.map\",\"size\":250621,\"hash\":\"da7f2ac81c3fd9daebf49ce9a6980a54caa1dc17\"},{\"path\":\"packages/splendido_accounts-templates-core.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/splendido_accounts-templates-core.js?09da9f45d56d06b7eced2459fb53fcab7daa2b7c\",\"sourceMap\":\"packages/splendido_accounts-templates-core.js.map\",\"sourceMapUrl\":\"/packages/09da9f45d56d06b7eced2459fb53fcab7daa2b7c.map\",\"size\":226562,\"hash\":\"09da9f45d56d06b7eced2459fb53fcab7daa2b7c\"},{\"path\":\"packages/coffeescript.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/coffeescript.js?969f68786bbc68e6cad299e74922a53af3d1404b\",\"sourceMap\":\"packages/coffeescript.js.map\",\"sourceMapUrl\":\"/packages/969f68786bbc68e6cad299e74922a53af3d1404b.map\",\"size\":1294,\"hash\":\"969f68786bbc68e6cad299e74922a53af3d1404b\"},{\"path\":\"packages/softwarerero_accounts-t9n.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/softwarerero_accounts-t9n.js?d2d8d1d115a4cb8262d753882e538fc83571d960\",\"sourceMap\":\"packages/softwarerero_accounts-t9n.js.map\",\"sourceMapUrl\":\"/packages/d2d8d1d115a4cb8262d753882e538fc83571d960.map\",\"size\":105833,\"hash\":\"d2d8d1d115a4cb8262d753882e538fc83571d960\"},{\"path\":\"packages/splendido_accounts-templates-semantic-ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/splendido_accounts-templates-semantic-ui.js?baddd291b8de577420273711a125d1cfff2948d7\",\"sourceMap\":\"packages/splendido_accounts-templates-semantic-ui.js.map\",\"sourceMapUrl\":\"/packages/baddd291b8de577420273711a125d1cfff2948d7.map\",\"size\":79110,\"hash\":\"baddd291b8de577420273711a125d1cfff2948d7\"},{\"path\":\"packages/nooitaf_semantic-ui.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/nooitaf_semantic-ui.js?883f22b2be95bf6569643832e0401280aea97ebd\",\"sourceMap\":\"packages/nooitaf_semantic-ui.js.map\",\"sourceMapUrl\":\"/packages/883f22b2be95bf6569643832e0401280aea97ebd.map\",\"size\":1552439,\"hash\":\"883f22b2be95bf6569643832e0401280aea97ebd\"},{\"path\":\"packages/sanjo_jasmine.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/sanjo_jasmine.js?73ad7def495ec4743a7124c3ecb8c6e32234b06c\",\"sourceMap\":\"packages/sanjo_jasmine.js.map\",\"sourceMapUrl\":\"/packages/73ad7def495ec4743a7124c3ecb8c6e32234b06c.map\",\"size\":552726,\"hash\":\"73ad7def495ec4743a7124c3ecb8c6e32234b06c\"},{\"path\":\"packages/url.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/url.js?f267b683007ca477629c166b4bd43499e3122351\",\"sourceMap\":\"packages/url.js.map\",\"sourceMapUrl\":\"/packages/f267b683007ca477629c166b4bd43499e3122351.map\",\"size\":6612,\"hash\":\"f267b683007ca477629c166b4bd43499e3122351\"},{\"path\":\"packages/http.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/http.js?9c5d152169ba9a5a57b6b8ec28e64bbd0d308077\",\"sourceMap\":\"packages/http.js.map\",\"sourceMapUrl\":\"/packages/9c5d152169ba9a5a57b6b8ec28e64bbd0d308077.map\",\"size\":37036,\"hash\":\"9c5d152169ba9a5a57b6b8ec28e64bbd0d308077\"},{\"path\":\"packages/velocity_core.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_core.js?6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a\",\"sourceMap\":\"packages/velocity_core.js.map\",\"sourceMapUrl\":\"/packages/6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a.map\",\"size\":6854,\"hash\":\"6ca46c76b400ce620d5a99a1a6edfec60ca0ba1a\"},{\"path\":\"packages/amplify.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/amplify.js?0943ecb804169b991257a319fa92b9e6f34e2d1b\",\"sourceMap\":\"packages/amplify.js.map\",\"sourceMapUrl\":\"/packages/0943ecb804169b991257a319fa92b9e6f34e2d1b.map\",\"size\":88428,\"hash\":\"0943ecb804169b991257a319fa92b9e6f34e2d1b\"},{\"path\":\"packages/velocity_html-reporter.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/velocity_html-reporter.js?6c24ef7bd026690306effa4c6e77fd0c21902b5e\",\"sourceMap\":\"packages/velocity_html-reporter.js.map\",\"sourceMapUrl\":\"/packages/6c24ef7bd026690306effa4c6e77fd0c21902b5e.map\",\"size\":83898,\"hash\":\"6c24ef7bd026690306effa4c6e77fd0c21902b5e\"},{\"path\":\"packages/aldeed_simple-schema.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/aldeed_simple-schema.js?6b088ed5394a2f8f07e9602d918d515b3acad5e6\",\"sourceMap\":\"packages/aldeed_simple-schema.js.map\",\"sourceMapUrl\":\"/packages/6b088ed5394a2f8f07e9602d918d515b3acad5e6.map\",\"size\":471515,\"hash\":\"6b088ed5394a2f8f07e9602d918d515b3acad5e6\"},{\"path\":\"packages/mongo-livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/mongo-livedata.js?e6ebca489f38b73788b494509a4f83d87fdbf6c0\",\"sourceMap\":\"packages/mongo-livedata.js.map\",\"sourceMapUrl\":\"/packages/e6ebca489f38b73788b494509a4f83d87fdbf6c0.map\",\"size\":1299,\"hash\":\"e6ebca489f38b73788b494509a4f83d87fdbf6c0\"},{\"path\":\"packages/aldeed_collection2.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/aldeed_collection2.js?2eb03e08f9f68bafcca5bc2482243b2faca23db3\",\"sourceMap\":\"packages/aldeed_collection2.js.map\",\"sourceMapUrl\":\"/packages/2eb03e08f9f68bafcca5bc2482243b2faca23db3.map\",\"size\":68728,\"hash\":\"2eb03e08f9f68bafcca5bc2482243b2faca23db3\"},{\"path\":\"packages/autoupdate.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/autoupdate.js?c823646e93561d86e6bcb3cbd2457a8540e519c1\",\"sourceMap\":\"packages/autoupdate.js.map\",\"sourceMapUrl\":\"/packages/c823646e93561d86e6bcb3cbd2457a8540e519c1.map\",\"size\":17152,\"hash\":\"c823646e93561d86e6bcb3cbd2457a8540e519c1\"},{\"path\":\"packages/meteor-platform.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/meteor-platform.js?499a2f8522e25820b1153c69a92751ccaae507b3\",\"sourceMap\":\"packages/meteor-platform.js.map\",\"sourceMapUrl\":\"/packages/499a2f8522e25820b1153c69a92751ccaae507b3.map\",\"size\":1384,\"hash\":\"499a2f8522e25820b1153c69a92751ccaae507b3\"},{\"path\":\"packages/webapp.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/webapp.js?e1be090051b82f046484dccc2de7d747e50c7328\",\"sourceMap\":\"packages/webapp.js.map\",\"sourceMapUrl\":\"/packages/e1be090051b82f046484dccc2de7d747e50c7328.map\",\"size\":3106,\"hash\":\"e1be090051b82f046484dccc2de7d747e50c7328\"},{\"path\":\"packages/livedata.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/livedata.js?718526445deb4d9baacb6d92c551adea1d36c1e1\",\"sourceMap\":\"packages/livedata.js.map\",\"sourceMapUrl\":\"/packages/718526445deb4d9baacb6d92c551adea1d36c1e1.map\",\"size\":1413,\"hash\":\"718526445deb4d9baacb6d92c551adea1d36c1e1\"},{\"path\":\"packages/spacebars.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/spacebars.js?cb20740019f26bdca2faa89ba9c973f618118521\",\"sourceMap\":\"packages/spacebars.js.map\",\"sourceMapUrl\":\"/packages/cb20740019f26bdca2faa89ba9c973f618118521.map\",\"size\":41807,\"hash\":\"cb20740019f26bdca2faa89ba9c973f618118521\"},{\"path\":\"packages/global-imports.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/packages/global-imports.js?93b39eb149501f2fdec934ae8d3ffc018e48e2f0\",\"size\":1184,\"hash\":\"93b39eb149501f2fdec934ae8d3ffc018e48e2f0\"},{\"path\":\"app/client/views/modal/collaborators/template.checklist-side.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/modal/collaborators/template.checklist-side.js?604b8029a768abbf567422de61d9228b8ef60b63\",\"size\":860,\"hash\":\"604b8029a768abbf567422de61d9228b8ef60b63\"},{\"path\":\"app/client/views/modal/collaborators/template.collaborators-name.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/modal/collaborators/template.collaborators-name.js?c62dba735dbe40b88a7054213e5af64e0bf1af80\",\"size\":1363,\"hash\":\"c62dba735dbe40b88a7054213e5af64e0bf1af80\"},{\"path\":\"app/client/views/modal/collaborators/template.story-points-side.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/modal/collaborators/template.story-points-side.js?acc3c5c50fc89b7ab51af9c207aded4bc0405dc7\",\"size\":1382,\"hash\":\"acc3c5c50fc89b7ab51af9c207aded4bc0405dc7\"},{\"path\":\"app/client/views/modal/collaborators/template.tags-side.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/modal/collaborators/template.tags-side.js?4a124b0056d898c76603734f048fb90941fcbfca\",\"size\":956,\"hash\":\"4a124b0056d898c76603734f048fb90941fcbfca\"},{\"path\":\"app/client/views/modal/task/template.task.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/modal/task/template.task.js?174f04b927d4627e89729645cfbed29ee95e3d17\",\"size\":7988,\"hash\":\"174f04b927d4627e89729645cfbed29ee95e3d17\"},{\"path\":\"app/client/views/project/popup/template.stageCreation.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/project/popup/template.stageCreation.js?98779a86cab4dac20556e3bb009053263ff72766\",\"size\":328,\"hash\":\"98779a86cab4dac20556e3bb009053263ff72766\"},{\"path\":\"app/client/views/templates/loggedIn/template.loggedIn.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/templates/loggedIn/template.loggedIn.js?ee1aea4260b6a04b37cc8ff29854432e4eb31bfb\",\"size\":2618,\"hash\":\"ee1aea4260b6a04b37cc8ff29854432e4eb31bfb\"},{\"path\":\"app/client/views/dashboard/template.dashboard.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/dashboard/template.dashboard.js?bcbca03b14e18d136cb77029de349dd1cdc7e785\",\"size\":186,\"hash\":\"bcbca03b14e18d136cb77029de349dd1cdc7e785\"},{\"path\":\"app/client/views/home/template.home.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/home/template.home.js?6cfe5dfd35880bf41b6fa329c4edfde5b8b0acff\",\"size\":376,\"hash\":\"6cfe5dfd35880bf41b6fa329c4edfde5b8b0acff\"},{\"path\":\"app/client/views/profile/template.profile.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/profile/template.profile.js?3bffe4844b330eff6db36f5d47e5cef13b4fbf7f\",\"size\":179,\"hash\":\"3bffe4844b330eff6db36f5d47e5cef13b4fbf7f\"},{\"path\":\"app/client/views/project/template.project.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/project/template.project.js?a7d88670a4cec1affec804e6c2e042e1e60569d4\",\"size\":2036,\"hash\":\"a7d88670a4cec1affec804e6c2e042e1e60569d4\"},{\"path\":\"app/client/views/project/template.stage.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/project/template.stage.js?81e5f79923b57dc41988b3b01bec1daffc71ed29\",\"size\":811,\"hash\":\"81e5f79923b57dc41988b3b01bec1daffc71ed29\"},{\"path\":\"app/client/views/project/template.story.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/project/template.story.js?41572a81884d5bf886febb732376f8fae5659be8\",\"size\":483,\"hash\":\"41572a81884d5bf886febb732376f8fae5659be8\"},{\"path\":\"app/client/views/project/template.task.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/project/template.task.js?d3a0a6ad7929130d794dff3dc78a996b3eaca20d\",\"size\":496,\"hash\":\"d3a0a6ad7929130d794dff3dc78a996b3eaca20d\"},{\"path\":\"app/client/views/scrumboard/template.scrumboard.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/scrumboard/template.scrumboard.js?30ae58c2a2fcc2976c41885fa3350d1885796809\",\"size\":2918,\"hash\":\"30ae58c2a2fcc2976c41885fa3350d1885796809\"},{\"path\":\"app/lib/app.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/lib/app.js?3fe972e638585282e014748687f8292330d0fa1a\",\"size\":763,\"hash\":\"3fe972e638585282e014748687f8292330d0fa1a\"},{\"path\":\"app/lib/config.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/lib/config.js?5657d6ea4ed6f278262b44b56fd46e008286d9e0\",\"size\":77,\"hash\":\"5657d6ea4ed6f278262b44b56fd46e008286d9e0\"},{\"path\":\"app/lib/permissions.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/lib/permissions.js?95f43cdc5b2e7017d3208b7f33f62b13be7ef56b\",\"size\":153,\"hash\":\"95f43cdc5b2e7017d3208b7f33f62b13be7ef56b\"},{\"path\":\"app/client/views/modal/task/task.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/modal/task/task.js?f428bcd9c265de74dbc39a89d9954d79aefe31a8\",\"size\":2290,\"hash\":\"f428bcd9c265de74dbc39a89d9954d79aefe31a8\"},{\"path\":\"app/client/views/templates/loggedIn/loggedIn.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/templates/loggedIn/loggedIn.js?dd9cdde1d40c2d7a2c83515ee542645290be0b17\",\"size\":1234,\"hash\":\"dd9cdde1d40c2d7a2c83515ee542645290be0b17\"},{\"path\":\"app/client/views/home/home.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/home/home.js?1866798d3ce480a1796d8db5650bfcb50a0c9802\",\"size\":318,\"hash\":\"1866798d3ce480a1796d8db5650bfcb50a0c9802\"},{\"path\":\"app/client/views/project/project.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/project/project.js?852d6b414742717cd9fd052d81d06245733b9217\",\"size\":918,\"hash\":\"852d6b414742717cd9fd052d81d06245733b9217\"},{\"path\":\"app/client/views/project/stage.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/project/stage.js?5a0bd8ff03ee564cef138909bafa7e87e3d43340\",\"size\":88,\"hash\":\"5a0bd8ff03ee564cef138909bafa7e87e3d43340\"},{\"path\":\"app/client/views/project/task.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/project/task.js?2a3453bba5b8f7e5a39caf4f0fb6016f1b588104\",\"size\":19,\"hash\":\"2a3453bba5b8f7e5a39caf4f0fb6016f1b588104\"},{\"path\":\"app/client/views/scrumboard/scrumboard.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/views/scrumboard/scrumboard.js?78e8dc8c04763a2ccca2968a48874f2d50a6a4c6\",\"size\":7932,\"hash\":\"78e8dc8c04763a2ccca2968a48874f2d50a6a4c6\"},{\"path\":\"app/client/helpers/accounts.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/client/helpers/accounts.js?2608ba050c7b8c937cf17e0b1539746eb7972ca2\",\"size\":223,\"hash\":\"2608ba050c7b8c937cf17e0b1539746eb7972ca2\"},{\"path\":\"app/collections/comments.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/collections/comments.js?7ebca3eb71c59ed083b8b6a95f5917f67b571efa\",\"size\":2341,\"hash\":\"7ebca3eb71c59ed083b8b6a95f5917f67b571efa\"},{\"path\":\"app/collections/epics.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/collections/epics.js?2a3453bba5b8f7e5a39caf4f0fb6016f1b588104\",\"size\":19,\"hash\":\"2a3453bba5b8f7e5a39caf4f0fb6016f1b588104\"},{\"path\":\"app/collections/projects.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/collections/projects.js?e1357ca02415f226f1320e89ed140f89a60fe27c\",\"size\":2997,\"hash\":\"e1357ca02415f226f1320e89ed140f89a60fe27c\"},{\"path\":\"app/collections/sprints.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/collections/sprints.js?6e1fa5d3b030f67119dfd446dfd6693d06a254aa\",\"size\":2758,\"hash\":\"6e1fa5d3b030f67119dfd446dfd6693d06a254aa\"},{\"path\":\"app/collections/stories.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/collections/stories.js?45999f8ba58736b9c532a1cd68cfd5a0756b0154\",\"size\":3420,\"hash\":\"45999f8ba58736b9c532a1cd68cfd5a0756b0154\"},{\"path\":\"app/collections/tasks.js\",\"where\":\"client\",\"type\":\"js\",\"cacheable\":true,\"url\":\"/collections/tasks.js?5f8cb6e0b762ab740adaf8c8e31bb5ba64f24f38\",\"size\":2923,\"hash\":\"5f8cb6e0b762ab740adaf8c8e31bb5ba64f24f38\"},{\"path\":\"e8a754a85a1f2b0eb4ebf61891515d5cbf5f94af.css\",\"where\":\"client\",\"type\":\"css\",\"cacheable\":true,\"url\":\"/e8a754a85a1f2b0eb4ebf61891515d5cbf5f94af.css\",\"sourceMap\":\"e8a754a85a1f2b0eb4ebf61891515d5cbf5f94af.css.map\",\"sourceMapUrl\":\"/e8a754a85a1f2b0eb4ebf61891515d5cbf5f94af.map\",\"size\":480169,\"hash\":\"e8a754a85a1f2b0eb4ebf61891515d5cbf5f94af\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.eot\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.eot\",\"size\":40166,\"hash\":\"f5e824186bc1d712d5703c872135ef0e786cabf8\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.svg\",\"size\":64121,\"hash\":\"144958374a5b188939a4ef8a578ba46ffdc8ba61\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.ttf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.ttf\",\"size\":39924,\"hash\":\"aa384f8e70fe7d54b7ed05ecd2c2ec13a01fad77\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.woff\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/basic.icons.woff\",\"size\":24676,\"hash\":\"6ec5c193dd77b2c65af67806c13b83384ff617c9\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.eot\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.eot\",\"size\":37405,\"hash\":\"d7e77928069bdd227f291b9a2c9bdd918793e529\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.otf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.otf\",\"size\":61896,\"hash\":\"82a7ff73f96e2f6ef419d2d9fd520b4c93bdae7c\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.svg\",\"size\":197829,\"hash\":\"8419c95027e27da84c7d7aa4df7f61d1dd04af81\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.ttf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.ttf\",\"size\":79076,\"hash\":\"c019e0e02b24f99ca8eef73cfe3d134e904f323a\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.woff\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/fonts/icons.woff\",\"size\":43572,\"hash\":\"12f8c193902e99348493ace32e498031bf79b654\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-large-inverted.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-large-inverted.gif\",\"size\":10168,\"hash\":\"6f09544fe0b6e2fe57a4f2d9487cfee183d2fffe\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-large.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-large.gif\",\"size\":8492,\"hash\":\"bb9b0f2f1a67dbd00edf250517cbb0a0efac66d5\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-medium-inverted.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-medium-inverted.gif\",\"size\":5384,\"hash\":\"5df5395b7f5f72e2b0f59c3901e677f7e80b6c53\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-medium.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-medium.gif\",\"size\":4472,\"hash\":\"ac6ae1785858b42f3bb99c20f0ac7ca0ed503e85\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-mini-inverted.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-mini-inverted.gif\",\"size\":2722,\"hash\":\"fdede2a0f465d7119c8bc04c82db4a49a4944657\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-mini.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-mini.gif\",\"size\":2548,\"hash\":\"7455fdbfe313e7aaa96cdb7fa561fb923b3bf7bc\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-small-inverted.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-small-inverted.gif\",\"size\":4241,\"hash\":\"bac72b19ee2aa0edea93693943e950c783ad5fa2\"},{\"path\":\"packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-small.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/nooitaf_semantic-ui/lib/semantic-ui/build/uncompressed/images/loader-small.gif\",\"size\":3447,\"hash\":\"ebaa2d25a006d16e1bd0c09b078865b9cbc0ca92\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.eot\",\"size\":14079,\"hash\":\"d53dff38dfb5c414015dfb31d30a473c95b50904\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.ttf\",\"size\":29512,\"hash\":\"c427041d38cd6597ae7e758028ab72756849ec26\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.woff\",\"size\":16448,\"hash\":\"c707207e52ffe555a36880e9873d146c226e3533\"},{\"path\":\"packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/bootstrap/src/fonts/glyphicons-halflings-regular.svg\",\"size\":63157,\"hash\":\"796e58aedfcfe8a3b0829bc0594f739936a9d7d0\"},{\"path\":\"packages/velocity_html-reporter/lib/spinner.gif\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/packages/velocity_html-reporter/lib/spinner.gif\",\"size\":1849,\"hash\":\"dcabdd743fd3e9d7bd5647abeb86e66a3e6f9597\"},{\"path\":\"app/img/add-member.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/img/add-member.png\",\"size\":227,\"hash\":\"903101494738052696c0c25bc28bc709b7057856\"},{\"path\":\"app/img/class.jpg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/img/class.jpg\",\"size\":7255,\"hash\":\"995a5141bc3abc2edf66013887068ce962a7dd23\"},{\"path\":\"app/img/denny.jpg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/img/denny.jpg\",\"size\":417436,\"hash\":\"80f4dd213cdaa284a1a8babed35b098c6d0623a8\"},{\"path\":\"app/img/flow-chart.jpg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/img/flow-chart.jpg\",\"size\":4276,\"hash\":\"40b27eccf2a3f8d4e4debb7bedc8bdb1ab719c24\"},{\"path\":\"app/img/product-sample.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/img/product-sample.png\",\"size\":2205,\"hash\":\"1d09437953a1e7e8f6472a0b133438f31b1fe4b9\"},{\"path\":\"app/img/stage-arrow.png\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/img/stage-arrow.png\",\"size\":8385,\"hash\":\"14b7c3277845a17d32f8afa1a08d1b93fe58196f\"},{\"path\":\"app/img/travis.jpg\",\"where\":\"client\",\"type\":\"asset\",\"cacheable\":false,\"url\":\"/img/travis.jpg\",\"size\":127866,\"hash\":\"5950608490180b4cf78d3314dde2df4ce90d3527\"}],\"version\":\"055a4ba20ca3ea090aa0be10a5226385b1c42e0f\"}"
                 },
                 "type": {
                   "type": "constant",

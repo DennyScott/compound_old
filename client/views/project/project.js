@@ -1,30 +1,24 @@
 var project;
 Template.project.rendered = function() {
 
-	$("#scrumInner").sortable();
-	$("#scrumInner").disableSelection();
+    $('.scrumInner').sortable().disableSelection();
 
+    $(".scrumColumn").sortable({
+        connectWith: '.scrumColumn',
+        placeholder: 'portlet-placeholder ui-corner-all',
+        cancel: '.add-card'
+    }).disableSelection();
 
-	$(".scrumColumn").sortable({
-		connectWith: ".scrumColumn",
-		placeholder: "portlet-placeholder ui-corner-all",
-		cancel: ".add-card"
-	});
+    $(".portlet")
+    .addClass("ui-widget ui-widget-content ui-helper-clearfix ui-corner-all")
+    .find(".portlet-header")
+    .prepend("<span class='ui-icon ui-icon-minusthick portlet-toggle'></span>");
 
-
-
-
-	//this will have the users tasks fade in when the page is rendered
-	$('.image.user-task')
-	.transition('fade up');
-
-	$('.empty-portlet:first').hide();
-
-	$('.add-stage').unbind();
-	$('.add-stage').popup({
-		on: "click",
-		html: UI.toHTML(Template['stageCreation'])
-	});
+    $(".portlet-toggle").click(function() {
+        var icon = $(this);
+        icon.toggleClass("ui-icon-minusthick ui-icon-plusthick");
+        icon.closest(".portlet").find(".portlet-content").toggle();
+    });
 
 
 };

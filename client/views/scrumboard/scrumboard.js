@@ -6,14 +6,13 @@ var isDescriptionFocus = false; //Boolean that keeps track if the tab hit is goi
 
 
 Template.scrumboard.rendered = function() {
-	$('.scrumInner').sortable();
-	$('.scrumInner').disableSelection();
+	$('.scrumInner').sortable().disableSelection();
 
 	$(".scrumColumn").sortable({
 		connectWith: '.scrumColumn',
 		placeholder: 'portlet-placeholder ui-corner-all',
 		cancel: '.add-card'
-	});
+	}).disableSelection();
 
 	$(".portlet")
 	.addClass("ui-widget ui-widget-content ui-helper-clearfix ui-corner-all")
