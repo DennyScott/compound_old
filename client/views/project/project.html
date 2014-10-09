@@ -42,6 +42,7 @@
     </div>
 
 
+    {{#with currentSprint}}
     <div class="ui">
         <div class="scrumboard" id="scrumboard">
             <div class="scrumInner" id="scrumInner">
@@ -51,119 +52,41 @@
                     </div>
                     <div class="scrumColumn">
                         {{#each stories}}
-                            {{> story}}
+                        {{> story}}
                         {{/each}}
-                        <div class="portlet task">
-                            <div class="tag ui red-tag"></div>
-                            <div class="tag blue-tag"></div>
-                            <div class="portlet-header">Feeds</div>
-                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                            <img class="circular ui tiny image user-task hidden" src="/img/travis.jpg">
-                        </div>
-                        <div class="portlet task">
-                            <div class="tag green-tag"></div>
-                            <div class="portlet-header">News</div>
-                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                        </div>
-                        <div class="portlet task">
-                            <div class="tag blue-tag"></div>
-                            <div class="tag green-tag"></div>
-                            <div class="portlet-header">News</div>
-                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                            <img class="circular ui tiny image user-task hidden" src="/img/travis.jpg">
-                        </div>
-                        <div class="portlet task empty-portlet">
-                            <div class="portlet-header ui input fluid focus"><input type="text" id='new-title'></div>
-                            <div class="portlet-content ui input fluid"><textarea id="new-description"></textarea></div>
-                        </div>
                         <div class="add-card portlet task">
                             <div class="portlet-content">Add a Card</div>
                             <i class="add icon"></i>
                         </div>
                     </div>
                 </div>
+
+                {{#each states}}
+                <!-- Start Of Column -->
                 <div class="colHead">
-                    <div class = "stage">To Do
+                    <div class = "stage"> {{state}}
                         <i class = "icon small setting"></i>
                     </div>
-                    <div class="scrumColumn">
-                        <div class="portlet task">
-                            <div class="tag ui red-tag"></div>
-                            <div class="tag blue-tag"></div>
-                            <div class="portlet-header">Feeds</div>
-                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                            <img class="circular ui tiny image user-task hidden" src="/img/travis.jpg">
-                        </div>
-                        <div class="portlet task">
-                            <div class="tag green-tag"></div>
-                            <div class="portlet-header">News</div>
-                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                        </div>
-                        <div class="portlet task">
-                            <div class="tag blue-tag"></div>
-                            <div class="tag green-tag"></div>
-                            <div class="portlet-header">News</div>
-                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                            <img class="circular ui tiny image user-task hidden" src="/img/travis.jpg">
-                        </div>
+                     <div class="scrumColumn">
+                    
+                    <!-- Contents Of Column -->
+                    {{#each stateTasks}}
+                        {{> taskCard}}
+                    {{/each}}
+
+                    <!-- End Of Column -->
                         <div class="add-card portlet task">
                             <div class="portlet-content">Add a Card</div>
                             <i class="add icon"></i>
                         </div>
                     </div>
                 </div>
-                <div class="colHead">
-                    <div class = "stage">Doing
-                        <i class = "icon small setting"></i>
-                    </div>
-                    <div class="scrumColumn">
-                        <div class="portlet task">
-                            <div class="tag ui red-tag"></div>
-                            <div class="tag blue-tag"></div>
-                            <div class="portlet-header">Feeds</div>
-                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                            <img class="circular ui tiny image user-task hidden" src="/img/travis.jpg">
-                        </div>
-                        <div class="portlet task">
-                            <div class="tag green-tag"></div>
-                            <div class="portlet-header">News</div>
-                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                        </div>
-                        <div class="portlet task">
-                            <div class="tag blue-tag"></div>
-                            <div class="tag green-tag"></div>
-                            <div class="portlet-header">News</div>
-                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                            <img class="circular ui tiny image user-task hidden" src="/img/travis.jpg">
-                        </div>
-                        <div class="add-card portlet task">
-                            <div class="portlet-content">Add a Card</div>
-                            <i class="add icon"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="colHead">
-                    <div class = "stage">Done
-                        <i class = "icon small setting"></i>
-                    </div>
-                    <div class="scrumColumn">
-                        <div class="portlet task">
-                            <div class="tag blue-tag"></div>
-                            <div class="tag red-tag"></div>
-                            <div class="portlet-header">Shopping</div>
-                            <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
-                        </div>
-                        <div class="add-card portlet task">
-                            <div class="portlet-content">Add a Card</div>
-                            <i class="add icon"></i>
-                        </div>
-                    </div>
-                </div>
+                {{/each}}
             </div>
         </div>
     </div>
-</div>
-<div class="ui modal task">
-    {{>task}}
+    {{/with}}
+
+
 </div>
 </template>
