@@ -17,6 +17,11 @@ Schemas.Stories = new SimpleSchema({
 		type: String,
 		label: 'Author ID'
 	},
+	sprintID: {
+		type: String,
+		label: 'Sprint ID',
+		optional: true
+	},
 	submitted: {
 		type: Date,
 		label: 'Submitted'
@@ -73,6 +78,15 @@ Meteor.methods({
 			taskCount: 0
 		});
 
+		if (storyAttributes.sprintID) {
+			story.sprintID = storyAttributes.sprintID;
+			Sprints.update(story.sprintID, {
+				$inc: {
+					storyCount: 1
+				}
+			});
+		}
+
 		//Updates Projects to have one more story counted
 		Projects.update(story.projectID, {
 			$inc: {
@@ -99,11 +113,29 @@ Meteor.methods({
 		}
 
 		//filling in other keys
-		var story = _.extend(_.pick(storyAttributes, 'title', 'description', 'projectID', 'position'), {
+		var story = _.extend(_.pick(storyAttributes, 'title', 'description', 'projectID', 'position', 'sprintID'), {
 			lastUpdated: new Date(),
 			updateAuthorID: user._id,
 		});
-		var returnStuff = Stories.update(storyAttributes, story);
+
+		var isSprint = false;
+
+		if (story.sprintID) {
+			var found = Stories.findOne(storyAttributes._id);
+
+			if (!found.sprintID) {
+				isSprint = true;
+			}
+		}
+		var returnStuff = Stories.update(storyAttributes._id, story);
+
+		if(isSprint) {
+			Sprints.update(story.sprintID, {
+				$inc: {
+					storyCount: 1
+				}
+			});
+		}
 
 		return returnStuff;
 	},
