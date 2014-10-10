@@ -10,12 +10,12 @@ z-index:1000;
 
 }
 
-.launch.attached.button.pushed {
-    margin-left:275px;
+.menu-icon {
+	font-size:1.3em;
 }
 
-.bodyWhite {
-	background-color: #eee!important;
+.launch.attached.button.pushed {
+    margin-left:275px;
 }
 
 #fullScreen-scrumboard {
