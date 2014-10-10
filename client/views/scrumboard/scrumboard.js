@@ -97,8 +97,10 @@ Template.scrumboard.events({
 	
 	'click .task': function(event) {
 		var target = $(event.currentTarget);
+		console.log(target);
 		if (target.hasClass('add-card')) {
 			//Is the Add Card Button at the bottom of a column
+			console.log('create new card');
 			createNewCard(target);
 			initNewCard(target);
 		} else if (target.hasClass('new-portlet')) {
