@@ -10,7 +10,7 @@ Template.loggedIn.events({
 
     'click #menu' : function(){
 
-        var $sidebar = $('.ui.sidebar');
+        var $sidebar = $('.ui.sidebar.left');
         var $launchButton = $('.launch.attached');
 
         $sidebar.sidebar({
@@ -27,7 +27,7 @@ Template.loggedIn.events({
         button.find('.text').hide();
         button.stop().animate({
             width: '70px'
-        }, 300);
+        }, 300, function(){button.find('.text').hide()});
     }
 });
 
