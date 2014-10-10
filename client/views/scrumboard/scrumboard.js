@@ -3,6 +3,8 @@ var newPort = null; //Used to keep track of the new Portlet Created on add card
 var initRun = false; //This is used for when a new card is made so that if a user was to
 //Click anywhere else, the card will unfocus
 var isDescriptionFocus = false; //Boolean that keeps track if the tab hit is going into a new description
+var isTitleFocus = false;
+var focusedItem;
 
 
 Template.scrumboard.rendered = function() {
@@ -11,13 +13,14 @@ Template.scrumboard.rendered = function() {
 	$(".scrumColumn").sortable({
 		connectWith: '.scrumColumn',
 		placeholder: 'portlet-placeholder ui-corner-all',
-		cancel: '.add-card'
+		cancel: '.add-card',
+		items: 'div:not(.add-card)'
 	}).disableSelection();
 
 	$(".portlet")
-	.addClass("ui-widget ui-widget-content ui-helper-clearfix ui-corner-all")
-	.find(".portlet-header")
-	.prepend("<span class='ui-icon ui-icon-minusthick portlet-toggle'></span>");
+		.addClass("ui-widget ui-widget-content ui-helper-clearfix ui-corner-all")
+		.find(".portlet-header")
+		.prepend("<span class='ui-icon ui-icon-minusthick portlet-toggle'></span>");
 
 	$(".portlet-toggle").click(function() {
 		var icon = $(this);
@@ -28,32 +31,38 @@ Template.scrumboard.rendered = function() {
 
 
 Template.scrumboard.helpers({
-	currentSprint: function () {
+	currentSprint: function() {
 		project = Projects.findOne(); //This needs to be found later when a user will be connected to a project
-		if(project){
+		if (project) {
 			return Sprints.findOne(project.currentSprintID);
 		} else {
 			return [];
 		}
 	},
 
-	stories: function () {
-		if(project){
-			return Stories.find({sprintID: project.currentSprintID});
+	stories: function() {
+		if (project) {
+			return Stories.find({
+				sprintID: project.currentSprintID
+			});
 		} else {
 			return [];
 		}
 	},
 
-	stateTasks: function () {
+	stateTasks: function() {
 		console.log(this === 'To Do');
-		return Tasks.find({state: this.state})
+		return Tasks.find({
+			state: this.state
+		})
 	},
 
-	states: function () {
+	states: function() {
 		var states = [];
-		for(var i = 0; i < project.states.length; i++) {
-			states[i] = {state: project.states[i]};
+		for (var i = 0; i < project.states.length; i++) {
+			states[i] = {
+				state: project.states[i]
+			};
 		}
 		return states;
 	}
@@ -66,11 +75,11 @@ var dragItem;
 Template.scrumboard.events({
 	'mousedown .scrumboard': function(e) {
 		var currentTarget = $(event.target)[0].id;
-		if(currentTarget === 'scrumboard'){
+		if (currentTarget === 'scrumboard') {
 			dragItem = $($(event.target)[0]);
 		}
 
-		if(currentTarget === 'colHead'){
+		if (currentTarget === 'colHead') {
 			dragItem = $($(event.target)[0]).parent().parent();
 		}
 
@@ -78,11 +87,11 @@ Template.scrumboard.events({
 			e.preventDefault();
 			down = true;
 			x = e.pageX;
-			left =dragItem.scrollLeft();
+			left = dragItem.scrollLeft();
 
 		}
 	},
-	
+
 	'mousemove .scrumboard': function(e) {
 		if (down) {
 			var newX = e.pageX;
@@ -94,13 +103,11 @@ Template.scrumboard.events({
 	'mouseup .scrumboard': function(event) {
 		down = false;
 	},
-	
+
 	'click .task': function(event) {
 		var target = $(event.currentTarget);
-		console.log(target);
 		if (target.hasClass('add-card')) {
 			//Is the Add Card Button at the bottom of a column
-			console.log('create new card');
 			createNewCard(target);
 			initNewCard(target);
 		} else if (target.hasClass('new-portlet')) {
@@ -127,20 +134,29 @@ Template.scrumboard.events({
 	},
 
 	'click .scrumboard': function(event) {
+		console.log('no port')
 		if (newPort !== null) {
+			console.log('yes port');
 			//If the user is currently in the process of new cards
-
-			if (initRun === true) {
-				//if the user clicked the button to add a card, it will run this once, so this bool will make
-				//sure this function doesn't immediatly close so it can run again after
-				initRun = false;
-
-
-			} else {
-				//When the user clicks the scrum board the card will be set
-				newPort.blur();
-				newPort = null;
-			}
+			var target = $(event.target);
+				if (initRun) {
+					console.log('in init');
+					//if the user clicked the button to add a card, it will run this once, so this bool will make
+					//sure this function doesn't immediatly close so it can run again after
+					initRun = false;
+				} else {
+					console.log('out init');
+					//When the user clicks the scrum board the card will be set
+					if (!focusedItem) {
+						//If what was clicked was not a new item
+						newPort.blur();
+						newPort = null;
+					} else {
+						focusedItem.blur();
+						focusedItem = null;
+						newPort = null;
+					}
+				}
 		}
 	}
 });
@@ -176,6 +192,11 @@ function initNewCard(targetButton) {
 		}
 	});
 
+	titleBox.on('click', function(e) {
+		isTitleFocus = true;
+		target.find('#new-title').focus();
+	});
+
 	//This is for when the user hits enter on the description
 	descriptionBox.on('keydown', function(e) {
 		if (e.keyCode === 13) {
@@ -189,12 +210,24 @@ function initNewCard(targetButton) {
 		}
 	});
 
+	descriptionBox.on('click', function(e) {
+		isDescriptionFocus = true;
+		target.find('#new-description').focus();
+	});
+
 	//When the user drops focus, the card will integrate into the other cards
 	target.focusout(function() {
+		console.log('hit');
 		if (newPort !== null) {
-			if (!isDescriptionFocus) {
+			if (!isTitleFocus && !isDescriptionFocus) {
 				unfocusCard($(this));
 			} else {
+				if(isTitleFocus){
+					focusedItem = target.find('#new-title');
+				} else {
+					focusedItem = target.find('#new-description');
+				}
+				isTitleFocus = false;
 				isDescriptionFocus = false;
 			}
 		}
@@ -247,8 +280,7 @@ function enterOnCard(target, targetButton) {
  * @return {[void]}        [No Return]
  */
 function createNewCard(target) {
-	var base = $('.empty-portlet:first').clone().show().removeClass('empty-portlet').addClass('new-portlet');
-	target.before(base);
+	Blaze.render(Template.emptyStory, target.parent()[0], target[0]);
 }
 
 /**

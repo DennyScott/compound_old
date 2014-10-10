@@ -4,7 +4,7 @@ Template.taskCard.rendered = function() {
 	$(".scrumColumn").sortable({
 		connectWith: '.scrumColumn',
 		placeholder: 'portlet-placeholder ui-corner-all',
-		cancel: '.add-card'
+		cancel: '.add-card, .new-portlet'
 	}).disableSelection();
 
 	$(".portlet")
