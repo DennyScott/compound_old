@@ -2,7 +2,7 @@ Template.loggedIn.events({
     'mouseenter .launch.attached' : function(event){
         var button = $(event.currentTarget);
         $(button).animate({
-            width: '170px'
+            width: '180px'
         }, 300, function(){
             button.find('.text').show();
         });

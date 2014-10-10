@@ -10,6 +10,10 @@ z-index:1000;
 
 }
 
+.ui.huge.launch.right.attached.button.fixed{
+	max-height:58px;
+}
+
 .menu-icon {
 	font-size:1.3em;
 }
