@@ -139,24 +139,24 @@ Template.scrumboard.events({
 			console.log('yes port');
 			//If the user is currently in the process of new cards
 			var target = $(event.target);
-				if (initRun) {
-					console.log('in init');
-					//if the user clicked the button to add a card, it will run this once, so this bool will make
-					//sure this function doesn't immediatly close so it can run again after
-					initRun = false;
+			if (initRun) {
+				console.log('in init');
+				//if the user clicked the button to add a card, it will run this once, so this bool will make
+				//sure this function doesn't immediatly close so it can run again after
+				initRun = false;
+			} else {
+				console.log('out init');
+				//When the user clicks the scrum board the card will be set
+				if (!focusedItem) {
+					//If what was clicked was not a new item
+					newPort.blur();
+					newPort = null;
 				} else {
-					console.log('out init');
-					//When the user clicks the scrum board the card will be set
-					if (!focusedItem) {
-						//If what was clicked was not a new item
-						newPort.blur();
-						newPort = null;
-					} else {
-						focusedItem.blur();
-						focusedItem = null;
-						newPort = null;
-					}
+					focusedItem.blur();
+					focusedItem = null;
+					newPort = null;
 				}
+			}
 		}
 	}
 });
@@ -222,7 +222,7 @@ function initNewCard(targetButton) {
 			if (!isTitleFocus && !isDescriptionFocus) {
 				unfocusCard($(this));
 			} else {
-				if(isTitleFocus){
+				if (isTitleFocus) {
 					focusedItem = target.find('#new-title');
 				} else {
 					focusedItem = target.find('#new-description');
@@ -298,6 +298,22 @@ function unfocusCard(target) {
 		} else {
 			//If the title is longer, set it into the card, and remove the text area and input field
 			newPort = null;
+			var story = {
+				title: title.val(),
+				description: description.val(),
+				projectID: project._id,
+				sprintID: project.currentSprintID
+			}
+			Meteor.call('story', story, function(error, id) {
+				if (error) {
+					// display the error to the user
+					throwError(error.reason);
+					if (error.error === 302)
+						console.log(error);
+				} else {
+					console.log('Inserted' + id);
+				}
+			});
 			target.removeClass('new-portlet');
 			target.find('.portlet-header').text(title.val());
 			title.remove();
