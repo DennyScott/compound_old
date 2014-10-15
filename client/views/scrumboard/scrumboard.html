@@ -1,0 +1,48 @@
+<template name="scrumboard">
+	 {{#with currentSprint}}
+    <div class="ui">
+        <div class="scrumboard" id="scrumboard">
+            <div class="scrumInner" id="scrumInner">
+                <div class="colHead">
+                    <div class = "stage">Stories
+                        <i class = "icon small setting"></i>
+                    </div>
+                    <div class="scrumColumn">
+                        {{#each stories}}
+                            {{> story}}
+                        {{/each}}
+                        <div class="add-card portlet task">
+                            <div class="portlet-content">Add a Card</div>
+                            <i class="add icon"></i>
+                        </div>
+                    </div>
+                </div>
+
+                {{#each states}}
+                <!-- Start Of Column -->
+                <div class="colHead">
+                    <div class = "stage"> {{state}}
+                        <i class = "icon small setting"></i>
+                    </div>
+                     <div class="scrumColumn">
+                    
+                    <!-- Contents Of Column -->
+                    {{#each stateTasks}}
+                        {{> taskCard}}
+                    {{/each}}
+
+                    <!-- End Of Column -->
+                        <div class="add-card portlet task">
+                            <div class="portlet-content">Add a Card</div>
+                            <i class="add icon"></i>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+    {{/with}}
+
+
+</template>

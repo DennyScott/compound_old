@@ -1,92 +1,54 @@
 <template name="project">
 <div class="ui segment">
-    <div class="ui grid header">
-        <div class="left floated eight wide column">
-            <div class="left floated four wide column projectImage">
-                <img src='/img/product-sample.png'>
-            </div>
-            {{> loginButtons}}
-            <h2 class="ui header storyHeader">
-            Story: User can add Stories <span class="editStory"><i class="edit icon"></i></span>
-            <div class="sub header">What is this feature for?</div>
-            </h2>
-            <div class="goToRoadmap">
-                <i class="icon rocket"></i>Go to Roadmap
-            </div>
-        </div>
-        <div class="right floated navigation eight wide column">
-            <div class="members">
-                <img class="ui avatar image" src="/img/travis.jpg">
-                <img class="ui avatar image" src="/img/travis.jpg">
-                <img class="ui avatar image" src="/img/travis.jpg">
-                <img class="ui avatar image" src="/img/travis.jpg">
-                <img class="ui avatar image" src="/img/add-member.png">
-            </div>
-            <div class="ui small icon buttons">
-                <div class="ui button">
-                    <i class="archive icon"></i>
-                </div>
-                <div class="ui button">
-                    <i class="lab icon"></i>
-                </div>
-                <div class="ui button">
-                    <i class="setting icon"></i>
-                </div>
-            </div>
-            <div class="ui basic small button"><i class="lightning basic icon"></i>Analytics</div>
-            <div class="ui basic small button"><i class="browser icon"></i>Wiki</div>
-        </div>
-    </div>
-    <div class="ui horizontal divider">
-        scrum
-    </div>
+	<div class="ui grid header">
+		<div class="left floated eight wide column">
+			<div class="left floated four wide column projectImage">
+				<img src='/img/product-sample.png'>
+			</div>
+			{{> loginButtons}}  
+			<h2 class="ui header storyHeader">
+				Story: User can add Stories <span class="editStory"><i class="edit icon"></i></span>
+				<div class="sub header">What is this feature for?</div>
+			</h2>
+			<div class="goToRoadmap">
+				<i class="icon rocket"></i>Go to Roadmap
+			</div>
+		</div>
 
+		<div class="right floated navigation eight wide column">
+			<div class="members">
+				<img class="ui avatar image" src="/img/travis.jpg">
+				<img class="ui avatar image" src="/img/travis.jpg">
+				<img class="ui avatar image" src="/img/travis.jpg">
+				<img class="ui avatar image" src="/img/travis.jpg">
+				<img class="ui avatar image" src="/img/add-member.png">
+			</div>
 
-    {{#with currentSprint}}
-    <div class="ui">
-        <div class="scrumboard" id="scrumboard">
-            <div class="scrumInner" id="scrumInner">
-                <div class="colHead">
-                    <div class = "stage">Stories
-                        <i class = "icon small setting"></i>
-                    </div>
-                    <div class="scrumColumn">
-                        {{#each stories}}
-                        {{> story}}
-                        {{/each}}
-                        <div class="add-card portlet task">
-                            <div class="portlet-content">Add a Card</div>
-                            <i class="add icon"></i>
-                        </div>
-                    </div>
-                </div>
+			<div class="ui small icon buttons">
 
-                {{#each states}}
-                <!-- Start Of Column -->
-                <div class="colHead">
-                    <div class = "stage"> {{state}}
-                        <i class = "icon small setting"></i>
-                    </div>
-                     <div class="scrumColumn">
-                    
-                    <!-- Contents Of Column -->
-                    {{#each stateTasks}}
-                        {{> taskCard}}
-                    {{/each}}
+				<div class="ui button" id="open-backlog">
+					<i class="archive icon"></i>
+				</div>
+				<div class="ui button">
+					<i class="lab icon"></i>
+				</div>
+				<div class="ui button">
+					<i class="setting icon"></i>
+				</div>
+			</div>
 
-                    <!-- End Of Column -->
-                        <div class="add-card portlet task">
-                            <div class="portlet-content">Add a Card</div>
-                            <i class="add icon"></i>
-                        </div>
-                    </div>
-                </div>
-                {{/each}}
-            </div>
-        </div>
-    </div>
-    {{/with}}
-
-
+			<div class="ui basic small button"><i class="lightning basic icon"></i>Analytics</div>
+			<div class="ui basic small button"><i class="browser icon"></i>Wiki</div>
+		</div>
+	</div>
+	<div class="ui horizontal divider">
+		scrum 
+	</div>
+	{{> scrumboard}}
+	<div class="ui modal task">
+		{{>task}}
+	</div>
 </div>
+
 </template>
+

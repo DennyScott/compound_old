@@ -10,8 +10,20 @@ z-index:1000;
 
 }
 
+.ui.huge.launch.right.attached.button.fixed{
+	max-height:58px;
+}
+
+.menu-icon {
+	font-size:1.3em;
+}
+
 .launch.attached.button.pushed {
     margin-left:275px;
+}
+
+#fullScreen-scrumboard {
+	display:none;
 }
 
 

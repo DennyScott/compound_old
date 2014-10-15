@@ -1,0 +1,12 @@
+<template name="overlay">
+<div class="ui huge launch right attached button fixed" id="trigger-overlay" style="width:70px; top: 68px">
+	<i class="fullscreen icon layout"></i>
+ <span class="text" style="display: none;">Scrum</span>
+</div>
+
+<div class="overlay overlay-contentscale">
+	<div id="fullScreen-scrumboard">
+		{{> scrumboard}}
+	</div>
+</div>
+</template>
